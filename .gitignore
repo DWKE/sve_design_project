@@ -82,3 +82,6 @@ ENV/
 *.rviz
 
 /.metadata/
+
+.tar.gz
+.zip
