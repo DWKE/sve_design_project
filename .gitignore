@@ -48,8 +48,8 @@ __pycache__/
 .settings/
 
 # QtCreator
-.workspace
-.workspace.user
+*.workspace
+*.workspace.user
 
 # Visual Studio Code
 .vscode/
@@ -70,8 +70,6 @@ cmake-build-debug/
 env/
 venv/
 ENV/
-.workspace
-.user
 
 # Autoware Resources
 *.pcd
@@ -83,5 +81,5 @@ ENV/
 
 /.metadata/
 
-.tar.gz
-.zip
+*.tar.gz
+*.zip
