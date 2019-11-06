@@ -11,7 +11,12 @@ wget https://raw.githubusercontent.com/PX4/Devguide/master/build_scripts/ubuntu_
 source ubuntu_sim_nuttx.sh   
 sudo apt install ros-melodic-geographic-msgs   
 source ubuntu_sim_ros_gazebo.sh   
+sudo apt upgrade libignition-math2   
 reboot   
+git clone https://github.com/DWKE/Firmware.git   
+cd Firmware   
+git checkout v1.8.1   
+make posix_sitl_default gazebo   
 ```
 
 Build
