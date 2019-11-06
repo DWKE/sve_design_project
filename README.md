@@ -1,15 +1,17 @@
 SmartVehicle Design Project
 ===================
 
-dependancies
+Install PX4
 ------------------
 ```
-sudo apt-get update   
-sudo apt-get install python-catkin-tools python-rosinstall-generator -y   
-wget https://raw.githubusercontent.com/mavlink/mavros/master/mavros/scripts/install_geographiclib_datasets.sh   
-sudo chmod u+x ./install_geographiclib_datasets.sh   
-sudo ./install_geographiclib_datasets.sh   
-sudo apt-get install python-catkin-tools   
+sudo apt update   
+sudo apt upgrade   
+sudo usermod -a -G dialout $USER   
+wget https://raw.githubusercontent.com/PX4/Devguide/master/build_scripts/ubuntu_sim_nuttx.sh   
+source ubuntu_sim_nuttx.sh   
+sudo apt install ros-melodic-geographic-msgs   
+source ubuntu_sim_ros_gazebo.sh   
+reboot   
 ```
 
 Build
