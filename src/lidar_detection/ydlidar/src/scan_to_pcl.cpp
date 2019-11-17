@@ -26,7 +26,7 @@ ros::Publisher pcl_from_scan;
 typedef pcl::PointCloud<pcl::PointXYZ> PointCloud;
 laser_geometry::LaserProjection projector;
 
-void hokuyo_callbacks(const sensor_msgs::LaserScan::ConstPtr& scan_in)
+void ydlidar_callback(const sensor_msgs::LaserScan::ConstPtr& scan_in)
 {
     sensor_msgs::PointCloud2 cloud;
     projector.projectLaser(*scan_in, cloud);
@@ -42,7 +42,7 @@ int main(int argc, char **argv) {
     ros::NodeHandle nh;
 
     ros::Subscriber hokuyo_sub;
-    hokuyo_sub = nh.subscribe<sensor_msgs::LaserScan>("/scan", 1, hokuyo_callbacks);
+    hokuyo_sub = nh.subscribe<sensor_msgs::LaserScan>("/scan", 1, ydlidar_callback);
 
     
     pcl_from_scan = nh.advertise<PointCloud>("ydlidar_points", 1);
