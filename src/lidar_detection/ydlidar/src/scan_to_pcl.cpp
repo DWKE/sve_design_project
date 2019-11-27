@@ -80,8 +80,8 @@ int main(int argc, char **argv) {
     nh.param ("ydlidar/leaf_size", m_fLeafSize, 0.1);
     nh.param ("ydlidar/radius_search", m_fRadius, 0.8);
 
-    ros::Subscriber hokuyo_sub;
-    hokuyo_sub = nh.subscribe<sensor_msgs::LaserScan>("/scan", 1, ydlidar_callback);
+    ros::Subscriber ydlidar_sub;
+    ydlidar_sub = nh.subscribe<sensor_msgs::LaserScan>("/scan", 1, ydlidar_callback);
 
     pcl_from_scan = nh.advertise<PointCloud>("ydlidar_points", 1);
     filter_points = nh.advertise<PointCloud>("filtered_points", 1);
