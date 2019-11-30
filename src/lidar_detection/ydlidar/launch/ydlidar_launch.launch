@@ -1,5 +1,5 @@
 <launch>
-        <arg name="leaf_size" default="0.1" />
+        <arg name="leaf_size" default="1.0" />
         <arg name="radius_search" default="0.5" />
 
         <node pkg="ydlidar" type="ydlidar" name="ydlidar" args="input:=/scan" output="screen">

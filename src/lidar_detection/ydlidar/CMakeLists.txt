@@ -129,7 +129,7 @@ catkin_package(
 ## Your package locations should be listed before other locations
 include_directories(
 	${catkin_INCLUDE_DIRS}
-	${kusv_msgs_INCLUDE_DIRS}
+        #${kusv_msgs_INCLUDE_DIRS}
 	${OpenCV_INCLUDE_DIRS}
 	include
 	)
@@ -213,7 +213,9 @@ include_directories(
 # catkin_add_nosetests(test)
 
 add_executable(ydlidar
-        src/scan_to_pcl.cpp
+        src/main.cpp
+        src/ydlidar.cpp
+        src/cluster.cpp
 	)
 target_link_libraries(ydlidar
         ${catkin_LIBRARIES}
