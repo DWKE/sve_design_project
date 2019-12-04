@@ -1,0 +1,9 @@
+<launch>
+        <arg name="leaf_size" default="1.0" />
+        <arg name="radius_search" default="0.5" />
+
+        <node pkg="ydlidar" type="ydlidar" name="ydlidar" args="input:=/scan" output="screen">
+                <param name="leaf_size" value="$(arg leaf_size)"/>
+                <param name="radius_search" value="$(arg radius_search)"/>
+        </node>
+</launch>

@@ -16,6 +16,7 @@ find_package(catkin REQUIRED COMPONENTS
 	roscpp
 	sensor_msgs
 	cv_bridge
+        laser_geometry
 	)
 
 find_package(OpenCV REQUIRED)
@@ -117,7 +118,7 @@ catkin_package(
 	pcl_conversions 
 	pcl_ros 
 	sensor_msgs 
-	cv_bridge
+        cv_bridge
 	)
 
 ###########
@@ -128,7 +129,7 @@ catkin_package(
 ## Your package locations should be listed before other locations
 include_directories(
 	${catkin_INCLUDE_DIRS}
-	${kusv_msgs_INCLUDE_DIRS}
+        #${kusv_msgs_INCLUDE_DIRS}
 	${OpenCV_INCLUDE_DIRS}
 	include
 	)
@@ -211,11 +212,13 @@ include_directories(
 ## Add folders to be run by python nosetests
 # catkin_add_nosetests(test)
 
-#add_executable(ydlidar
-	#src/scan_to_pcl.cpp
-#	)
-#target_link_libraries(ydlidar
-#	${catkin_LIBRARIES} 
-#	${OpenCV_INCLUDE_DIRS}
-#	)
-#add_dependencies(ydlidar ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
+add_executable(ydlidar
+        src/main.cpp
+        src/ydlidar.cpp
+        src/cluster.cpp
+	)
+target_link_libraries(ydlidar
+        ${catkin_LIBRARIES}
+        ${OpenCV_INCLUDE_DIRS}
+        )
+add_dependencies(ydlidar ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
