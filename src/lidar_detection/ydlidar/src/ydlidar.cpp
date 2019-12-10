@@ -7,12 +7,10 @@ ydlidar::ydlidar()
     nh.param ("ydlidar/leaf_size", m_fLeafSize, 0.1);
     nh.param ("ydlidar/radius_search", m_fRadius, 0.8);
     nh.param ("ydlidar/Marker_duration", m_fMarkerDuration, 0.1);
-    nh.param ("ydlidar/Voxel_leafsize", m_fLeafSize, 0.1);
     nh.param ("ydlidar/threshold_range", m_dRange_m, 15.0);
     nh.param ("ydlidar/cluster_err_range", m_dClusterErrRadius, 0.5);
     nh.param ("ydlidar/cluster_min_size", m_dClusterMinSize, 5.0);
     nh.param ("ydlidar/cluster_max_size", m_dClusterMaxSize, 20.0);
-    nh.param("ydlidar/remove_side_range", m_dRemoveSideRange, 3.0);
 
 
     pub_shape = nh.advertise<visualization_msgs::MarkerArray>("Shape", 1);
@@ -167,9 +165,9 @@ void ydlidar::displayShape (const std::vector<clusterPtr> pVecClusters)
         m_Origin.scale.y = 0.5;
         m_Origin.scale.z = 0.5;
 
-        m_Origin.color.r = 0.0f;
-        m_Origin.color.g = 1.0f;
-        m_Origin.color.b = 0.0f;
+        m_Origin.color.r = 1.0f;
+        m_Origin.color.g = 0.0f;
+        m_Origin.color.b = 1.0f;
         m_Origin.color.a = 1.0;
 
         m_Origin.lifetime = ros::Duration();
@@ -200,7 +198,7 @@ void ydlidar::displayShape (const std::vector<clusterPtr> pVecClusters)
                         shape.type = visualization_msgs::Marker::LINE_STRIP;
                         shape.action = visualization_msgs::Marker::ADD;
                         shape.ns = "/Polygon";
-                        shape.scale.x = 0.08;
+                        shape.scale.x = 0.06;
 
                         for (auto const &point: pCluster->m_polygon.polygon.points)
                         {
@@ -214,9 +212,9 @@ void ydlidar::displayShape (const std::vector<clusterPtr> pVecClusters)
 
                         m_arrShapes.markers.push_back(shape);
 
-                        shape.scale.x = 0.5;
-                        shape.scale.y = 0.5;
-                        shape.scale.z = 0.5;
+                        shape.scale.x = 0.4;
+                        shape.scale.y = 0.4;
+                        shape.scale.z = 0.4;
                         shape.points.clear();
                         shape.pose.position = pCluster->m_center.position;
                         shape.pose.orientation = pCluster->m_center.orientation;
@@ -224,9 +222,10 @@ void ydlidar::displayShape (const std::vector<clusterPtr> pVecClusters)
                         shape.color.a = 1.0;
                         shape.type = visualization_msgs::Marker::TEXT_VIEW_FACING;
                         shape.ns = "/Text";
-//			double distance = sqrt(pow(shape.pose.position.x, 2.0) + pow (shape.pose.position.y, 2.0));
-//			shape.text = std::to_string(distance);
-                        shape.text = std::to_string(pCluster->m_id);
+
+                        double distance = sqrt(pow(shape.pose.position.x, 2.0) + pow (shape.pose.position.y, 2.0));
+                        shape.text = std::to_string(distance);
+//                        shape.text = std::to_string(pCluster->m_id);
                         m_arrShapes.markers.push_back (shape);
                 }
                 objectNumber++;
