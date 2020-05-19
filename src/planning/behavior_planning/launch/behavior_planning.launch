@@ -1,0 +1,8 @@
+<!-- -->
+<launch>
+	<!-- <arg name="role_name" default="a1"/> -->
+	<!-- <param name="role_name" value="$(arg role_name)"/> -->
+
+    <rosparam file="config/system.yaml" command="load"/>
+    <node pkg="template" type="template" name="template" output="log"/>
+</launch>
