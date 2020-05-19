@@ -1,3 +1,15 @@
+/*************************************************************************************************/
+/* Module:      trajectory_planning.cpp                                                          
+/* Description: Trajectory Planning for Smart Vehicle Design Project
+/*                                                                                               
+/* Authors: Yuseung Na (ys.na0220@gmail.com)
+/* Version: 0.1                                                                                  
+/*                                                                                               
+/* Revision History                                                                              
+/*      May 19, 2020: Yuseung Na, Created.                                                                  
+/*                                                                                               
+/*************************************************************************************************/
+
 #include "trajectory_planning.hpp"
 
 TrajectoryPlanning::TrajectoryPlanning(int id, std::string task_node, double period) {

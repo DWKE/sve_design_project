@@ -1,3 +1,15 @@
+/*************************************************************************************************/
+/* Module:      behavior_planning.cpp                                                          
+/* Description: Behavior Planning for Smart Vehicle Design Project
+/*                                                                                               
+/* Authors: Yuseung Na (ys.na0220@gmail.com)
+/* Version: 0.1                                                                                  
+/*                                                                                               
+/* Revision History                                                                              
+/*      May 19, 2020: Yuseung Na, Created.                                                                  
+/*                                                                                               
+/*************************************************************************************************/
+
 #include "behavior_planning.hpp"
 
 BehaviorPlanning::BehaviorPlanning(int id, std::string task_node, double period) {
