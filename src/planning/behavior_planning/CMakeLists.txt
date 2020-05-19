@@ -139,7 +139,6 @@ include_directories(
 ## The recommended prefix ensures that target names across packages don't collide
 add_executable(${PROJECT_NAME} 
     src/behavior_planning.cpp
-    src/util/ini_parser.cpp
     src/util/spline.cpp
 )
 
