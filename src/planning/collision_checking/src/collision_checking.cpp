@@ -74,8 +74,7 @@ int main(int argc, char **argv){
 
     ROS_INFO("Complete to get parameters! (ID: %d, Period: %.3f)", id, period);
     
-    TrajectoryPlanning main_task(id, node_name, period);
-    main_task.Exec();
+    CollisionChecking main_task(id, node_name, period);
 
     return 0;
 }

@@ -18,7 +18,7 @@
 #include <util/spline.hpp>
 
 // Message header
-#include <kusv_msgs/>
+// #include <kusv_msgs/>
 
 // Algorithm header
 

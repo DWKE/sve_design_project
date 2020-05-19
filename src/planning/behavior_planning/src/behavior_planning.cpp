@@ -75,7 +75,6 @@ int main(int argc, char **argv){
     ROS_INFO("Complete to get parameters! (ID: %d, Period: %.3f)", id, period);
     
     BehaviorPlanning main_task(id, node_name, period);
-    main_task.Exec();
 
     return 0;
 }
