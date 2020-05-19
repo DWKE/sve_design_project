@@ -55,6 +55,7 @@ find_package(catkin REQUIRED COMPONENTS
    FILES
        #sve_design_project
        #put msg name at here
+       PlanningControl.msg
  )
 
 ## Generate services in the 'srv' folder
