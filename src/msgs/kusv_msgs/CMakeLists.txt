@@ -56,6 +56,9 @@ find_package(catkin REQUIRED COMPONENTS
        #sve_design_project
        #put msg name at here
        PlanningControl.msg
+       PlanningLocalization.msg
+       PlanningLiDAR.msg
+       PlanningVision.msg
  )
 
 ## Generate services in the 'srv' folder
