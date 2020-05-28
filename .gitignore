@@ -50,6 +50,7 @@ __pycache__/
 # QtCreator
 *.workspace
 *.workspace.user
+*.catkin_workspace
 
 # Visual Studio Code
 .vscode/
