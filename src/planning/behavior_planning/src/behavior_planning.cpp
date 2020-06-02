@@ -12,69 +12,63 @@
 
 #include "behavior_planning.hpp"
 
-BehaviorPlanning::BehaviorPlanning(int id, std::string task_node, double period) {
-}
+class BehaviorPlanning {
+public:
+  BehaviorPlanning() {
+    m_rosSubObstacle
+        = m_rosNodeHandler.subscribe("/lidar/obstacle", 1000, &BehaviorPlanning::obstacleCallback, this);
+    m_rosSubPose
+        = m_rosNodeHandler.subscribe("/localization/pose", 1000, &BehaviorPlanning::poseCallback, this);
 
-BehaviorPlanning::~BehaviorPlanning(){
-}
+    m_rosPubOptimalState
+        = m_rosNodeHandler.advertise<kusv_msgs::OptimalBehavior>("/planning/opt_behavior", 1000);
+  }
 
-void BehaviorPlanning::Init(){
-    // Node initialization
-    NodeHandle nh;
-        
-    // Subscriber init
-    //subscriber_ = nh.subscribe("your/subscribe/name", 10, &BehaviorPlanning::YourCallbackFunction, this);
+  ~BehaviorPlanning() {}
 
-    // Publisher init
-    //publisher_ = nh.advertise<YourMsgType>("your/publish/name", 10); 
-    
-    // Algorithm init
-    //your_algorithm_ = make_unique<YourClass>();
-}
 
-void BehaviorPlanning::Run(){	
-    ROS_INFO("Running ...");
-	// Get functions for subscribe variables
-	
-    // Run your codes
-		
-	// Update output
-}
+protected:
+  NodeHandle m_rosNodeHandler;
 
-void BehaviorPlanning::Publish(){
-    //publisher_.publish(your_output_);
-}
+  Subscriber m_rosSubPose;
+  Subscriber m_rosSubObstacle;
 
-void BehaviorPlanning::Terminate(){
+  Publisher m_rosPubOptimalState;
 
-}
+  TransformListener tf_listener_;
 
-// Callback functions
-    
-// Get functions
+  StateMachineStates state_;
 
-// Transform functions
+  kusv_msgs::PlanningLocalization m_pose;
+  kusv_msgs::PlanningLiDAR m_object;
 
-// Update functions
+public:
+  void obstacleCallback(const kusv_msgs::PlanningLiDAR::ConstPtr &msg) {
+    m_object = *msg;
+  }
+  void poseCallback(const kusv_msgs::PlanningLocalization::ConstPtr &msg) {
+    m_pose = *msg;
+  }
+};
 
 int main(int argc, char **argv){
-    std::string node_name = "BehaviorPlanning";
-    ros::init(argc, argv, node_name);
-    ros::NodeHandle nh;
+  std::string node_name = "BehaviorPlanning";
+  ros::init(argc, argv, node_name);
+  ros::NodeHandle nh;
 
-    ROS_INFO("Initialize node, get parameters...");
-    
-    int id;
-    if (!nh.getParam("task_id/id_template", id))
-        id = 0;
+  ROS_INFO("Initialize node, get parameters...");
 
-    double period;
-    if (!nh.getParam("task_period/period_template", period))
-        period = 1.0;    
+  int id;
+  if (!nh.getParam("task_id/id_template", id))
+    id = 0;
 
-    ROS_INFO("Complete to get parameters! (ID: %d, Period: %.3f)", id, period);
-    
-    BehaviorPlanning main_task(id, node_name, period);
+  double period;
+  if (!nh.getParam("task_period/period_template", period))
+    period = 1.0;
 
-    return 0;
+  ROS_INFO("Complete to get parameters! (ID: %d, Period: %.3f)", id, period);
+
+  BehaviorPlanning main_task();
+
+  return 0;
 }

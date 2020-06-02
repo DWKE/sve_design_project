@@ -59,6 +59,11 @@ find_package(catkin REQUIRED COMPONENTS
        PlanningLocalization.msg
        PlanningLiDAR.msg
        PlanningVision.msg
+       OptimalBehavior.msg
+       LanePointData.msg
+       LanePointDataArray.msg
+       PolyfitLaneData.msg
+       PolyfitLaneDataArray.msg
  )
 
 ## Generate services in the 'srv' folder
