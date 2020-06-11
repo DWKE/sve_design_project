@@ -8,7 +8,8 @@ project(mode_converter)
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
 ## is used, also find other catkin packages
 find_package(catkin REQUIRED COMPONENTS
-  roscpp
+    roscpp
+    std_msgs
 )
 
 ## System dependencies are found with CMake's conventions
@@ -111,9 +112,9 @@ catkin_package(
 ## Build ##
 ###########
 
-#add_executable(points_and_lines src/points_and_lines.cpp)
-#target_link_libraries(points_and_lines ${catkin_LIBRARIES})
-#add_dependencies(points_and_lines ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
+add_executable(mode_convert src/mode_convert.cpp)
+target_link_libraries(mode_convert ${catkin_LIBRARIES})
+add_dependencies(mode_convert ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 
 ## Specify additional locations of header files
 ## Your package locations should be listed before other locations
