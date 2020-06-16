@@ -1,0 +1,7 @@
+<launch>
+    <arg name="ns1" default="planning" />
+
+    <group ns="$(arg ns1)">
+        <node pkg="behavior_planning" type="behavior_planning" name="behavior_planning" output="screen"/>
+    </group>
+</launch>

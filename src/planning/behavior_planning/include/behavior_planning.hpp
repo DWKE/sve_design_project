@@ -2,10 +2,15 @@
 #define __BEHAVIOR_PLANNING_HPP__
 #pragma once
 
+#define FOLLOW_LANE 0
+#define OBSTACLE_STOP 1
+#define FLIGHT_MODE 2
+
+
 typedef struct{
-    int follow_lane = 0;
-    int decelerate_to_stop = 1;
-    int stay_stopped = 2;
+    int follow_lane = FOLLOW_LANE;
+    int obstacle_stop = OBSTACLE_STOP;
+    int flight_mode = FLIGHT_MODE;
 }StateMachineStates;
 
 // STD header
@@ -24,6 +29,7 @@ typedef struct{
 #include "kusv_msgs/OptimalBehavior.h"
 #include "kusv_msgs/PlanningLiDAR.h"
 #include "kusv_msgs/PlanningLocalization.h"
+#include "kusv_msgs/PlanningVision.h"
 
 // Namespace
 using namespace ros; 

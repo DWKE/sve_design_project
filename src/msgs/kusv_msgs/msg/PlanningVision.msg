@@ -1,3 +1,3 @@
 Header header
 
-bool is_stop
+bool isStop
