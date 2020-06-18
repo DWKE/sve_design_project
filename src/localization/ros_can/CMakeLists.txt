@@ -1,19 +1,19 @@
 cmake_minimum_required(VERSION 2.8.3)
-project(mode_converter)
+project(ros_can)
 
 ## Compile as C++11, supported in ROS Kinetic and newer
-# add_compile_options(-std=c++11)
+ add_definitions(-std=c++11)
 
 ## Find catkin macros and libraries
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
 ## is used, also find other catkin packages
 find_package(catkin REQUIRED COMPONENTS
-    roscpp
-    std_msgs
-<<<<<<< HEAD
-    kusv_msgs
-=======
->>>>>>> 77bb8b85f28855380742f5407eba8599ba34a3e2
+  can_msgs
+  geometry_msgs
+  message_generation
+  roscpp
+  std_msgs
+  kusv_msgs
 )
 
 ## System dependencies are found with CMake's conventions
@@ -52,8 +52,9 @@ find_package(catkin REQUIRED COMPONENTS
 ## Generate messages in the 'msg' folder
 # add_message_files(
 #   FILES
-#   Message1.msg
-#   Message2.msg
+#   kusv_CanInfo.msg
+##   Wheel_Speed.msg
+##   Yaw_Rate.msg
 # )
 
 ## Generate services in the 'srv' folder
@@ -73,7 +74,9 @@ find_package(catkin REQUIRED COMPONENTS
 ## Generate added messages and services with any dependencies listed here
 # generate_messages(
 #   DEPENDENCIES
-#   visualization_msgs
+#   can_msgs
+#   geometry_msgs
+#   std_msgs
 # )
 
 ################################################
@@ -106,32 +109,32 @@ find_package(catkin REQUIRED COMPONENTS
 ## CATKIN_DEPENDS: catkin_packages dependent projects also need
 ## DEPENDS: system dependencies of this project that dependent projects also need
 catkin_package(
-#  INCLUDE_DIRS include
-#  LIBRARIES visualization
-#  CATKIN_DEPENDS roscpp visualization_msgs
-#  DEPENDS system_lib
+  INCLUDE_DIRS include
+  LIBRARIES ${PROJECT}
+  CATKIN_DEPENDS can_msgs geometry_msgs message_generation roscpp std_msgs kusv_msgs
+  DEPENDS system_lib
 )
 
 ###########
 ## Build ##
 ###########
 
-add_executable(mode_convert src/mode_convert.cpp)
-target_link_libraries(mode_convert ${catkin_LIBRARIES})
-add_dependencies(mode_convert ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
-
 ## Specify additional locations of header files
 ## Your package locations should be listed before other locations
 include_directories(
-# include
+  include
   ${catkin_INCLUDE_DIRS}
 )
 
 ## Declare a C++ library
-# add_library(${PROJECT_NAME}
-#   src/${PROJECT_NAME}/visualization.cpp
-# )
-
+ add_library(ros_linux_can
+   src/linux_can/linuxcan.cpp
+   src/linux_can/utils.cpp
+ )
+ target_link_libraries(ros_linux_can
+   canlib
+   ${catkin_LIBRARIES}
+ )
 ## Add cmake target dependencies of the library
 ## as an example, code may need to be generated before libraries
 ## either from message generation or dynamic reconfigure
@@ -140,7 +143,9 @@ include_directories(
 ## Declare a C++ executable
 ## With catkin_make all packages are built within a single CMake context
 ## The recommended prefix ensures that target names across packages don't collide
-# add_executable(${PROJECT_NAME}_node src/visualization_node.cpp)
+ add_executable(${PROJECT_NAME}_kvaser_bridge src/kvaser_can_bridge.cpp)
+ add_executable(${PROJECT_NAME}_rx src/CAN2TopicConverter.cpp)
+# add_executable(${PROJECT_NAME}_keyboard src/Keyboard_interface.cpp)
 
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the
@@ -150,13 +155,21 @@ include_directories(
 
 ## Add cmake target dependencies of the executable
 ## same as for the library above
-# add_dependencies(${PROJECT_NAME}_node ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
+ add_dependencies(${PROJECT_NAME}_kvaser_bridge ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
+ add_dependencies(${PROJECT_NAME}_rx ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
+# add_dependencies(${PROJECT_NAME}_keyboard ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 
 ## Specify libraries to link a library or executable target against
-# target_link_libraries(${PROJECT_NAME}_node
+ target_link_libraries(${PROJECT_NAME}_kvaser_bridge
+   ros_linux_can
+   ${catkin_LIBRARIES}
+ )
+ target_link_libraries(${PROJECT_NAME}_rx
+   ${catkin_LIBRARIES}
+ )
+# target_link_libraries(${PROJECT_NAME}_keyboard
 #   ${catkin_LIBRARIES}
 # )
-
 #############
 ## Install ##
 #############
@@ -171,18 +184,11 @@ include_directories(
 #   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 # )
 
-## Mark executables for installation
-## See http://docs.ros.org/melodic/api/catkin/html/howto/format1/building_executables.html
-# install(TARGETS ${PROJECT_NAME}_node
-#   RUNTIME DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
-# )
-
-## Mark libraries for installation
-## See http://docs.ros.org/melodic/api/catkin/html/howto/format1/building_libraries.html
-# install(TARGETS ${PROJECT_NAME}
+## Mark executables and/or libraries for installation
+# install(TARGETS ${PROJECT_NAME} ${PROJECT_NAME}_node
 #   ARCHIVE DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
 #   LIBRARY DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
-#   RUNTIME DESTINATION ${CATKIN_GLOBAL_BIN_DESTINATION}
+#   RUNTIME DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 # )
 
 ## Mark cpp header files for installation
@@ -204,7 +210,7 @@ include_directories(
 #############
 
 ## Add gtest based cpp test target and link libraries
-# catkin_add_gtest(${PROJECT_NAME}-test test/test_visualization.cpp)
+# catkin_add_gtest(${PROJECT_NAME}-test test/test_ros_can.cpp)
 # if(TARGET ${PROJECT_NAME}-test)
 #   target_link_libraries(${PROJECT_NAME}-test ${PROJECT_NAME})
 # endif()
