@@ -55,7 +55,6 @@ int main(int argc, char** argv){
   ros::Rate loop_rate(50);
 
   std::cout<<"Waiting for Vision Sign..."<<std::endl;
-
   while(ros::ok() && !mc.sign){ //vision in
       ros::spinOnce();
       loop_rate.sleep();
@@ -63,7 +62,7 @@ int main(int argc, char** argv){
 
   std::cout<<"Vision In!"<<std::endl;
 
-  while(ros::ok() && mc.mark_sign_exist()){ //vision in
+  while(ros::ok()){
       mc.modeConvert();
       ros::spinOnce();
       loop_rate.sleep();
