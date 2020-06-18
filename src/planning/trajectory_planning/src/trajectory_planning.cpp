@@ -12,69 +12,93 @@
 
 #include "trajectory_planning.hpp"
 
-TrajectoryPlanning::TrajectoryPlanning(int id, std::string task_node, double period) {
-}
+class TrajectoryPlanning {
+public:
+  TrajectoryPlanning() {
+    m_rosSubObstacle
+        = m_rosNodeHandler.subscribe("opt_behavior", 1000, &TrajectoryPlanning::behaviorCallback, this);
+    m_rosSubPose
+        = m_rosNodeHandler.subscribe("/localization/waypoint_lane", 1000, &TrajectoryPlanning::wplaneCallback, this);
 
-TrajectoryPlanning::~TrajectoryPlanning(){
-}
+    m_rosPubControlCmd
+        = m_rosNodeHandler.advertise<kusv_msgs::PlanningControl>("/control/control_cmd", 1000);
+  }
 
-void TrajectoryPlanning::Init(){
-    // Node initialization
-    NodeHandle nh;
-        
-    // Subscriber init
-    //subscriber_ = nh.subscribe("your/subscribe/name", 10, &TrajectoryPlanning::YourCallbackFunction, this);
+  ~TrajectoryPlanning() {}
 
-    // Publisher init
-    //publisher_ = nh.advertise<YourMsgType>("your/publish/name", 10); 
-    
-    // Algorithm init
-    //your_algorithm_ = make_unique<YourClass>();
-}
 
-void TrajectoryPlanning::Run(){
-    ROS_INFO("Running ...");
-	// Get functions for subscribe variables
-	
-    // Run your codes
-		
-	// Update output
-}
+protected:
+  NodeHandle m_rosNodeHandler;
 
-void TrajectoryPlanning::Publish(){
-    //publisher_.publish(your_output_);
-}
+  Subscriber m_rosSubPose;
+  Subscriber m_rosSubObstacle;
 
-void TrajectoryPlanning::Terminate(){
+  Publisher m_rosPubControlCmd;
 
-}
+  TransformListener tf_listener_;
 
-// Callback functions
-    
-// Get functions
+  kusv_msgs::OptimalBehavior m_opt_behavior;
+  kusv_msgs::PolyfitLaneData m_wp_lane;
+  kusv_msgs::PlanningControl m_control_cmd;
 
-// Transform functions
+  float m_prev_str = 0;
+  float m_prev_vel = 0;
 
-// Update functions
+  float m_lookahead_dist = 0.5;
+  float m_gx = 0;
+  float m_gy = 0;
+  float m_length = 0.5;
 
-int main(int argc, char **argv){
-    std::string node_name = "TrajectoryPlanning";
-    ros::init(argc, argv, node_name);
-    ros::NodeHandle nh;
 
-    ROS_INFO("Initialize node, get parameters...");
-    
-    int id;
-    if (!nh.getParam("task_id/id_template", id))
-        id = 0;
+public:
+  void behaviorCallback(const kusv_msgs::OptimalBehavior::ConstPtr &msg) {
+    m_opt_behavior = *msg;
+  }
+  void wplaneCallback(const kusv_msgs::PolyfitLaneData::ConstPtr &msg) {
+    m_wp_lane = *msg;
+  }
 
-    double period;
-    if (!nh.getParam("task_period/period_template", period))
-        period = 1.0;    
+  void trajectory_plan() {
+    if (m_opt_behavior.optimal_behavior == FOLLOW_LANE) {
+      m_gx = m_lookahead_dist;
+      m_gy = m_wp_lane.a*pow(m_lookahead_dist, 3) + m_wp_lane.b*pow(m_lookahead_dist, 2) + m_wp_lane.c*m_lookahead_dist + m_wp_lane.d;
+      
+      m_control_cmd.str_angle = atan2(2*m_length*fabs(m_gy), pow(m_lookahead_dist, 2)) * (180/M_PI);
+      m_control_cmd.velocity = 10;
+    }
+    else if(m_opt_behavior.optimal_behavior == OBSTACLE_STOP) {
+      m_control_cmd.str_angle = m_prev_str;
+      m_control_cmd.velocity = 0;
+    }
+    else if(m_opt_behavior.optimal_behavior == FLIGHT_MODE) {
+      m_control_cmd.str_angle = 0;
+      m_control_cmd.velocity = 0;
+    }
+    else {
+      m_control_cmd.str_angle = m_prev_str;
+      m_control_cmd.velocity = m_prev_vel;
+    }
+    ROS_INFO("Steering: %f, Velocity: %f", m_control_cmd.str_angle, m_control_cmd.velocity);
 
-    ROS_INFO("Complete to get parameters! (ID: %d, Period: %.3f)", id, period);
-    
-    TrajectoryPlanning main_task(id, node_name, period);
+    m_rosPubControlCmd.publish(m_control_cmd);
+    m_prev_str = m_control_cmd.str_angle;
+    m_prev_vel = m_control_cmd.velocity;
+  }  
+};
 
-    return 0;
+int main(int argc, char **argv) {
+  ros::init(argc, argv, "trajectory_planning");
+  ros::NodeHandle nh;
+
+  TrajectoryPlanning trajectory_planning;
+
+  ros::Rate loop_rate(100);
+
+  while (ros::ok()) {
+    trajectory_planning.trajectory_plan();
+
+    ros::spinOnce();
+    loop_rate.sleep();
+  }
+  return 0;
 }
