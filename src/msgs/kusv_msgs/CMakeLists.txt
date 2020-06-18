@@ -56,6 +56,17 @@ find_package(catkin REQUIRED COMPONENTS
        #sve_design_project
        #put msg name at here
        PlanningControl.msg
+       PlanningLocalization.msg
+       PlanningLiDAR.msg
+       PlanningVision.msg
+       OptimalBehavior.msg
+       LanePointData.msg
+       LanePointDataArray.msg
+       PolyfitLaneData.msg
+       PolyfitLaneDataArray.msg
+       DR_data.msg
+       kusv_CanInfo.msg
+       kusv_GlobalPose.msg
  )
 
 ## Generate services in the 'srv' folder

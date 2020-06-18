@@ -12,69 +12,88 @@
 
 #include "behavior_planning.hpp"
 
-BehaviorPlanning::BehaviorPlanning(int id, std::string task_node, double period) {
-}
+class BehaviorPlanning
+{
+public:
+  BehaviorPlanning() {
+    m_rosSubObstacle = m_rosNodeHandler.subscribe("/lidar/obstacle", 1000, &BehaviorPlanning::obstacleCallback, this);
+    // m_rosSubPose = m_rosNodeHandler.subscribe("/localization/pose", 1000, &BehaviorPlanning::poseCallback, this);
+    m_rosSubVision = m_rosNodeHandler.subscribe("/vision/sign", 1000, &BehaviorPlanning::signCallback, this);
 
-BehaviorPlanning::~BehaviorPlanning(){
-}
+    m_rosPubOptimalState = m_rosNodeHandler.advertise<kusv_msgs::OptimalBehavior>("opt_behavior", 1000);
+  }
 
-void BehaviorPlanning::Init(){
-    // Node initialization
-    NodeHandle nh;
-        
-    // Subscriber init
-    //subscriber_ = nh.subscribe("your/subscribe/name", 10, &BehaviorPlanning::YourCallbackFunction, this);
+  ~BehaviorPlanning() {}
 
-    // Publisher init
-    //publisher_ = nh.advertise<YourMsgType>("your/publish/name", 10); 
-    
-    // Algorithm init
-    //your_algorithm_ = make_unique<YourClass>();
-}
+protected:
+  NodeHandle m_rosNodeHandler;
 
-void BehaviorPlanning::Run(){	
-    ROS_INFO("Running ...");
-	// Get functions for subscribe variables
-	
-    // Run your codes
-		
-	// Update output
-}
+  Subscriber m_rosSubObstacle;
+  // Subscriber m_rosSubPose;
+  Subscriber m_rosSubVision;
 
-void BehaviorPlanning::Publish(){
-    //publisher_.publish(your_output_);
-}
+  Publisher m_rosPubOptimalState;
 
-void BehaviorPlanning::Terminate(){
+  TransformListener tf_listener_;
 
-}
+  StateMachineStates state_;
 
-// Callback functions
-    
-// Get functions
+  kusv_msgs::PlanningLiDAR m_object;
+  // kusv_msgs::PlanningLocalization m_pose;
+  kusv_msgs::PlanningVision m_sign;
 
-// Transform functions
+  kusv_msgs::OptimalBehavior m_optbehavior;
 
-// Update functions
+public:
+  void obstacleCallback(const kusv_msgs::PlanningLiDAR::ConstPtr &msg) {
+    m_object = *msg;
+  }  
+  
+  // void poseCallback(const kusv_msgs::PlanningLocalization::ConstPtr &msg)
+  // {
+  //   m_pose = *msg;
+  // }
 
-int main(int argc, char **argv){
-    std::string node_name = "BehaviorPlanning";
-    ros::init(argc, argv, node_name);
-    ros::NodeHandle nh;
+  void signCallback(const kusv_msgs::PlanningVision::ConstPtr &msg) {
+    m_sign = *msg;
+  }
 
-    ROS_INFO("Initialize node, get parameters...");
-    
-    int id;
-    if (!nh.getParam("task_id/id_template", id))
-        id = 0;
+  void behavior_plan() {
+    // flight mode
+    if (m_sign.isStop == true) {
+      m_optbehavior.optimal_behavior = state_.flight_mode;
+      ROS_INFO("Optimal behavior: FLIGHT_MODE");
+    }    
+    // drive mode
+    else if (m_sign.isStop == false) {
+      // Object
+      if (m_object.isObstacle == true) {
+        m_optbehavior.optimal_behavior = state_.obstacle_stop;
+        ROS_INFO("Optimal behavior: OBSTACLE_STOP");
+      }
+      // No object
+      else {
+        m_optbehavior.optimal_behavior = state_.follow_lane;
+        ROS_INFO("Optimal behavior: FOLLOW_LANE");
+      }
+    }
+    m_rosPubOptimalState.publish(m_optbehavior);
+  }
+};
 
-    double period;
-    if (!nh.getParam("task_period/period_template", period))
-        period = 1.0;    
+int main(int argc, char **argv) {
+  ros::init(argc, argv, "behavior_planning");
+  ros::NodeHandle nh;
 
-    ROS_INFO("Complete to get parameters! (ID: %d, Period: %.3f)", id, period);
-    
-    BehaviorPlanning main_task(id, node_name, period);
+  BehaviorPlanning behavior_planning;
 
-    return 0;
+  ros::Rate loop_rate(100);
+
+  while (ros::ok()) {
+    behavior_planning.behavior_plan();
+
+    ros::spinOnce();
+    loop_rate.sleep();
+  }
+  return 0;
 }

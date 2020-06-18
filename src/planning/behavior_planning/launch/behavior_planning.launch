@@ -1,8 +1,7 @@
-<!-- -->
 <launch>
-	<!-- <arg name="role_name" default="a1"/> -->
-	<!-- <param name="role_name" value="$(arg role_name)"/> -->
+    <arg name="ns1" default="planning" />
 
-    <rosparam file="config/system.yaml" command="load"/>
-    <node pkg="template" type="template" name="template" output="log"/>
+    <group ns="$(arg ns1)">
+        <node pkg="behavior_planning" type="behavior_planning" name="behavior_planning" output="screen"/>
+    </group>
 </launch>
