@@ -10,6 +10,7 @@ project(mode_converter)
 find_package(catkin REQUIRED COMPONENTS
     roscpp
     std_msgs
+    kusv_msgs
 )
 
 ## System dependencies are found with CMake's conventions
