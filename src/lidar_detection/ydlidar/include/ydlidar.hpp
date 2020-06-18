@@ -59,6 +59,8 @@ class ydlidar
     ros::Publisher filter_points;
     ros::Publisher pub_shape;
     ros::Publisher pub_Origin;
+    ros::Publisher pub_colShape;
+    ros::Publisher pub_collisionChecker;
 
     ros::Subscriber ydlidar_sub;
     ros::NodeHandle nh;
@@ -68,6 +70,8 @@ class ydlidar
 
     visualization_msgs::Marker m_Origin;
     visualization_msgs::MarkerArray m_arrShapes;
+    visualization_msgs::MarkerArray m_collisionShapes;
+
 
     std_msgs::Header m_velodyne_header;
     std::vector<RGB> m_globalRGB;
@@ -81,6 +85,8 @@ class ydlidar
     double m_dClusterMaxSize;
     double m_dRemoveSideRange;
     double m_fRadius;
+
+    bool isObstacle = false;
 
     std::vector<clusterPtr> m_OriginalClusters;
 

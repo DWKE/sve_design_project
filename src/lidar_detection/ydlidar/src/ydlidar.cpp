@@ -15,8 +15,10 @@ ydlidar::ydlidar()
     nh.param("ydlidar/remove_side_range", m_dRemoveSideRange, 3.0);
 
 
-    pub_shape = nh.advertise<visualization_msgs::MarkerArray>("Shape", 1);
-    pub_Origin = nh.advertise<visualization_msgs::Marker> ("Origin", 1);
+    pub_shape = nh.advertise<visualization_msgs::MarkerArray>("/lidar/Shape", 1);
+    pub_colShape = nh.advertise<visualization_msgs::MarkerArray>("/lidar/colShape", 1);
+    pub_Origin = nh.advertise<visualization_msgs::Marker> ("/lidar/Origin", 1);
+//     pub_collisionChecker =  nh.advertise<PlanningLiDAR> ("/lidar/obstacle", 1);
 
     ydlidar_sub = nh.subscribe<sensor_msgs::LaserScan>("/scan", 1, &ydlidar::ydlidar_callback, this);
 
@@ -41,6 +43,7 @@ void ydlidar::ydlidar_callback(const sensor_msgs::LaserScan::ConstPtr& scan_in)
 {
     sensor_msgs::PointCloud2 cloud;
     projector.projectLaser(*scan_in, cloud);
+    isObstacle = false;
 
     // Publish the new point cloud.
     cloud.header.frame_id = "/laser_frame";
@@ -185,11 +188,11 @@ void ydlidar::displayShape (const std::vector<clusterPtr> pVecClusters)
                 if (isClusterValid)
                 {
                         visualization_msgs::Marker shape;
+                        visualization_msgs::Marker colShape;
 
                         shape.lifetime = ros::Duration(m_fMarkerDuration);
                         shape.header.frame_id = "/laser_frame";
                         shape.id = objectNumber;
-
 
                         //shape.color.b = (float)(*cluster_it)->m_b/255.0f;
                         shape.color.r = 0.0;
@@ -202,17 +205,43 @@ void ydlidar::displayShape (const std::vector<clusterPtr> pVecClusters)
                         shape.ns = "/Polygon";
                         shape.scale.x = 0.08;
 
+                        colShape.lifetime = ros::Duration(m_fMarkerDuration);
+                        colShape.header.frame_id = "/laser_frame";
+                        colShape.id = objectNumber;
+
+                        //shape.color.b = (float)(*cluster_it)->m_b/255.0f;
+                        colShape.color.r = 1.0;
+                        colShape.color.g = 0.0;
+                        colShape.color.b = 0.0;
+                        colShape.color.a = 0.5;
+
+                        colShape.type = visualization_msgs::Marker::LINE_STRIP;
+                        colShape.action = visualization_msgs::Marker::ADD;
+                        colShape.ns = "/Polygon";
+                        colShape.scale.x = 0.08;
+
                         for (auto const &point: pCluster->m_polygon.polygon.points)
                         {
-                                geometry_msgs:: Point tmpPoint;
-                                tmpPoint.x = point.x;
-                                tmpPoint.y = point.y;
-//                                tmpPoint.z = point.z;
-                                tmpPoint.z = 0;
-                                shape.points.push_back (tmpPoint);
+                                if(fabs(point.y)<1.0 && point.x >1.5){
+                                        geometry_msgs:: Point colPoint;
+                                        colPoint.x = point.x;
+                                        colPoint.y = point.y;
+        //                                tmpPoint.z = point.z;
+                                        colPoint.z = 0;
+                                        colShape.points.push_back (colPoint);
+                                }else{
+                                        geometry_msgs:: Point tmpPoint;
+                                        tmpPoint.x = point.x;
+                                        tmpPoint.y = point.y;
+        //                                tmpPoint.z = point.z;
+                                        tmpPoint.z = 0;
+                                        shape.points.push_back (tmpPoint);
+                                        isObstacle = true;
+                                }
                         }
 
                         m_arrShapes.markers.push_back(shape);
+                        m_collisionShapes.markers.push_back(colShape);
 
                         shape.scale.x = 0.5;
                         shape.scale.y = 0.5;
@@ -236,7 +265,7 @@ void ydlidar::displayShape (const std::vector<clusterPtr> pVecClusters)
 
 void ydlidar::publish ()
 {
-        // broadcast tf
+//        //broadcast tf
 //        static tf::TransformBroadcaster br;
 //        tf::Transform transform;
 
@@ -245,9 +274,11 @@ void ydlidar::publish ()
 //        q.setRPY(0.0, 0.0, 0.0);
 //        transform.setRotation(q);
 
-//        br.sendTransform(tf::StampedTransform(transform, ros::Time::now(), "car", "velodyne"));
+//        br.sendTransform(tf::StampedTransform(transform, ros::Time::now(), "car", "ydli"));
 
         pub_shape.publish (m_arrShapes);
         pub_Origin.publish(m_Origin);
+        pub_colShape.publish(m_collisionShapes);
+        // pub_collisionChecker.publish(isObstacle);
 }
 
