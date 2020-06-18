@@ -57,6 +57,7 @@ find_package(catkin REQUIRED COMPONENTS
        #put msg name at here
        PlanningControl.msg
        VisionMark.msg
+<<<<<<< HEAD
        PlanningLocalization.msg
        PlanningLiDAR.msg
        PlanningVision.msg
@@ -68,6 +69,8 @@ find_package(catkin REQUIRED COMPONENTS
        DR_data.msg
        kusv_CanInfo.msg
        kusv_GlobalPose.msg
+=======
+>>>>>>> 582ce59d7cf05fbf2304b1ba5bd13e62fda8523e
  )
 
 ## Generate services in the 'srv' folder
