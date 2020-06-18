@@ -41,7 +41,7 @@ public:
             _mode=true; //mode=Flight
             std::cout<<"Flight Start!"<<std::endl;
         }
-        else std::cout<<"Box Size : ";//<<mc.boxSize<<std::endl;
+        else std::cout<<"Box Size : "<<boxSize<<std::endl;
 
         mode.data = _mode;
         vehicle_mode.publish(mode);
