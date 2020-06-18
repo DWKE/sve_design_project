@@ -13,6 +13,7 @@ find_package(catkin REQUIRED COMPONENTS
   std_msgs
   nav_msgs
   visualization_msgs
+  kusv_msgs
 )
 
 ## System dependencies are found with CMake's conventions
@@ -137,7 +138,6 @@ include_directories(
 ## The recommended prefix ensures that target names across packages don't collide
 add_executable(${PROJECT_NAME} 
     src/behavior_planning.cpp
-    src/util/spline.cpp
 )
 
 ## Rename C++ executable without prefix
