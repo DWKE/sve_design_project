@@ -1,0 +1,8 @@
+prefix=/home/soo/sve_design_project/install
+
+Name: path_generator
+Description: Description of path_generator
+Version: 0.1.0
+Cflags: 
+Libs: -L${prefix}/lib -lpath_generator
+Requires: roscpp std_msgs geometry_msgs message_runtime visualization_msgs

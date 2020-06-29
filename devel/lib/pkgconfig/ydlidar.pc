@@ -1,0 +1,8 @@
+prefix=/home/soo/sve_design_project/devel
+
+Name: ydlidar
+Description: Description of ydlidar
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: roscpp geometry_msgs pcl_conversions pcl_ros sensor_msgs cv_bridge

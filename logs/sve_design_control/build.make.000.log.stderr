@@ -1,0 +1,4 @@
+[01m[K/home/soo/sve_design_project/src/control/sve_design_control/src/keyboard_interface.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/soo/sve_design_project/src/control/sve_design_control/src/keyboard_interface.cpp:65:21:[m[K [01;35m[Kwarning: [m[KNULL used in arithmetic [[01;35m[K-Wpointer-arith[m[K]
+             if(c != [01;35m[KNULL[m[K){
+                     [01;35m[K^~~~[m[K

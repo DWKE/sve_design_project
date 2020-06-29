@@ -1,0 +1,8 @@
+prefix=/home/soo/sve_design_project/devel
+
+Name: trajectory_planning
+Description: Description of trajectory_planning
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
