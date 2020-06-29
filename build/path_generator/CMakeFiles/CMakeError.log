@@ -1,0 +1,55 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/soo/sve_design_project/build/path_generator/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3ae5b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3ae5b.dir/build.make CMakeFiles/cmTC_3ae5b.dir/build
+make[1]: 디렉터리 '/home/soo/sve_design_project/build/path_generator/CMakeFiles/CMakeTmp' 들어감
+Building C object CMakeFiles/cmTC_3ae5b.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_3ae5b.dir/CheckSymbolExists.c.o   -c /home/soo/sve_design_project/build/path_generator/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_3ae5b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3ae5b.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_3ae5b.dir/CheckSymbolExists.c.o  -o cmTC_3ae5b 
+CMakeFiles/cmTC_3ae5b.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_3ae5b.dir/build.make:97: recipe for target 'cmTC_3ae5b' failed
+make[1]: *** [cmTC_3ae5b] Error 1
+make[1]: 디렉터리 '/home/soo/sve_design_project/build/path_generator/CMakeFiles/CMakeTmp' 나감
+Makefile:126: recipe for target 'cmTC_3ae5b/fast' failed
+make: *** [cmTC_3ae5b/fast] Error 2
+
+File /home/soo/sve_design_project/build/path_generator/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/soo/sve_design_project/build/path_generator/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9f792/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9f792.dir/build.make CMakeFiles/cmTC_9f792.dir/build
+make[1]: 디렉터리 '/home/soo/sve_design_project/build/path_generator/CMakeFiles/CMakeTmp' 들어감
+Building C object CMakeFiles/cmTC_9f792.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_9f792.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_9f792
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9f792.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_9f792.dir/CheckFunctionExists.c.o  -o cmTC_9f792 -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_9f792.dir/build.make:97: recipe for target 'cmTC_9f792' failed
+make[1]: *** [cmTC_9f792] Error 1
+make[1]: 디렉터리 '/home/soo/sve_design_project/build/path_generator/CMakeFiles/CMakeTmp' 나감
+Makefile:126: recipe for target 'cmTC_9f792/fast' failed
+make: *** [cmTC_9f792/fast] Error 2
+
+

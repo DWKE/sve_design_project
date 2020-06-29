@@ -1,0 +1,182 @@
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_py[0m
+[  0%] Built target actionlib_msgs_generate_messages_py
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_nodejs[0m
+[  0%] Built target tf2_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_eus[0m
+[  0%] Built target tf2_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_cpp[0m
+[  0%] Built target tf2_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_lisp[0m
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_eus[0m
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_cpp[0m
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target topic_tools_generate_messages_cpp[0m
+[  0%] Built target topic_tools_generate_messages_cpp
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_eus[0m
+[  0%] Built target geometry_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_nodejs[0m
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target roscpp_generate_messages_cpp[0m
+[  0%] Built target roscpp_generate_messages_cpp
+[35m[1mScanning dependencies of target actionlib_generate_messages_cpp[0m
+[  0%] Built target actionlib_generate_messages_cpp
+[35m[1mScanning dependencies of target pcl_msgs_generate_messages_eus[0m
+[  0%] Built target pcl_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target pcl_ros_gencfg[0m
+[  0%] Built target pcl_ros_gencfg
+[35m[1mScanning dependencies of target topic_tools_generate_messages_nodejs[0m
+[  0%] Built target topic_tools_generate_messages_nodejs
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_py[0m
+[  0%] Built target tf2_msgs_generate_messages_py
+[35m[1mScanning dependencies of target actionlib_generate_messages_py[0m
+[  0%] Built target actionlib_generate_messages_py
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_lisp[0m
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target pcl_msgs_generate_messages_nodejs[0m
+[  0%] Built target pcl_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target nodelet_generate_messages_nodejs[0m
+[  0%] Built target nodelet_generate_messages_nodejs
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_lisp[0m
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_cpp[0m
+[  0%] Built target dynamic_reconfigure_generate_messages_cpp
+[35m[1mScanning dependencies of target tf_generate_messages_py[0m
+[  0%] Built target tf_generate_messages_py
+[35m[1mScanning dependencies of target std_srvs_generate_messages_eus[0m
+[  0%] Built target std_srvs_generate_messages_eus
+[35m[1mScanning dependencies of target roscpp_generate_messages_lisp[0m
+[  0%] Built target roscpp_generate_messages_lisp
+[35m[1mScanning dependencies of target bond_generate_messages_eus[0m
+[  0%] Built target bond_generate_messages_eus
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[  0%] Built target std_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_py[0m
+[  0%] Built target sensor_msgs_generate_messages_py
+[35m[1mScanning dependencies of target nodelet_generate_messages_py[0m
+[  0%] Built target nodelet_generate_messages_py
+[35m[1mScanning dependencies of target roscpp_generate_messages_py[0m
+[  0%] Built target roscpp_generate_messages_py
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_nodejs[0m
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target topic_tools_generate_messages_eus[0m
+[  0%] Built target topic_tools_generate_messages_eus
+[35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[  0%] Built target std_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_nodejs[0m
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_py[0m
+[  0%] Built target geometry_msgs_generate_messages_py
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_eus[0m
+[  0%] Built target sensor_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_cpp[0m
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target roscpp_generate_messages_nodejs[0m
+[  0%] Built target roscpp_generate_messages_nodejs
+[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[  0%] Built target std_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[  0%] Built target std_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target bond_generate_messages_lisp[0m
+[  0%] Built target bond_generate_messages_lisp
+[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[  0%] Built target std_msgs_generate_messages_py
+[35m[1mScanning dependencies of target pcl_msgs_generate_messages_cpp[0m
+[  0%] Built target pcl_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_lisp[0m
+[  0%] Built target dynamic_reconfigure_generate_messages_lisp
+[35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_eus[0m
+[  0%] Built target dynamic_reconfigure_generate_messages_eus
+[35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_nodejs[0m
+[  0%] Built target dynamic_reconfigure_generate_messages_nodejs
+[35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_py[0m
+[  0%] Built target dynamic_reconfigure_generate_messages_py
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_lisp[0m
+[  0%] Built target tf2_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target dynamic_reconfigure_gencfg[0m
+[  0%] Built target dynamic_reconfigure_gencfg
+[35m[1mScanning dependencies of target nodelet_generate_messages_cpp[0m
+[  0%] Built target nodelet_generate_messages_cpp
+[35m[1mScanning dependencies of target bond_generate_messages_py[0m
+[  0%] Built target bond_generate_messages_py
+[35m[1mScanning dependencies of target std_srvs_generate_messages_nodejs[0m
+[  0%] Built target std_srvs_generate_messages_nodejs
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_cpp[0m
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target actionlib_generate_messages_lisp[0m
+[  0%] Built target actionlib_generate_messages_lisp
+[35m[1mScanning dependencies of target nodelet_generate_messages_eus[0m
+[  0%] Built target nodelet_generate_messages_eus
+[35m[1mScanning dependencies of target nodelet_generate_messages_lisp[0m
+[  0%] Built target nodelet_generate_messages_lisp
+[35m[1mScanning dependencies of target roscpp_generate_messages_eus[0m
+[  0%] Built target roscpp_generate_messages_eus
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_py[0m
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_eus[0m
+[  0%] Built target actionlib_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target bond_generate_messages_cpp[0m
+[  0%] Built target bond_generate_messages_cpp
+[35m[1mScanning dependencies of target bond_generate_messages_nodejs[0m
+[  0%] Built target bond_generate_messages_nodejs
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_nodejs[0m
+[  0%] Built target actionlib_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target topic_tools_generate_messages_py[0m
+[  0%] Built target topic_tools_generate_messages_py
+[35m[1mScanning dependencies of target nodelet_topic_tools_gencfg[0m
+[  0%] Built target nodelet_topic_tools_gencfg
+[35m[1mScanning dependencies of target std_srvs_generate_messages_lisp[0m
+[  0%] Built target std_srvs_generate_messages_lisp
+[35m[1mScanning dependencies of target topic_tools_generate_messages_lisp[0m
+[  0%] Built target topic_tools_generate_messages_lisp
+[35m[1mScanning dependencies of target std_srvs_generate_messages_cpp[0m
+[  0%] Built target std_srvs_generate_messages_cpp
+[35m[1mScanning dependencies of target tf_generate_messages_eus[0m
+[  0%] Built target tf_generate_messages_eus
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_cpp[0m
+[  0%] Built target actionlib_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target std_srvs_generate_messages_py[0m
+[  0%] Built target std_srvs_generate_messages_py
+[35m[1mScanning dependencies of target tf_generate_messages_lisp[0m
+[  0%] Built target tf_generate_messages_lisp
+[35m[1mScanning dependencies of target tf_generate_messages_nodejs[0m
+[  0%] Built target tf_generate_messages_nodejs
+[35m[1mScanning dependencies of target pcl_msgs_generate_messages_py[0m
+[  0%] Built target pcl_msgs_generate_messages_py
+[35m[1mScanning dependencies of target actionlib_generate_messages_eus[0m
+[  0%] Built target actionlib_generate_messages_eus
+[35m[1mScanning dependencies of target pcl_msgs_generate_messages_lisp[0m
+[  0%] Built target pcl_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target tf_generate_messages_cpp[0m
+[  0%] Built target tf_generate_messages_cpp
+[35m[1mScanning dependencies of target actionlib_generate_messages_nodejs[0m
+[  0%] Built target actionlib_generate_messages_nodejs
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_lisp[0m
+[  0%] Built target actionlib_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target ydlidar[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/ydlidar.dir/src/main.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/ydlidar.dir/src/ydlidar.cpp.o[0m
+In file included from [01m[K/usr/include/pcl-1.8/pcl/sample_consensus/sac_model.h:52:0[m[K,
+                 from [01m[K/usr/include/pcl-1.8/pcl/sample_consensus/sac.h:45[m[K,
+                 from [01m[K/usr/include/pcl-1.8/pcl/segmentation/sac_segmentation.h:49[m[K,
+                 from [01m[K/home/soo/sve_design_project/src/lidar_detection/ydlidar/include/ydlidar.hpp:16[m[K,
+                 from [01m[K/home/soo/sve_design_project/src/lidar_detection/ydlidar/src/main.cpp:1[m[K:
+[01m[K/usr/include/pcl-1.8/pcl/sample_consensus/model_types.h:[m[K In function ‘[01m[Kvoid __static_initialization_and_destruction_0(int, int)[m[K’:
+[01m[K/usr/include/pcl-1.8/pcl/sample_consensus/model_types.h:99:3:[m[K [01;35m[Kwarning: [m[K‘[01m[Kpcl::SAC_SAMPLE_SIZE[m[K’ is deprecated: This map is deprecated and is kept only to prevent breaking existing user code. Starting from PCL 1.8.0 model sample size is a protected member of the SampleConsensusModel class [[01;35m[K-Wdeprecated-declarations[m[K]
+   [01;35m[KSAC_SAMPLE_SIZE[m[K (sample_size_pairs, sample_size_pairs + sizeof (sample_size_pairs) / sizeof (SampleSizeModel));
+   [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.8/pcl/sample_consensus/model_types.h:99:3:[m[K [01;36m[Knote: [m[Kdeclared here
+[ 75%] [32mBuilding CXX object CMakeFiles/ydlidar.dir/src/cluster.cpp.o[0m
+In file included from [01m[K/usr/include/pcl-1.8/pcl/sample_consensus/sac_model.h:52:0[m[K,
+                 from [01m[K/usr/include/pcl-1.8/pcl/sample_consensus/sac.h:45[m[K,
+                 from [01m[K/usr/include/pcl-1.8/pcl/segmentation/sac_segmentation.h:49[m[K,
+                 from [01m[K/home/soo/sve_design_project/src/lidar_detection/ydlidar/include/ydlidar.hpp:16[m[K,
+                 from [01m[K/home/soo/sve_design_project/src/lidar_detection/ydlidar/src/ydlidar.cpp:1[m[K:
+[01m[K/usr/include/pcl-1.8/pcl/sample_consensus/model_types.h:[m[K In function ‘[01m[Kvoid __static_initialization_and_destruction_0(int, int)[m[K’:
+[01m[K/usr/include/pcl-1.8/pcl/sample_consensus/model_types.h:99:3:[m[K [01;35m[Kwarning: [m[K‘[01m[Kpcl::SAC_SAMPLE_SIZE[m[K’ is deprecated: This map is deprecated and is kept only to prevent breaking existing user code. Starting from PCL 1.8.0 model sample size is a protected member of the SampleConsensusModel class [[01;35m[K-Wdeprecated-declarations[m[K]
+   [01;35m[KSAC_SAMPLE_SIZE[m[K (sample_size_pairs, sample_size_pairs + sizeof (sample_size_pairs) / sizeof (SampleSizeModel));
+   [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.8/pcl/sample_consensus/model_types.h:99:3:[m[K [01;36m[Knote: [m[Kdeclared here
+[100%] [32m[1mLinking CXX executable /home/soo/sve_design_project/devel/lib/ydlidar/ydlidar[0m
+[100%] Built target ydlidar

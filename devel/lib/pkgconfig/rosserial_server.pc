@@ -1,0 +1,8 @@
+prefix=/home/soo/sve_design_project/devel
+
+Name: rosserial_server
+Description: Description of rosserial_server
+Version: 0.8.0
+Cflags: -I/home/soo/sve_design_project/src/control/rosserial-noetic-devel/rosserial_server/include
+Libs: -L${prefix}/lib -lrosserial_server_lookup
+Requires: roscpp rosserial_msgs std_msgs topic_tools
