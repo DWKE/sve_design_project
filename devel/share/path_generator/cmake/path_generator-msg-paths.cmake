@@ -1,4 +1,1 @@
-# generated from genmsg/cmake/pkg-msg-paths.cmake.develspace.in
-
-set(path_generator_MSG_INCLUDE_DIRS "")
-set(path_generator_MSG_DEPENDENCIES std_msgs;geometry_msgs;visualization_msgs)
+/home/soo/sve_design_project/devel/.private/path_generator/share/path_generator/cmake/path_generator-msg-paths.cmake

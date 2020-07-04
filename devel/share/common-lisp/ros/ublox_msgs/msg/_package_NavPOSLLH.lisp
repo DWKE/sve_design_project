@@ -1,16 +1,1 @@
-(cl:in-package ublox_msgs-msg)
-(cl:export '(ITOW-VAL
-          ITOW
-          LON-VAL
-          LON
-          LAT-VAL
-          LAT
-          HEIGHT-VAL
-          HEIGHT
-          HMSL-VAL
-          HMSL
-          HACC-VAL
-          HACC
-          VACC-VAL
-          VACC
-))
+/home/soo/sve_design_project/devel/.private/ublox_msgs/share/common-lisp/ros/ublox_msgs/msg/_package_NavPOSLLH.lisp

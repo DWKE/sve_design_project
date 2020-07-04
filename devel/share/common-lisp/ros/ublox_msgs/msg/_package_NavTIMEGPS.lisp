@@ -1,14 +1,1 @@
-(cl:in-package ublox_msgs-msg)
-(cl:export '(ITOW-VAL
-          ITOW
-          FTOW-VAL
-          FTOW
-          WEEK-VAL
-          WEEK
-          LEAPS-VAL
-          LEAPS
-          VALID-VAL
-          VALID
-          TACC-VAL
-          TACC
-))
+/home/soo/sve_design_project/devel/.private/ublox_msgs/share/common-lisp/ros/ublox_msgs/msg/_package_NavTIMEGPS.lisp

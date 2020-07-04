@@ -1,4 +1,4 @@
-The system is: Linux - 5.3.0-59-generic - x86_64
+The system is: Linux - 5.3.0-61-generic - x86_64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
 Compiler: /usr/bin/cc 
 Build flags: 
@@ -28,28 +28,28 @@ The CXX compiler identification is GNU, found in "/home/soo/sve_design_project/b
 Determining if the C compiler works passed with the following output:
 Change Dir: /home/soo/sve_design_project/build/mavros_extras/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_fd646/fast"
-/usr/bin/make -f CMakeFiles/cmTC_fd646.dir/build.make CMakeFiles/cmTC_fd646.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_23b5a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_23b5a.dir/build.make CMakeFiles/cmTC_23b5a.dir/build
 make[1]: 디렉터리 '/home/soo/sve_design_project/build/mavros_extras/CMakeFiles/CMakeTmp' 들어감
-Building C object CMakeFiles/cmTC_fd646.dir/testCCompiler.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_fd646.dir/testCCompiler.c.o   -c /home/soo/sve_design_project/build/mavros_extras/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_fd646
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fd646.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_fd646.dir/testCCompiler.c.o  -o cmTC_fd646 
+Building C object CMakeFiles/cmTC_23b5a.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_23b5a.dir/testCCompiler.c.o   -c /home/soo/sve_design_project/build/mavros_extras/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_23b5a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_23b5a.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_23b5a.dir/testCCompiler.c.o  -o cmTC_23b5a 
 make[1]: 디렉터리 '/home/soo/sve_design_project/build/mavros_extras/CMakeFiles/CMakeTmp' 나감
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /home/soo/sve_design_project/build/mavros_extras/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_ea05d/fast"
-/usr/bin/make -f CMakeFiles/cmTC_ea05d.dir/build.make CMakeFiles/cmTC_ea05d.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_2dff9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2dff9.dir/build.make CMakeFiles/cmTC_2dff9.dir/build
 make[1]: 디렉터리 '/home/soo/sve_design_project/build/mavros_extras/CMakeFiles/CMakeTmp' 들어감
-Building C object CMakeFiles/cmTC_ea05d.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_ea05d.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_ea05d
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ea05d.dir/link.txt --verbose=1
-/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_ea05d.dir/CMakeCCompilerABI.c.o  -o cmTC_ea05d 
+Building C object CMakeFiles/cmTC_2dff9.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_2dff9.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_2dff9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2dff9.dir/link.txt --verbose=1
+/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_2dff9.dir/CMakeCCompilerABI.c.o  -o cmTC_2dff9 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
@@ -61,9 +61,9 @@ Thread model: posix
 gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_ea05d' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccXWnKNV.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_ea05d /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_ea05d.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_ea05d' '-mtune=generic' '-march=x86-64'
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_2dff9' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cc8bIC5d.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_2dff9 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_2dff9.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_2dff9' '-mtune=generic' '-march=x86-64'
 make[1]: 디렉터리 '/home/soo/sve_design_project/build/mavros_extras/CMakeFiles/CMakeTmp' 나감
 
 
@@ -71,14 +71,14 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/soo/sve_design_project/build/mavros_extras/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_ea05d/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_ea05d.dir/build.make CMakeFiles/cmTC_ea05d.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_2dff9/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_2dff9.dir/build.make CMakeFiles/cmTC_2dff9.dir/build]
   ignore line: [make[1]: 디렉터리 '/home/soo/sve_design_project/build/mavros_extras/CMakeFiles/CMakeTmp' 들어감]
-  ignore line: [Building C object CMakeFiles/cmTC_ea05d.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_ea05d.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_ea05d]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ea05d.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_ea05d.dir/CMakeCCompilerABI.c.o  -o cmTC_ea05d ]
+  ignore line: [Building C object CMakeFiles/cmTC_2dff9.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_2dff9.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_2dff9]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2dff9.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_2dff9.dir/CMakeCCompilerABI.c.o  -o cmTC_2dff9 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
@@ -90,13 +90,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_ea05d' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccXWnKNV.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_ea05d /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_ea05d.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_2dff9' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cc8bIC5d.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_2dff9 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_2dff9.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccXWnKNV.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc8bIC5d.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -115,7 +115,7 @@ Parsed C implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_ea05d] ==> ignore
+    arg [cmTC_2dff9] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> ignore
@@ -127,7 +127,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
-    arg [CMakeFiles/cmTC_ea05d.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_2dff9.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--push-state] ==> ignore
     arg [--as-needed] ==> ignore
@@ -159,14 +159,14 @@ Parsed C implicit link information from above output:
 Detecting C [-std=c11] compiler features compiled with the following output:
 Change Dir: /home/soo/sve_design_project/build/mavros_extras/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_5ad19/fast"
-/usr/bin/make -f CMakeFiles/cmTC_5ad19.dir/build.make CMakeFiles/cmTC_5ad19.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_23f50/fast"
+/usr/bin/make -f CMakeFiles/cmTC_23f50.dir/build.make CMakeFiles/cmTC_23f50.dir/build
 make[1]: 디렉터리 '/home/soo/sve_design_project/build/mavros_extras/CMakeFiles/CMakeTmp' 들어감
-Building C object CMakeFiles/cmTC_5ad19.dir/feature_tests.c.o
-/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_5ad19.dir/feature_tests.c.o   -c /home/soo/sve_design_project/build/mavros_extras/CMakeFiles/feature_tests.c
-Linking C executable cmTC_5ad19
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5ad19.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_5ad19.dir/feature_tests.c.o  -o cmTC_5ad19 
+Building C object CMakeFiles/cmTC_23f50.dir/feature_tests.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_23f50.dir/feature_tests.c.o   -c /home/soo/sve_design_project/build/mavros_extras/CMakeFiles/feature_tests.c
+Linking C executable cmTC_23f50
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_23f50.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_23f50.dir/feature_tests.c.o  -o cmTC_23f50 
 make[1]: 디렉터리 '/home/soo/sve_design_project/build/mavros_extras/CMakeFiles/CMakeTmp' 나감
 
 
@@ -179,14 +179,14 @@ make[1]: 디렉터리 '/home/soo/sve_design_project/build/mavros_extras/CMakeFil
 Detecting C [-std=c99] compiler features compiled with the following output:
 Change Dir: /home/soo/sve_design_project/build/mavros_extras/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_9ecab/fast"
-/usr/bin/make -f CMakeFiles/cmTC_9ecab.dir/build.make CMakeFiles/cmTC_9ecab.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_18cee/fast"
+/usr/bin/make -f CMakeFiles/cmTC_18cee.dir/build.make CMakeFiles/cmTC_18cee.dir/build
 make[1]: 디렉터리 '/home/soo/sve_design_project/build/mavros_extras/CMakeFiles/CMakeTmp' 들어감
-Building C object CMakeFiles/cmTC_9ecab.dir/feature_tests.c.o
-/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_9ecab.dir/feature_tests.c.o   -c /home/soo/sve_design_project/build/mavros_extras/CMakeFiles/feature_tests.c
-Linking C executable cmTC_9ecab
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9ecab.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_9ecab.dir/feature_tests.c.o  -o cmTC_9ecab 
+Building C object CMakeFiles/cmTC_18cee.dir/feature_tests.c.o
+/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_18cee.dir/feature_tests.c.o   -c /home/soo/sve_design_project/build/mavros_extras/CMakeFiles/feature_tests.c
+Linking C executable cmTC_18cee
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_18cee.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_18cee.dir/feature_tests.c.o  -o cmTC_18cee 
 make[1]: 디렉터리 '/home/soo/sve_design_project/build/mavros_extras/CMakeFiles/CMakeTmp' 나감
 
 
@@ -199,14 +199,14 @@ make[1]: 디렉터리 '/home/soo/sve_design_project/build/mavros_extras/CMakeFil
 Detecting C [-std=c90] compiler features compiled with the following output:
 Change Dir: /home/soo/sve_design_project/build/mavros_extras/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_e68c1/fast"
-/usr/bin/make -f CMakeFiles/cmTC_e68c1.dir/build.make CMakeFiles/cmTC_e68c1.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_932a5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_932a5.dir/build.make CMakeFiles/cmTC_932a5.dir/build
 make[1]: 디렉터리 '/home/soo/sve_design_project/build/mavros_extras/CMakeFiles/CMakeTmp' 들어감
-Building C object CMakeFiles/cmTC_e68c1.dir/feature_tests.c.o
-/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_e68c1.dir/feature_tests.c.o   -c /home/soo/sve_design_project/build/mavros_extras/CMakeFiles/feature_tests.c
-Linking C executable cmTC_e68c1
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e68c1.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_e68c1.dir/feature_tests.c.o  -o cmTC_e68c1 
+Building C object CMakeFiles/cmTC_932a5.dir/feature_tests.c.o
+/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_932a5.dir/feature_tests.c.o   -c /home/soo/sve_design_project/build/mavros_extras/CMakeFiles/feature_tests.c
+Linking C executable cmTC_932a5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_932a5.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_932a5.dir/feature_tests.c.o  -o cmTC_932a5 
 make[1]: 디렉터리 '/home/soo/sve_design_project/build/mavros_extras/CMakeFiles/CMakeTmp' 나감
 
 
@@ -217,28 +217,28 @@ make[1]: 디렉터리 '/home/soo/sve_design_project/build/mavros_extras/CMakeFil
 Determining if the CXX compiler works passed with the following output:
 Change Dir: /home/soo/sve_design_project/build/mavros_extras/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_8649a/fast"
-/usr/bin/make -f CMakeFiles/cmTC_8649a.dir/build.make CMakeFiles/cmTC_8649a.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_cd17e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cd17e.dir/build.make CMakeFiles/cmTC_cd17e.dir/build
 make[1]: 디렉터리 '/home/soo/sve_design_project/build/mavros_extras/CMakeFiles/CMakeTmp' 들어감
-Building CXX object CMakeFiles/cmTC_8649a.dir/testCXXCompiler.cxx.o
-/usr/bin/c++     -o CMakeFiles/cmTC_8649a.dir/testCXXCompiler.cxx.o -c /home/soo/sve_design_project/build/mavros_extras/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_8649a
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8649a.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_8649a.dir/testCXXCompiler.cxx.o  -o cmTC_8649a 
+Building CXX object CMakeFiles/cmTC_cd17e.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_cd17e.dir/testCXXCompiler.cxx.o -c /home/soo/sve_design_project/build/mavros_extras/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_cd17e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cd17e.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_cd17e.dir/testCXXCompiler.cxx.o  -o cmTC_cd17e 
 make[1]: 디렉터리 '/home/soo/sve_design_project/build/mavros_extras/CMakeFiles/CMakeTmp' 나감
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /home/soo/sve_design_project/build/mavros_extras/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_8835d/fast"
-/usr/bin/make -f CMakeFiles/cmTC_8835d.dir/build.make CMakeFiles/cmTC_8835d.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_c07da/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c07da.dir/build.make CMakeFiles/cmTC_c07da.dir/build
 make[1]: 디렉터리 '/home/soo/sve_design_project/build/mavros_extras/CMakeFiles/CMakeTmp' 들어감
-Building CXX object CMakeFiles/cmTC_8835d.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++     -o CMakeFiles/cmTC_8835d.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_8835d
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8835d.dir/link.txt --verbose=1
-/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_8835d.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_8835d 
+Building CXX object CMakeFiles/cmTC_c07da.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTC_c07da.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_c07da
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c07da.dir/link.txt --verbose=1
+/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_c07da.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_c07da 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
@@ -250,9 +250,9 @@ Thread model: posix
 gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_8835d' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cc7LKZGm.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_8835d /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_8835d.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_8835d' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_c07da' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cc7mL4kA.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_c07da /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_c07da.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_c07da' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
 make[1]: 디렉터리 '/home/soo/sve_design_project/build/mavros_extras/CMakeFiles/CMakeTmp' 나감
 
 
@@ -260,14 +260,14 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/soo/sve_design_project/build/mavros_extras/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_8835d/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_8835d.dir/build.make CMakeFiles/cmTC_8835d.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_c07da/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_c07da.dir/build.make CMakeFiles/cmTC_c07da.dir/build]
   ignore line: [make[1]: 디렉터리 '/home/soo/sve_design_project/build/mavros_extras/CMakeFiles/CMakeTmp' 들어감]
-  ignore line: [Building CXX object CMakeFiles/cmTC_8835d.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_8835d.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_8835d]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8835d.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_8835d.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_8835d ]
+  ignore line: [Building CXX object CMakeFiles/cmTC_c07da.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_c07da.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_c07da]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c07da.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_c07da.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_c07da ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
@@ -279,13 +279,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_8835d' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cc7LKZGm.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_8835d /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_8835d.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_c07da' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cc7mL4kA.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_c07da /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_c07da.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/cc7LKZGm.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc7mL4kA.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -304,7 +304,7 @@ Parsed CXX implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_8835d] ==> ignore
+    arg [cmTC_c07da] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> ignore
@@ -316,7 +316,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
-    arg [CMakeFiles/cmTC_8835d.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_c07da.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -344,14 +344,14 @@ Parsed CXX implicit link information from above output:
 Detecting CXX [-std=c++1z] compiler features compiled with the following output:
 Change Dir: /home/soo/sve_design_project/build/mavros_extras/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_c2b30/fast"
-/usr/bin/make -f CMakeFiles/cmTC_c2b30.dir/build.make CMakeFiles/cmTC_c2b30.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_82c71/fast"
+/usr/bin/make -f CMakeFiles/cmTC_82c71.dir/build.make CMakeFiles/cmTC_82c71.dir/build
 make[1]: 디렉터리 '/home/soo/sve_design_project/build/mavros_extras/CMakeFiles/CMakeTmp' 들어감
-Building CXX object CMakeFiles/cmTC_c2b30.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_c2b30.dir/feature_tests.cxx.o -c /home/soo/sve_design_project/build/mavros_extras/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_c2b30
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c2b30.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_c2b30.dir/feature_tests.cxx.o  -o cmTC_c2b30 
+Building CXX object CMakeFiles/cmTC_82c71.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_82c71.dir/feature_tests.cxx.o -c /home/soo/sve_design_project/build/mavros_extras/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_82c71
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_82c71.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_82c71.dir/feature_tests.cxx.o  -o cmTC_82c71 
 make[1]: 디렉터리 '/home/soo/sve_design_project/build/mavros_extras/CMakeFiles/CMakeTmp' 나감
 
 
@@ -417,14 +417,14 @@ make[1]: 디렉터리 '/home/soo/sve_design_project/build/mavros_extras/CMakeFil
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
 Change Dir: /home/soo/sve_design_project/build/mavros_extras/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_b7663/fast"
-/usr/bin/make -f CMakeFiles/cmTC_b7663.dir/build.make CMakeFiles/cmTC_b7663.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_07023/fast"
+/usr/bin/make -f CMakeFiles/cmTC_07023.dir/build.make CMakeFiles/cmTC_07023.dir/build
 make[1]: 디렉터리 '/home/soo/sve_design_project/build/mavros_extras/CMakeFiles/CMakeTmp' 들어감
-Building CXX object CMakeFiles/cmTC_b7663.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_b7663.dir/feature_tests.cxx.o -c /home/soo/sve_design_project/build/mavros_extras/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_b7663
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b7663.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_b7663.dir/feature_tests.cxx.o  -o cmTC_b7663 
+Building CXX object CMakeFiles/cmTC_07023.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_07023.dir/feature_tests.cxx.o -c /home/soo/sve_design_project/build/mavros_extras/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_07023
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_07023.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_07023.dir/feature_tests.cxx.o  -o cmTC_07023 
 make[1]: 디렉터리 '/home/soo/sve_design_project/build/mavros_extras/CMakeFiles/CMakeTmp' 나감
 
 
@@ -490,14 +490,14 @@ make[1]: 디렉터리 '/home/soo/sve_design_project/build/mavros_extras/CMakeFil
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
 Change Dir: /home/soo/sve_design_project/build/mavros_extras/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_4b14e/fast"
-/usr/bin/make -f CMakeFiles/cmTC_4b14e.dir/build.make CMakeFiles/cmTC_4b14e.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_9aa7d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9aa7d.dir/build.make CMakeFiles/cmTC_9aa7d.dir/build
 make[1]: 디렉터리 '/home/soo/sve_design_project/build/mavros_extras/CMakeFiles/CMakeTmp' 들어감
-Building CXX object CMakeFiles/cmTC_4b14e.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_4b14e.dir/feature_tests.cxx.o -c /home/soo/sve_design_project/build/mavros_extras/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_4b14e
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4b14e.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_4b14e.dir/feature_tests.cxx.o  -o cmTC_4b14e 
+Building CXX object CMakeFiles/cmTC_9aa7d.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_9aa7d.dir/feature_tests.cxx.o -c /home/soo/sve_design_project/build/mavros_extras/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_9aa7d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9aa7d.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_9aa7d.dir/feature_tests.cxx.o  -o cmTC_9aa7d 
 make[1]: 디렉터리 '/home/soo/sve_design_project/build/mavros_extras/CMakeFiles/CMakeTmp' 나감
 
 
@@ -563,14 +563,14 @@ make[1]: 디렉터리 '/home/soo/sve_design_project/build/mavros_extras/CMakeFil
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
 Change Dir: /home/soo/sve_design_project/build/mavros_extras/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_b7065/fast"
-/usr/bin/make -f CMakeFiles/cmTC_b7065.dir/build.make CMakeFiles/cmTC_b7065.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_88560/fast"
+/usr/bin/make -f CMakeFiles/cmTC_88560.dir/build.make CMakeFiles/cmTC_88560.dir/build
 make[1]: 디렉터리 '/home/soo/sve_design_project/build/mavros_extras/CMakeFiles/CMakeTmp' 들어감
-Building CXX object CMakeFiles/cmTC_b7065.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_b7065.dir/feature_tests.cxx.o -c /home/soo/sve_design_project/build/mavros_extras/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_b7065
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b7065.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_b7065.dir/feature_tests.cxx.o  -o cmTC_b7065 
+Building CXX object CMakeFiles/cmTC_88560.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_88560.dir/feature_tests.cxx.o -c /home/soo/sve_design_project/build/mavros_extras/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_88560
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_88560.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_88560.dir/feature_tests.cxx.o  -o cmTC_88560 
 make[1]: 디렉터리 '/home/soo/sve_design_project/build/mavros_extras/CMakeFiles/CMakeTmp' 나감
 
 
@@ -634,42 +634,42 @@ make[1]: 디렉터리 '/home/soo/sve_design_project/build/mavros_extras/CMakeFil
 Determining if the include file pthread.h exists passed with the following output:
 Change Dir: /home/soo/sve_design_project/build/mavros_extras/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_45169/fast"
-/usr/bin/make -f CMakeFiles/cmTC_45169.dir/build.make CMakeFiles/cmTC_45169.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_bf8e2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bf8e2.dir/build.make CMakeFiles/cmTC_bf8e2.dir/build
 make[1]: 디렉터리 '/home/soo/sve_design_project/build/mavros_extras/CMakeFiles/CMakeTmp' 들어감
-Building C object CMakeFiles/cmTC_45169.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_45169.dir/CheckIncludeFile.c.o   -c /home/soo/sve_design_project/build/mavros_extras/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_45169
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_45169.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_45169.dir/CheckIncludeFile.c.o  -o cmTC_45169 
+Building C object CMakeFiles/cmTC_bf8e2.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_bf8e2.dir/CheckIncludeFile.c.o   -c /home/soo/sve_design_project/build/mavros_extras/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_bf8e2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bf8e2.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_bf8e2.dir/CheckIncludeFile.c.o  -o cmTC_bf8e2 
 make[1]: 디렉터리 '/home/soo/sve_design_project/build/mavros_extras/CMakeFiles/CMakeTmp' 나감
 
 
 Determining if the function pthread_create exists in the pthread passed with the following output:
 Change Dir: /home/soo/sve_design_project/build/mavros_extras/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_de1af/fast"
-/usr/bin/make -f CMakeFiles/cmTC_de1af.dir/build.make CMakeFiles/cmTC_de1af.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_25c94/fast"
+/usr/bin/make -f CMakeFiles/cmTC_25c94.dir/build.make CMakeFiles/cmTC_25c94.dir/build
 make[1]: 디렉터리 '/home/soo/sve_design_project/build/mavros_extras/CMakeFiles/CMakeTmp' 들어감
-Building C object CMakeFiles/cmTC_de1af.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_de1af.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_de1af
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_de1af.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_de1af.dir/CheckFunctionExists.c.o  -o cmTC_de1af -lpthread 
+Building C object CMakeFiles/cmTC_25c94.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_25c94.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_25c94
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_25c94.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_25c94.dir/CheckFunctionExists.c.o  -o cmTC_25c94 -lpthread 
 make[1]: 디렉터리 '/home/soo/sve_design_project/build/mavros_extras/CMakeFiles/CMakeTmp' 나감
 
 
 Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_STD_CXX14 succeeded with the following output:
 Change Dir: /home/soo/sve_design_project/build/mavros_extras/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_a5b11/fast"
-/usr/bin/make -f CMakeFiles/cmTC_a5b11.dir/build.make CMakeFiles/cmTC_a5b11.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_a3fcc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a3fcc.dir/build.make CMakeFiles/cmTC_a3fcc.dir/build
 make[1]: Entering directory '/home/soo/sve_design_project/build/mavros_extras/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_a5b11.dir/src.cxx.o
-/usr/bin/c++    -DCOMPILER_SUPPORTS_STD_CXX14   -std=c++14 -o CMakeFiles/cmTC_a5b11.dir/src.cxx.o -c /home/soo/sve_design_project/build/mavros_extras/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_a5b11
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a5b11.dir/link.txt --verbose=1
-/usr/bin/c++   -DCOMPILER_SUPPORTS_STD_CXX14    -rdynamic CMakeFiles/cmTC_a5b11.dir/src.cxx.o  -o cmTC_a5b11 
+Building CXX object CMakeFiles/cmTC_a3fcc.dir/src.cxx.o
+/usr/bin/c++    -DCOMPILER_SUPPORTS_STD_CXX14   -std=c++14 -o CMakeFiles/cmTC_a3fcc.dir/src.cxx.o -c /home/soo/sve_design_project/build/mavros_extras/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_a3fcc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a3fcc.dir/link.txt --verbose=1
+/usr/bin/c++   -DCOMPILER_SUPPORTS_STD_CXX14    -rdynamic CMakeFiles/cmTC_a3fcc.dir/src.cxx.o  -o cmTC_a3fcc 
 make[1]: Leaving directory '/home/soo/sve_design_project/build/mavros_extras/CMakeFiles/CMakeTmp'
 
 Source file was:

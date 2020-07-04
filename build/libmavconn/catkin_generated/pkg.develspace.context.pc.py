@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "/home/soo/sve_design_project/src/control/mavr
 PROJECT_CATKIN_DEPENDS = "".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "-lmavconn;/usr/lib/x86_64-linux-gnu/libboost_system.so;/usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4".split(';') if "-lmavconn;/usr/lib/x86_64-linux-gnu/libboost_system.so;/usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4" != "" else []
 PROJECT_NAME = "libmavconn"
-PROJECT_SPACE_DIR = "/home/soo/sve_design_project/devel"
+PROJECT_SPACE_DIR = "/home/soo/sve_design_project/devel/.private/libmavconn"
 PROJECT_VERSION = "1.1.0"

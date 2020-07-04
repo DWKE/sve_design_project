@@ -1,10 +1,1 @@
-(cl:defpackage rosserial_mbed-srv
-  (:use )
-  (:export
-   "TEST"
-   "<TEST-REQUEST>"
-   "TEST-REQUEST"
-   "<TEST-RESPONSE>"
-   "TEST-RESPONSE"
-  ))
-
+/home/soo/sve_design_project/devel/.private/rosserial_mbed/share/common-lisp/ros/rosserial_mbed/srv/_package.lisp

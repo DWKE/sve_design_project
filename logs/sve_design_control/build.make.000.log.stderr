@@ -2,3 +2,10 @@
 [01m[K/home/soo/sve_design_project/src/control/sve_design_control/src/keyboard_interface.cpp:65:21:[m[K [01;35m[Kwarning: [m[KNULL used in arithmetic [[01;35m[K-Wpointer-arith[m[K]
              if(c != [01;35m[KNULL[m[K){
                      [01;35m[K^~~~[m[K
+[01m[K/home/soo/sve_design_project/src/control/sve_design_control/src/local_waypoint_follower.cpp:9:10:[m[K [01;31m[Kfatal error: [m[Kmavros_msgs/CommandBool.h: 그런 파일이나 디렉터리가 없습니다
+ #include [01;31m[K<mavros_msgs/CommandBool.h>[m[K
+          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/local_waypoint_follower.dir/src/local_waypoint_follower.cpp.o] Error 1
+make[1]: *** [CMakeFiles/local_waypoint_follower.dir/all] Error 2
+make: *** [all] Error 2

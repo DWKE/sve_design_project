@@ -1,10 +1,1 @@
-
-"use strict";
-
-let Log = require('./Log.js');
-let TopicInfo = require('./TopicInfo.js');
-
-module.exports = {
-  Log: Log,
-  TopicInfo: TopicInfo,
-};
+/home/soo/sve_design_project/devel/.private/rosserial_msgs/share/gennodejs/ros/rosserial_msgs/msg/_index.js

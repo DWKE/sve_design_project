@@ -1,16 +1,1 @@
-(cl:in-package ublox_msgs-msg)
-(cl:export '(CPMES-VAL
-          CPMES
-          PRMES-VAL
-          PRMES
-          DOMES-VAL
-          DOMES
-          SV-VAL
-          SV
-          MESQI-VAL
-          MESQI
-          CNO-VAL
-          CNO
-          LLI-VAL
-          LLI
-))
+/home/soo/sve_design_project/devel/.private/ublox_msgs/share/common-lisp/ros/ublox_msgs/msg/_package_RxmRAW_SV.lisp

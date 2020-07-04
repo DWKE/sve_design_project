@@ -68,7 +68,7 @@ set(pose_estimation_CONFIG_INCLUDED TRUE)
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
   set(pose_estimation_SOURCE_PREFIX /home/soo/sve_design_project/src/localization/pose_estimation)
-  set(pose_estimation_DEVEL_PREFIX /home/soo/sve_design_project/devel)
+  set(pose_estimation_DEVEL_PREFIX /home/soo/sve_design_project/devel/.private/pose_estimation)
   set(pose_estimation_INSTALL_PREFIX "")
   set(pose_estimation_PREFIX ${pose_estimation_DEVEL_PREFIX})
 else()
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/soo/sve_design_project/install/lib;/home/soo/sve_design_project/devel/lib;/opt/ros/melodic/lib)
+    foreach(path /home/soo/sve_design_project/install/lib;/home/soo/sve_design_project/devel/lib;/home/soo/catkin_ws/devel/lib;/home/soo/FlyMeToTheHome/devel/lib;/opt/ros/melodic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

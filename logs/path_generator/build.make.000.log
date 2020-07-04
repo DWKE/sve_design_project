@@ -123,15 +123,15 @@
 [ 14%] Built target path_generator_generate_messages_lisp
 [35m[1mScanning dependencies of target path_generator[0m
 [ 28%] [32mBuilding CXX object CMakeFiles/path_generator.dir/src/path_generator.cpp.o[0m
-[ 42%] [32m[1mLinking CXX executable /home/soo/sve_design_project/devel/lib/path_generator/path_generator[0m
-[ 42%] Built target path_generator
 [35m[1mScanning dependencies of target path_generator_generate_messages[0m
-[ 42%] Built target path_generator_generate_messages
+[ 28%] Built target path_generator_generate_messages
 [35m[1mScanning dependencies of target display_marker[0m
-[ 57%] [32mBuilding CXX object CMakeFiles/display_marker.dir/src/display_marker.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/display_marker.dir/src/display_marker.cpp.o[0m
+[ 57%] [32m[1mLinking CXX executable /home/soo/sve_design_project/devel/.private/path_generator/lib/path_generator/path_generator[0m
+[ 57%] Built target path_generator
 [35m[1mScanning dependencies of target find_drivingway[0m
 [ 71%] [32mBuilding CXX object CMakeFiles/find_drivingway.dir/src/find_drivingway.cpp.o[0m
-[ 85%] [32m[1mLinking CXX executable /home/soo/sve_design_project/devel/lib/path_generator/find_drivingway[0m
-[100%] [32m[1mLinking CXX executable /home/soo/sve_design_project/devel/lib/path_generator/display_marker[0m
+[ 85%] [32m[1mLinking CXX executable /home/soo/sve_design_project/devel/.private/path_generator/lib/path_generator/display_marker[0m
+[ 85%] Built target display_marker
+[100%] [32m[1mLinking CXX executable /home/soo/sve_design_project/devel/.private/path_generator/lib/path_generator/find_drivingway[0m
 [100%] Built target find_drivingway
-[100%] Built target display_marker

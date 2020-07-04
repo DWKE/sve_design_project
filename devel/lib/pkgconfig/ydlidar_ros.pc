@@ -1,8 +1,1 @@
-prefix=/home/soo/sve_design_project/devel
-
-Name: ydlidar_ros
-Description: Description of ydlidar_ros
-Version: 1.4.1
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 
+/home/soo/sve_design_project/devel/.private/ydlidar_ros/lib/pkgconfig/ydlidar_ros.pc

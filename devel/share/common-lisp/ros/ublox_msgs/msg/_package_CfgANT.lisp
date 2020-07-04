@@ -1,6 +1,1 @@
-(cl:in-package ublox_msgs-msg)
-(cl:export '(FLAGS-VAL
-          FLAGS
-          PINS-VAL
-          PINS
-))
+/home/soo/sve_design_project/devel/.private/ublox_msgs/share/common-lisp/ros/ublox_msgs/msg/_package_CfgANT.lisp

@@ -1,12 +1,1 @@
-(cl:in-package ublox_msgs-msg)
-(cl:export '(SVID-VAL
-          SVID
-          FLAGS-VAL
-          FLAGS
-          AGEC-VAL
-          AGEC
-          PRC-VAL
-          PRC
-          PRRC-VAL
-          PRRC
-))
+/home/soo/sve_design_project/devel/.private/ublox_msgs/share/common-lisp/ros/ublox_msgs/msg/_package_NavDGPS_SV.lisp

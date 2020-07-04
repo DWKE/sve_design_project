@@ -1,8 +1,1 @@
-(cl:in-package kusv_msgs-msg)
-(cl:export '(HEADER-VAL
-          HEADER
-          SPEED_AVR_REAR-VAL
-          SPEED_AVR_REAR
-          YAW_RATE-VAL
-          YAW_RATE
-))
+/home/soo/sve_design_project/devel/.private/kusv_msgs/share/common-lisp/ros/kusv_msgs/msg/_package_DR_data.lisp

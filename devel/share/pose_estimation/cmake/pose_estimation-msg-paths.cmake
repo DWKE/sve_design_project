@@ -1,4 +1,1 @@
-# generated from genmsg/cmake/pkg-msg-paths.cmake.develspace.in
-
-set(pose_estimation_MSG_INCLUDE_DIRS "")
-set(pose_estimation_MSG_DEPENDENCIES std_msgs)
+/home/soo/sve_design_project/devel/.private/pose_estimation/share/pose_estimation/cmake/pose_estimation-msg-paths.cmake

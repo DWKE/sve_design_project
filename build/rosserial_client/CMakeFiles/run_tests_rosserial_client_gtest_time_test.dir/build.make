@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/soo/sve_design_project/build/rosserial_client
 include CMakeFiles/run_tests_rosserial_client_gtest_time_test.dir/progress.make
 
 CMakeFiles/run_tests_rosserial_client_gtest_time_test:
-	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/catkin/cmake/test/run_tests.py /home/soo/sve_design_project/build/rosserial_client/test_results/rosserial_client/gtest-time_test.xml "/home/soo/sve_design_project/devel/lib/rosserial_client/time_test --gtest_output=xml:/home/soo/sve_design_project/build/rosserial_client/test_results/rosserial_client/gtest-time_test.xml"
+	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/catkin/cmake/test/run_tests.py /home/soo/sve_design_project/build/rosserial_client/test_results/rosserial_client/gtest-time_test.xml "/home/soo/sve_design_project/devel/.private/rosserial_client/lib/rosserial_client/time_test --gtest_output=xml:/home/soo/sve_design_project/build/rosserial_client/test_results/rosserial_client/gtest-time_test.xml"
 
 run_tests_rosserial_client_gtest_time_test: CMakeFiles/run_tests_rosserial_client_gtest_time_test
 run_tests_rosserial_client_gtest_time_test: CMakeFiles/run_tests_rosserial_client_gtest_time_test.dir/build.make

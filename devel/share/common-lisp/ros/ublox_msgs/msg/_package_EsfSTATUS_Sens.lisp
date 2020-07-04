@@ -1,10 +1,1 @@
-(cl:in-package ublox_msgs-msg)
-(cl:export '(SENSSTATUS1-VAL
-          SENSSTATUS1
-          SENSSTATUS2-VAL
-          SENSSTATUS2
-          FREQ-VAL
-          FREQ
-          FAULTS-VAL
-          FAULTS
-))
+/home/soo/sve_design_project/devel/.private/ublox_msgs/share/common-lisp/ros/ublox_msgs/msg/_package_EsfSTATUS_Sens.lisp

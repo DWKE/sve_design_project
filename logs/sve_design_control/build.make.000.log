@@ -81,7 +81,7 @@
 [ 53%] Built target sve_design_control_generate_messages_py
 [35m[1mScanning dependencies of target control_node[0m
 [ 61%] [32mBuilding CXX object CMakeFiles/control_node.dir/src/control_node.cpp.o[0m
-[ 69%] [32m[1mLinking CXX executable /home/soo/sve_design_project/devel/lib/sve_design_control/control_node[0m
+[ 69%] [32m[1mLinking CXX executable /home/soo/sve_design_project/devel/.private/sve_design_control/lib/sve_design_control/control_node[0m
 [ 69%] Built target control_node
 [35m[1mScanning dependencies of target keyboard_interface[0m
 [ 76%] [32mBuilding CXX object CMakeFiles/keyboard_interface.dir/src/keyboard_interface.cpp.o[0m
@@ -89,11 +89,17 @@
 [01m[K/home/soo/sve_design_project/src/control/sve_design_control/src/keyboard_interface.cpp:65:21:[m[K [01;35m[Kwarning: [m[KNULL used in arithmetic [[01;35m[K-Wpointer-arith[m[K]
              if(c != [01;35m[KNULL[m[K){
                      [01;35m[K^~~~[m[K
-[ 84%] [32m[1mLinking CXX executable /home/soo/sve_design_project/devel/lib/sve_design_control/keyboard_interface[0m
+[ 84%] [32m[1mLinking CXX executable /home/soo/sve_design_project/devel/.private/sve_design_control/lib/sve_design_control/keyboard_interface[0m
 [ 84%] Built target keyboard_interface
 [35m[1mScanning dependencies of target local_waypoint_follower[0m
 [ 92%] [32mBuilding CXX object CMakeFiles/local_waypoint_follower.dir/src/local_waypoint_follower.cpp.o[0m
-[35m[1mScanning dependencies of target sve_design_control_generate_messages[0m
-[ 92%] Built target sve_design_control_generate_messages
-[100%] [32m[1mLinking CXX executable /home/soo/sve_design_project/devel/lib/sve_design_control/local_waypoint_follower[0m
-[100%] Built target local_waypoint_follower
+[01m[K/home/soo/sve_design_project/src/control/sve_design_control/src/local_waypoint_follower.cpp:9:10:[m[K [01;31m[Kfatal error: [m[Kmavros_msgs/CommandBool.h: 그런 파일이나 디렉터리가 없습니다
+ #include [01;31m[K<mavros_msgs/CommandBool.h>[m[K
+          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+CMakeFiles/local_waypoint_follower.dir/build.make:62: recipe for target 'CMakeFiles/local_waypoint_follower.dir/src/local_waypoint_follower.cpp.o' failed
+make[2]: *** [CMakeFiles/local_waypoint_follower.dir/src/local_waypoint_follower.cpp.o] Error 1
+make[1]: *** [CMakeFiles/local_waypoint_follower.dir/all] Error 2
+CMakeFiles/Makefile2:246: recipe for target 'CMakeFiles/local_waypoint_follower.dir/all' failed
+Makefile:140: recipe for target 'all' failed
+make: *** [all] Error 2

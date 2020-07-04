@@ -4,8 +4,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/pose_estimation_ekf.dir/src/geometry2d.cpp.o"
   "CMakeFiles/pose_estimation_ekf.dir/src/ini_parser.cpp.o"
   "CMakeFiles/pose_estimation_ekf.dir/src/mkgmtime.c.o"
-  "/home/soo/sve_design_project/devel/lib/pose_estimation/pose_estimation_ekf.pdb"
-  "/home/soo/sve_design_project/devel/lib/pose_estimation/pose_estimation_ekf"
+  "/home/soo/sve_design_project/devel/.private/pose_estimation/lib/pose_estimation/pose_estimation_ekf.pdb"
+  "/home/soo/sve_design_project/devel/.private/pose_estimation/lib/pose_estimation/pose_estimation_ekf"
 )
 
 # Per-language clean rules from dependency scanning.

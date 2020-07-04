@@ -1,12 +1,1 @@
-(cl:in-package ublox_msgs-msg)
-(cl:export '(SVID-VAL
-          SVID
-          SVFLAG-VAL
-          SVFLAG
-          AZIM-VAL
-          AZIM
-          ELEV-VAL
-          ELEV
-          AGE-VAL
-          AGE
-))
+/home/soo/sve_design_project/devel/.private/ublox_msgs/share/common-lisp/ros/ublox_msgs/msg/_package_RxmSVSI_SV.lisp

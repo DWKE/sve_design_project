@@ -1,8 +1,1 @@
-prefix=/home/soo/sve_design_project/devel
-
-Name: visualization
-Description: Description of visualization
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 
+/home/soo/sve_design_project/devel/.private/visualization/lib/pkgconfig/visualization.pc

@@ -58,7 +58,7 @@ CMakeFiles/rosserial_test_rosserial_lib: include/rosserial
 
 include/rosserial:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/soo/sve_design_project/build/rosserial_test/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating include/rosserial"
-	/home/soo/sve_design_project/devel/env.sh /usr/bin/python2 /home/soo/sve_design_project/src/control/rosserial-noetic-devel/rosserial_test/scripts/generate_client_ros_lib.py /home/soo/sve_design_project/build/rosserial_test/include
+	/home/soo/sve_design_project/devel/.private/rosserial_test/env.sh /usr/bin/python2 /home/soo/sve_design_project/src/control/rosserial-noetic-devel/rosserial_test/scripts/generate_client_ros_lib.py /home/soo/sve_design_project/build/rosserial_test/include
 
 rosserial_test_rosserial_lib: CMakeFiles/rosserial_test_rosserial_lib
 rosserial_test_rosserial_lib: include/rosserial

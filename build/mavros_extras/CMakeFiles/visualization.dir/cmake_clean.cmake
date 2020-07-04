@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/visualization.dir/src/visualization.cpp.o"
-  "/home/soo/sve_design_project/devel/lib/mavros_extras/visualization.pdb"
-  "/home/soo/sve_design_project/devel/lib/mavros_extras/visualization"
+  "/home/soo/sve_design_project/devel/.private/mavros_extras/lib/mavros_extras/visualization.pdb"
+  "/home/soo/sve_design_project/devel/.private/mavros_extras/lib/mavros_extras/visualization"
 )
 
 # Per-language clean rules from dependency scanning.

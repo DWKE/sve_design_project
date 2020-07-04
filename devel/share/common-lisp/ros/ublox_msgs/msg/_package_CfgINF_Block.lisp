@@ -1,8 +1,1 @@
-(cl:in-package ublox_msgs-msg)
-(cl:export '(PROTOCOLID-VAL
-          PROTOCOLID
-          RESERVED1-VAL
-          RESERVED1
-          INFMSGMASK-VAL
-          INFMSGMASK
-))
+/home/soo/sve_design_project/devel/.private/ublox_msgs/share/common-lisp/ros/ublox_msgs/msg/_package_CfgINF_Block.lisp

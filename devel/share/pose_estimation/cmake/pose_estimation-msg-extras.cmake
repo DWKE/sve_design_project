@@ -1,2 +1,1 @@
-set(pose_estimation_MESSAGE_FILES "")
-set(pose_estimation_SERVICE_FILES "")
+/home/soo/sve_design_project/devel/.private/pose_estimation/share/pose_estimation/cmake/pose_estimation-msg-extras.cmake

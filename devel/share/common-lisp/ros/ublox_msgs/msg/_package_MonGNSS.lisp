@@ -1,14 +1,1 @@
-(cl:in-package ublox_msgs-msg)
-(cl:export '(VERSION-VAL
-          VERSION
-          SUPPORTED-VAL
-          SUPPORTED
-          DEFAULTGNSS-VAL
-          DEFAULTGNSS
-          ENABLED-VAL
-          ENABLED
-          SIMULTANEOUS-VAL
-          SIMULTANEOUS
-          RESERVED1-VAL
-          RESERVED1
-))
+/home/soo/sve_design_project/devel/.private/ublox_msgs/share/common-lisp/ros/ublox_msgs/msg/_package_MonGNSS.lisp

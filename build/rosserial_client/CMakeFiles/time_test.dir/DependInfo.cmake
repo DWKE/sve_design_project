@@ -18,7 +18,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/home/soo/sve_design_project/src/control/rosserial-noetic-devel/rosserial_client/src/ros_lib"
-  "/home/soo/sve_design_project/devel/include"
+  "/home/soo/sve_design_project/devel/.private/rosserial_msgs/include"
   "/opt/ros/melodic/include"
   "/usr/src/googletest/googletest/include"
   )

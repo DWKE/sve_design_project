@@ -19,7 +19,8 @@ set(CMAKE_TARGET_DEFINITIONS_C
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
   "/home/soo/sve_design_project/src/localization/pose_estimation/include"
-  "/home/soo/sve_design_project/devel/include"
+  "/home/soo/sve_design_project/devel/.private/ublox_msgs/include"
+  "/home/soo/sve_design_project/devel/.private/kusv_msgs/include"
   "/home/soo/sve_design_project/src/localization/ublox/ublox_serialization/include"
   "/home/soo/sve_design_project/src/localization/ublox/ublox_msgs/include"
   "/home/soo/sve_design_project/src/localization/ublox/ublox_gps/include"
@@ -47,7 +48,8 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/home/soo/sve_design_project/src/localization/pose_estimation/include"
-  "/home/soo/sve_design_project/devel/include"
+  "/home/soo/sve_design_project/devel/.private/ublox_msgs/include"
+  "/home/soo/sve_design_project/devel/.private/kusv_msgs/include"
   "/home/soo/sve_design_project/src/localization/ublox/ublox_serialization/include"
   "/home/soo/sve_design_project/src/localization/ublox/ublox_msgs/include"
   "/home/soo/sve_design_project/src/localization/ublox/ublox_gps/include"

@@ -1,8 +1,1 @@
-(cl:in-package kusv_msgs-msg)
-(cl:export '(ID-VAL
-          ID
-          FRAME_ID-VAL
-          FRAME_ID
-          POLYFITLANES-VAL
-          POLYFITLANES
-))
+/home/soo/sve_design_project/devel/.private/kusv_msgs/share/common-lisp/ros/kusv_msgs/msg/_package_PolyfitLaneDataArray.lisp

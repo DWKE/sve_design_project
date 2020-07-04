@@ -13,9 +13,9 @@ Not searching for unused variables given on the command line.
 [36m--[0m Detecting CXX compiler ABI info - done
 [36m--[0m Detecting CXX compile features
 [36m--[0m Detecting CXX compile features - done
-[36m--[0m Using CATKIN_DEVEL_PREFIX: /home/soo/sve_design_project/devel
-[36m--[0m Using CMAKE_PREFIX_PATH: /home/soo/sve_design_project/devel;/opt/ros/melodic
-[36m--[0m This workspace overlays: /home/soo/sve_design_project/devel;/opt/ros/melodic
+[36m--[0m Using CATKIN_DEVEL_PREFIX: /home/soo/sve_design_project/devel/.private/mavros
+[36m--[0m Using CMAKE_PREFIX_PATH: /home/soo/sve_design_project/devel;/home/soo/catkin_ws/devel;/home/soo/FlyMeToTheHome/devel;/opt/ros/melodic
+[36m--[0m This workspace overlays: /home/soo/sve_design_project/devel;/home/soo/catkin_ws/devel;/home/soo/FlyMeToTheHome/devel;/opt/ros/melodic
 [36m--[0m Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2")
 [36m--[0m Using PYTHON_EXECUTABLE: /usr/bin/python2
 [36m--[0m Using Debian Python package layout
@@ -42,12 +42,15 @@ Not searching for unused variables given on the command line.
 [36m--[0m Boost version: 1.65.1
 [36m--[0m Found the following Boost libraries:
 [36m--[0m   system
-[36m--[0m Found GeographicLib: /usr/lib/x86_64-linux-gnu/libGeographic.so
-[36m--[0m Geoid model datasets found in: /usr/share/GeographicLib/geoid
-[36m--[0m Gravity Field model datasets found in: /usr/share/GeographicLib/gravity
-[36m--[0m Magnetic Field model datasets found in: /usr/share/GeographicLib/magnetic
-[36m--[0m Performing Test COMPILER_SUPPORTS_STD_CXX14
-[36m--[0m Performing Test COMPILER_SUPPORTS_STD_CXX14 - Success
-[36m--[0m Configuring done
-[36m--[0m Generating done
-[36m--[0m Build files have been written to: /home/soo/sve_design_project/build/mavros
+[31m[1mCMake Error[0m at /usr/share/cmake-3.10/Modules/FindPackageHandleStandardArgs.cmake:137 (message):
+  Could NOT find GeographicLib (missing: GeographicLib_LIBRARIES
+  GeographicLib_INCLUDE_DIRS)
+[36mCall Stack (most recent call first):[0m
+  /usr/share/cmake-3.10/Modules/FindPackageHandleStandardArgs.cmake:378 (_FPHSA_FAILURE_MESSAGE)
+  /home/soo/sve_design_project/src/control/mavros/libmavconn/cmake/Modules/FindGeographicLib.cmake:14 (find_package_handle_standard_args)
+  CMakeLists.txt:42 (find_package)
+
+
+[36m--[0m Configuring incomplete, errors occurred!
+See also "/home/soo/sve_design_project/build/mavros/CMakeFiles/CMakeOutput.log".
+See also "/home/soo/sve_design_project/build/mavros/CMakeFiles/CMakeError.log".

@@ -1,8 +1,1 @@
-prefix=/home/soo/sve_design_project/devel
-
-Name: rosbag_to_csv
-Description: Description of rosbag_to_csv
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 
+/home/soo/sve_design_project/devel/.private/rosbag_to_csv/lib/pkgconfig/rosbag_to_csv.pc

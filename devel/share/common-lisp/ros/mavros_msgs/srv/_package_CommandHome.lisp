@@ -1,14 +1,1 @@
-(cl:in-package mavros_msgs-srv)
-(cl:export '(CURRENT_GPS-VAL
-          CURRENT_GPS
-          LATITUDE-VAL
-          LATITUDE
-          LONGITUDE-VAL
-          LONGITUDE
-          ALTITUDE-VAL
-          ALTITUDE
-          SUCCESS-VAL
-          SUCCESS
-          RESULT-VAL
-          RESULT
-))
+/home/soo/sve_design_project/devel/.private/mavros_msgs/share/common-lisp/ros/mavros_msgs/srv/_package_CommandHome.lisp

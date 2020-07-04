@@ -1,7 +1,1 @@
-(cl:defpackage sve_design_control-msg
-  (:use )
-  (:export
-   "<DRIVING_CONTROL_MSG>"
-   "DRIVING_CONTROL_MSG"
-  ))
-
+/home/soo/sve_design_project/devel/.private/sve_design_control/share/common-lisp/ros/sve_design_control/msg/_package.lisp

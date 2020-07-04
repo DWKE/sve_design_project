@@ -1,16 +1,1 @@
-(cl:in-package ublox_msgs-msg)
-(cl:export '(ITOW-VAL
-          ITOW
-          GPSFIX-VAL
-          GPSFIX
-          FLAGS-VAL
-          FLAGS
-          FIXSTAT-VAL
-          FIXSTAT
-          FLAGS2-VAL
-          FLAGS2
-          TTFF-VAL
-          TTFF
-          MSSS-VAL
-          MSSS
-))
+/home/soo/sve_design_project/devel/.private/ublox_msgs/share/common-lisp/ros/ublox_msgs/msg/_package_NavSTATUS.lisp

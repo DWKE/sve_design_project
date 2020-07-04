@@ -38,6 +38,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/home/soo/sve_design_project/devel/include"
+  "/home/soo/sve_design_project/devel/.private/mavros_msgs/include"
   "/home/soo/sve_design_project/src/control/mavros/libmavconn/include"
   "/home/soo/sve_design_project/src/control/mavros/mavros_msgs/include"
   "/home/soo/sve_design_project/src/control/mavros/mavros/include"

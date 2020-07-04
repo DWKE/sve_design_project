@@ -1,8 +1,1 @@
-prefix=/home/soo/sve_design_project/devel
-
-Name: rosserial_client
-Description: Description of rosserial_client
-Version: 0.8.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 
+/home/soo/sve_design_project/devel/.private/rosserial_client/lib/pkgconfig/rosserial_client.pc

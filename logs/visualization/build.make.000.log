@@ -50,9 +50,9 @@
 [  0%] Built target std_msgs_generate_messages_py
 [35m[1mScanning dependencies of target basic_shapes[0m
 [ 25%] [32mBuilding CXX object CMakeFiles/basic_shapes.dir/src/basic_shapes.cpp.o[0m
-[ 50%] [32m[1mLinking CXX executable /home/soo/sve_design_project/devel/lib/visualization/basic_shapes[0m
+[ 50%] [32m[1mLinking CXX executable /home/soo/sve_design_project/devel/.private/visualization/lib/visualization/basic_shapes[0m
 [ 50%] Built target basic_shapes
 [35m[1mScanning dependencies of target points_and_lines[0m
 [ 75%] [32mBuilding CXX object CMakeFiles/points_and_lines.dir/src/points_and_lines.cpp.o[0m
-[100%] [32m[1mLinking CXX executable /home/soo/sve_design_project/devel/lib/visualization/points_and_lines[0m
+[100%] [32m[1mLinking CXX executable /home/soo/sve_design_project/devel/.private/visualization/lib/visualization/points_and_lines[0m
 [100%] Built target points_and_lines

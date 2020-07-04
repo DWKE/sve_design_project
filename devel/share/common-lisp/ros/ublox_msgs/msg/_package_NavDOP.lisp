@@ -1,18 +1,1 @@
-(cl:in-package ublox_msgs-msg)
-(cl:export '(ITOW-VAL
-          ITOW
-          GDOP-VAL
-          GDOP
-          PDOP-VAL
-          PDOP
-          TDOP-VAL
-          TDOP
-          VDOP-VAL
-          VDOP
-          HDOP-VAL
-          HDOP
-          NDOP-VAL
-          NDOP
-          EDOP-VAL
-          EDOP
-))
+/home/soo/sve_design_project/devel/.private/ublox_msgs/share/common-lisp/ros/ublox_msgs/msg/_package_NavDOP.lisp

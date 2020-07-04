@@ -1,12 +1,1 @@
-(cl:in-package mavros_msgs-srv)
-(cl:export '(TRIGGER_ENABLE-VAL
-          TRIGGER_ENABLE
-          SEQUENCE_RESET-VAL
-          SEQUENCE_RESET
-          TRIGGER_PAUSE-VAL
-          TRIGGER_PAUSE
-          SUCCESS-VAL
-          SUCCESS
-          RESULT-VAL
-          RESULT
-))
+/home/soo/sve_design_project/devel/.private/mavros_msgs/share/common-lisp/ros/mavros_msgs/srv/_package_CommandTriggerControl.lisp
