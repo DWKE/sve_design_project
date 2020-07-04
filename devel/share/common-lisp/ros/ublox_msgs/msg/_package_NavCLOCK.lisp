@@ -1,12 +1,1 @@
-(cl:in-package ublox_msgs-msg)
-(cl:export '(ITOW-VAL
-          ITOW
-          CLKB-VAL
-          CLKB
-          CLKD-VAL
-          CLKD
-          TACC-VAL
-          TACC
-          FACC-VAL
-          FACC
-))
+/home/soo/sve_design_project/devel/.private/ublox_msgs/share/common-lisp/ros/ublox_msgs/msg/_package_NavCLOCK.lisp

@@ -1,12 +1,1 @@
-(cl:in-package ublox_msgs-msg)
-(cl:export '(MSGVER-VAL
-          MSGVER
-          NUMTRKCHHW-VAL
-          NUMTRKCHHW
-          NUMTRKCHUSE-VAL
-          NUMTRKCHUSE
-          NUMCONFIGBLOCKS-VAL
-          NUMCONFIGBLOCKS
-          BLOCKS-VAL
-          BLOCKS
-))
+/home/soo/sve_design_project/devel/.private/ublox_msgs/share/common-lisp/ros/ublox_msgs/msg/_package_CfgGNSS.lisp

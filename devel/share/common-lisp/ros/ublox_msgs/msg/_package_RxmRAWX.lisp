@@ -1,18 +1,1 @@
-(cl:in-package ublox_msgs-msg)
-(cl:export '(RCVTOW-VAL
-          RCVTOW
-          WEEK-VAL
-          WEEK
-          LEAPS-VAL
-          LEAPS
-          NUMMEAS-VAL
-          NUMMEAS
-          RECSTAT-VAL
-          RECSTAT
-          VERSION-VAL
-          VERSION
-          RESERVED1-VAL
-          RESERVED1
-          MEAS-VAL
-          MEAS
-))
+/home/soo/sve_design_project/devel/.private/ublox_msgs/share/common-lisp/ros/ublox_msgs/msg/_package_RxmRAWX.lisp

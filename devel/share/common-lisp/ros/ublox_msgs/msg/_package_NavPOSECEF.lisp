@@ -1,12 +1,1 @@
-(cl:in-package ublox_msgs-msg)
-(cl:export '(ITOW-VAL
-          ITOW
-          ECEFX-VAL
-          ECEFX
-          ECEFY-VAL
-          ECEFY
-          ECEFZ-VAL
-          ECEFZ
-          PACC-VAL
-          PACC
-))
+/home/soo/sve_design_project/devel/.private/ublox_msgs/share/common-lisp/ros/ublox_msgs/msg/_package_NavPOSECEF.lisp

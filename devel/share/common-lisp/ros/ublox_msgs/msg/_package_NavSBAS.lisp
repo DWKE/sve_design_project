@@ -1,18 +1,1 @@
-(cl:in-package ublox_msgs-msg)
-(cl:export '(ITOW-VAL
-          ITOW
-          GEO-VAL
-          GEO
-          MODE-VAL
-          MODE
-          SYS-VAL
-          SYS
-          SERVICE-VAL
-          SERVICE
-          CNT-VAL
-          CNT
-          RESERVED0-VAL
-          RESERVED0
-          SV-VAL
-          SV
-))
+/home/soo/sve_design_project/devel/.private/ublox_msgs/share/common-lisp/ros/ublox_msgs/msg/_package_NavSBAS.lisp

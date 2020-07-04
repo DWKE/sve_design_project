@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/soo/sve_design_project/build/libmavconn
 include CMakeFiles/run_tests_libmavconn_gtest_mavconn-test.dir/progress.make
 
 CMakeFiles/run_tests_libmavconn_gtest_mavconn-test:
-	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/catkin/cmake/test/run_tests.py /home/soo/sve_design_project/build/libmavconn/test_results/libmavconn/gtest-mavconn-test.xml "/home/soo/sve_design_project/devel/lib/libmavconn/mavconn-test --gtest_output=xml:/home/soo/sve_design_project/build/libmavconn/test_results/libmavconn/gtest-mavconn-test.xml"
+	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/catkin/cmake/test/run_tests.py /home/soo/sve_design_project/build/libmavconn/test_results/libmavconn/gtest-mavconn-test.xml "/home/soo/sve_design_project/devel/.private/libmavconn/lib/libmavconn/mavconn-test --gtest_output=xml:/home/soo/sve_design_project/build/libmavconn/test_results/libmavconn/gtest-mavconn-test.xml"
 
 run_tests_libmavconn_gtest_mavconn-test: CMakeFiles/run_tests_libmavconn_gtest_mavconn-test
 run_tests_libmavconn_gtest_mavconn-test: CMakeFiles/run_tests_libmavconn_gtest_mavconn-test.dir/build.make

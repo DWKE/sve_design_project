@@ -1,8 +1,1 @@
-(cl:in-package ublox_msgs-msg)
-(cl:export '(MEASRATE-VAL
-          MEASRATE
-          NAVRATE-VAL
-          NAVRATE
-          TIMEREF-VAL
-          TIMEREF
-))
+/home/soo/sve_design_project/devel/.private/ublox_msgs/share/common-lisp/ros/ublox_msgs/msg/_package_CfgRATE.lisp

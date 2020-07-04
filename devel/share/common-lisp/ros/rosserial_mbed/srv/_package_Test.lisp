@@ -1,6 +1,1 @@
-(cl:in-package rosserial_mbed-srv)
-(cl:export '(INPUT-VAL
-          INPUT
-          OUTPUT-VAL
-          OUTPUT
-))
+/home/soo/sve_design_project/devel/.private/rosserial_mbed/share/common-lisp/ros/rosserial_mbed/srv/_package_Test.lisp

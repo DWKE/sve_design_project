@@ -1,2 +1,2 @@
 - setup-file:
-    local-name: /home/soo/sve_design_project/devel/setup.sh
+    local-name: /home/soo/sve_design_project/devel/.private/rosserial_test/setup.sh

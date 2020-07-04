@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/soo/sve_design_project/build/mavros
 include CMakeFiles/run_tests_mavros_gtest_libmavros-sensor-orientation-test.dir/progress.make
 
 CMakeFiles/run_tests_mavros_gtest_libmavros-sensor-orientation-test:
-	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/catkin/cmake/test/run_tests.py /home/soo/sve_design_project/build/mavros/test_results/mavros/gtest-libmavros-sensor-orientation-test.xml "/home/soo/sve_design_project/devel/lib/mavros/libmavros-sensor-orientation-test --gtest_output=xml:/home/soo/sve_design_project/build/mavros/test_results/mavros/gtest-libmavros-sensor-orientation-test.xml"
+	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/catkin/cmake/test/run_tests.py /home/soo/sve_design_project/build/mavros/test_results/mavros/gtest-libmavros-sensor-orientation-test.xml "/home/soo/sve_design_project/devel/.private/mavros/lib/mavros/libmavros-sensor-orientation-test --gtest_output=xml:/home/soo/sve_design_project/build/mavros/test_results/mavros/gtest-libmavros-sensor-orientation-test.xml"
 
 run_tests_mavros_gtest_libmavros-sensor-orientation-test: CMakeFiles/run_tests_mavros_gtest_libmavros-sensor-orientation-test
 run_tests_mavros_gtest_libmavros-sensor-orientation-test: CMakeFiles/run_tests_mavros_gtest_libmavros-sensor-orientation-test.dir/build.make

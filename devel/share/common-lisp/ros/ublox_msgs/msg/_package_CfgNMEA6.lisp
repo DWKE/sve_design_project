@@ -1,10 +1,1 @@
-(cl:in-package ublox_msgs-msg)
-(cl:export '(FILTER-VAL
-          FILTER
-          VERSION-VAL
-          VERSION
-          NUMSV-VAL
-          NUMSV
-          FLAGS-VAL
-          FLAGS
-))
+/home/soo/sve_design_project/devel/.private/ublox_msgs/share/common-lisp/ros/ublox_msgs/msg/_package_CfgNMEA6.lisp

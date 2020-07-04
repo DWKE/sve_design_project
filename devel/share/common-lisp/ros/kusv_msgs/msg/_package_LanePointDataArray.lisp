@@ -1,8 +1,1 @@
-(cl:in-package kusv_msgs-msg)
-(cl:export '(ID-VAL
-          ID
-          FRAME_ID-VAL
-          FRAME_ID
-          LANE-VAL
-          LANE
-))
+/home/soo/sve_design_project/devel/.private/kusv_msgs/share/common-lisp/ros/kusv_msgs/msg/_package_LanePointDataArray.lisp

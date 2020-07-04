@@ -1,8 +1,1 @@
-prefix=/home/soo/sve_design_project/devel
-
-Name: sve_design_control
-Description: Description of sve_design_control
-Version: 0.0.0
-Cflags: -I/home/soo/sve_design_project/devel/include
-Libs: -L${prefix}/lib 
-Requires: 
+/home/soo/sve_design_project/devel/.private/sve_design_control/lib/pkgconfig/sve_design_control.pc

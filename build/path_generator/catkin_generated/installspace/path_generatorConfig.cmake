@@ -68,7 +68,7 @@ set(path_generator_CONFIG_INCLUDED TRUE)
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
   set(path_generator_SOURCE_PREFIX /home/soo/sve_design_project/src/localization/path_generator)
-  set(path_generator_DEVEL_PREFIX /home/soo/sve_design_project/devel)
+  set(path_generator_DEVEL_PREFIX /home/soo/sve_design_project/devel/.private/path_generator)
   set(path_generator_INSTALL_PREFIX "")
   set(path_generator_PREFIX ${path_generator_DEVEL_PREFIX})
 else()
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/soo/sve_design_project/install/lib;/home/soo/sve_design_project/devel/lib;/opt/ros/melodic/lib)
+    foreach(path /home/soo/sve_design_project/install/lib;/home/soo/sve_design_project/devel/lib;/home/soo/catkin_ws/devel/lib;/home/soo/FlyMeToTheHome/devel/lib;/opt/ros/melodic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

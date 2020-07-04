@@ -8,9 +8,9 @@
 [ 58%] [32mBuilding CXX object CMakeFiles/ydlidar_node.dir/sdk/src/serial.cpp.o[0m
 [ 66%] [32mBuilding CXX object CMakeFiles/ydlidar_node.dir/sdk/src/ydlidar_driver.cpp.o[0m
 [ 75%] [32mBuilding C object CMakeFiles/ydlidar_node.dir/sdk/src/lock.c.o[0m
-[ 83%] [32m[1mLinking CXX executable /home/soo/sve_design_project/devel/lib/ydlidar_ros/ydlidar_node[0m
+[ 83%] [32m[1mLinking CXX executable /home/soo/sve_design_project/devel/.private/ydlidar_ros/lib/ydlidar_ros/ydlidar_node[0m
 [ 83%] Built target ydlidar_node
 [35m[1mScanning dependencies of target ydlidar_client[0m
 [ 91%] [32mBuilding CXX object CMakeFiles/ydlidar_client.dir/src/ydlidar_client.cpp.o[0m
-[100%] [32m[1mLinking CXX executable /home/soo/sve_design_project/devel/lib/ydlidar_ros/ydlidar_client[0m
+[100%] [32m[1mLinking CXX executable /home/soo/sve_design_project/devel/.private/ydlidar_ros/lib/ydlidar_ros/ydlidar_client[0m
 [100%] Built target ydlidar_client

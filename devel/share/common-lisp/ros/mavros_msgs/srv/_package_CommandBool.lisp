@@ -1,8 +1,1 @@
-(cl:in-package mavros_msgs-srv)
-(cl:export '(VALUE-VAL
-          VALUE
-          SUCCESS-VAL
-          SUCCESS
-          RESULT-VAL
-          RESULT
-))
+/home/soo/sve_design_project/devel/.private/mavros_msgs/share/common-lisp/ros/mavros_msgs/srv/_package_CommandBool.lisp

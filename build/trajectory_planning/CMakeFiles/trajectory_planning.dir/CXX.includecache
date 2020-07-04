@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/soo/sve_design_project/devel/include/kusv_msgs/OptimalBehavior.h
+/home/soo/sve_design_project/devel/.private/kusv_msgs/include/kusv_msgs/OptimalBehavior.h
 string
 -
 vector
@@ -24,7 +24,7 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/home/soo/sve_design_project/devel/include/kusv_msgs/PlanningControl.h
+/home/soo/sve_design_project/devel/.private/kusv_msgs/include/kusv_msgs/PlanningControl.h
 string
 -
 vector
@@ -42,7 +42,7 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/home/soo/sve_design_project/devel/include/kusv_msgs/PolyfitLaneData.h
+/home/soo/sve_design_project/devel/.private/kusv_msgs/include/kusv_msgs/PolyfitLaneData.h
 string
 -
 vector

@@ -31,7 +31,7 @@ int main(int argc, char **argv){
     ros::init(argc, argv, "keyboard_interface");
     ros::NodeHandle nh;
 
-    ros::Publisher local_waypoint_pub = nh.advertise<geometry_msgs::PoseStamped>("waypoint_", 10);
+    ros::Publisher local_waypoint_pub = nh.advertise<geometry_msgs::PoseStamped>("control/flight_control_", 10);
     ros::Rate loop_rate(100);
     geometry_msgs::PoseStamped msg;
     

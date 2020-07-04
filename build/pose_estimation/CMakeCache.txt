@@ -24,7 +24,7 @@ BUILD_GTEST:BOOL=OFF
 BUILD_SHARED_LIBS:BOOL=ON
 
 //catkin devel space
-CATKIN_DEVEL_PREFIX:PATH=/home/soo/sve_design_project/devel
+CATKIN_DEVEL_PREFIX:PATH=/home/soo/sve_design_project/devel/.private/pose_estimation
 
 //Catkin enable testing
 CATKIN_ENABLE_TESTING:BOOL=ON
@@ -207,10 +207,7 @@ CMAKE_STRIP:FILEPATH=/usr/bin/strip
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
 //Path to a program.
-DOXYGEN_EXECUTABLE:FILEPATH=/usr/bin/doxygen
-
-//Doxygen found
-DOXYGEN_FOUND:BOOL=TRUE
+DOXYGEN_EXECUTABLE:FILEPATH=DOXYGEN_EXECUTABLE-NOTFOUND
 
 //Path to a program.
 EMPY_EXECUTABLE:FILEPATH=/usr/bin/empy
@@ -258,7 +255,7 @@ RT_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/librt.so
 SETUPTOOLS_DEB_LAYOUT:BOOL=ON
 
 //Name of the computer/site where compile is being run
-SITE:STRING=soo-900X3N
+SITE:STRING=soo-900X5N
 
 //LSB Distrib tag
 UBUNTU:BOOL=TRUE
@@ -370,7 +367,7 @@ kdl_conversions_DIR:PATH=/opt/ros/melodic/share/kdl_conversions/cmake
 kusv_msgs_DIR:PATH=/home/soo/sve_design_project/devel/share/kusv_msgs/cmake
 
 //Path to a library.
-lib:FILEPATH=/home/soo/sve_design_project/devel/lib/libublox_gps.so
+lib:FILEPATH=/home/soo/sve_design_project/devel/.private/ublox_gps/lib/libublox_gps.so
 
 //The directory containing a CMake configuration file for message_filters.
 message_filters_DIR:PATH=/opt/ros/melodic/share/message_filters/cmake

@@ -1,8 +1,1 @@
-prefix=/home/soo/sve_design_project/devel
-
-Name: ublox_serialization
-Description: Description of ublox_serialization
-Version: 1.1.2
-Cflags: -I/home/soo/sve_design_project/src/localization/ublox/ublox_serialization/include
-Libs: -L${prefix}/lib 
-Requires: roscpp roscpp_serialization
+/home/soo/sve_design_project/devel/.private/ublox_serialization/lib/pkgconfig/ublox_serialization.pc

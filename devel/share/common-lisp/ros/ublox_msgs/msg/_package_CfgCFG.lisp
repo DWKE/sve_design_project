@@ -1,10 +1,1 @@
-(cl:in-package ublox_msgs-msg)
-(cl:export '(CLEARMASK-VAL
-          CLEARMASK
-          SAVEMASK-VAL
-          SAVEMASK
-          LOADMASK-VAL
-          LOADMASK
-          DEVICEMASK-VAL
-          DEVICEMASK
-))
+/home/soo/sve_design_project/devel/.private/ublox_msgs/share/common-lisp/ros/ublox_msgs/msg/_package_CfgCFG.lisp

@@ -1,8 +1,1 @@
-
-"use strict";
-
-let driving_control_msg = require('./driving_control_msg.js');
-
-module.exports = {
-  driving_control_msg: driving_control_msg,
-};
+/home/soo/sve_design_project/devel/.private/sve_design_control/share/gennodejs/ros/sve_design_control/msg/_index.js

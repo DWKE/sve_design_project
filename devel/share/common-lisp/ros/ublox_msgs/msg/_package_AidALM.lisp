@@ -1,8 +1,1 @@
-(cl:in-package ublox_msgs-msg)
-(cl:export '(SVID-VAL
-          SVID
-          WEEK-VAL
-          WEEK
-          DWRD-VAL
-          DWRD
-))
+/home/soo/sve_design_project/devel/.private/ublox_msgs/share/common-lisp/ros/ublox_msgs/msg/_package_AidALM.lisp

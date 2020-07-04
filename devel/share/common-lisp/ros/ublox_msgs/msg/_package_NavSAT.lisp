@@ -1,12 +1,1 @@
-(cl:in-package ublox_msgs-msg)
-(cl:export '(ITOW-VAL
-          ITOW
-          VERSION-VAL
-          VERSION
-          NUMSVS-VAL
-          NUMSVS
-          RESERVED0-VAL
-          RESERVED0
-          SV-VAL
-          SV
-))
+/home/soo/sve_design_project/devel/.private/ublox_msgs/share/common-lisp/ros/ublox_msgs/msg/_package_NavSAT.lisp

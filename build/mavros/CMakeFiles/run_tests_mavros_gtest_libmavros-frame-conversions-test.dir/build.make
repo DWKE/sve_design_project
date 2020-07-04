@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/soo/sve_design_project/build/mavros
 include CMakeFiles/run_tests_mavros_gtest_libmavros-frame-conversions-test.dir/progress.make
 
 CMakeFiles/run_tests_mavros_gtest_libmavros-frame-conversions-test:
-	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/catkin/cmake/test/run_tests.py /home/soo/sve_design_project/build/mavros/test_results/mavros/gtest-libmavros-frame-conversions-test.xml "/home/soo/sve_design_project/devel/lib/mavros/libmavros-frame-conversions-test --gtest_output=xml:/home/soo/sve_design_project/build/mavros/test_results/mavros/gtest-libmavros-frame-conversions-test.xml"
+	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/catkin/cmake/test/run_tests.py /home/soo/sve_design_project/build/mavros/test_results/mavros/gtest-libmavros-frame-conversions-test.xml "/home/soo/sve_design_project/devel/.private/mavros/lib/mavros/libmavros-frame-conversions-test --gtest_output=xml:/home/soo/sve_design_project/build/mavros/test_results/mavros/gtest-libmavros-frame-conversions-test.xml"
 
 run_tests_mavros_gtest_libmavros-frame-conversions-test: CMakeFiles/run_tests_mavros_gtest_libmavros-frame-conversions-test
 run_tests_mavros_gtest_libmavros-frame-conversions-test: CMakeFiles/run_tests_mavros_gtest_libmavros-frame-conversions-test.dir/build.make

@@ -68,7 +68,7 @@ set(rosserial_client_CONFIG_INCLUDED TRUE)
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
   set(rosserial_client_SOURCE_PREFIX /home/soo/sve_design_project/src/control/rosserial-noetic-devel/rosserial_client)
-  set(rosserial_client_DEVEL_PREFIX /home/soo/sve_design_project/devel)
+  set(rosserial_client_DEVEL_PREFIX /home/soo/sve_design_project/devel/.private/rosserial_client)
   set(rosserial_client_INSTALL_PREFIX "")
   set(rosserial_client_PREFIX ${rosserial_client_DEVEL_PREFIX})
 else()
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/soo/sve_design_project/install/lib;/home/soo/sve_design_project/devel/lib;/opt/ros/melodic/lib)
+    foreach(path /home/soo/sve_design_project/install/lib;/home/soo/sve_design_project/devel/lib;/home/soo/catkin_ws/devel/lib;/home/soo/FlyMeToTheHome/devel/lib;/opt/ros/melodic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

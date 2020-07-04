@@ -7,4 +7,7 @@
 # new environment variables
 
 # modified environment variables
+export CMAKE_PREFIX_PATH="/home/soo/sve_design_project/devel/.private/ydlidar:$CMAKE_PREFIX_PATH"
 export PWD="/home/soo/sve_design_project/build/ydlidar"
+export ROSLISP_PACKAGE_DIRECTORIES="/home/soo/sve_design_project/devel/.private/ydlidar/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
+export ROS_PACKAGE_PATH="/home/soo/sve_design_project/src/lidar_detection/ydlidar:$ROS_PACKAGE_PATH"

@@ -1,8 +1,1 @@
-(cl:in-package kusv_msgs-msg)
-(cl:export '(HEADER-VAL
-          HEADER
-          VELOCITY-VAL
-          VELOCITY
-          STR_ANGLE-VAL
-          STR_ANGLE
-))
+/home/soo/sve_design_project/devel/.private/kusv_msgs/share/common-lisp/ros/kusv_msgs/msg/_package_PlanningControl.lisp

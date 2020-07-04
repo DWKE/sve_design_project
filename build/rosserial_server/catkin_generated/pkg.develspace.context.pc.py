@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "/home/soo/sve_design_project/src/control/ross
 PROJECT_CATKIN_DEPENDS = "roscpp;rosserial_msgs;std_msgs;topic_tools".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "-lrosserial_server_lookup".split(';') if "-lrosserial_server_lookup" != "" else []
 PROJECT_NAME = "rosserial_server"
-PROJECT_SPACE_DIR = "/home/soo/sve_design_project/devel"
+PROJECT_SPACE_DIR = "/home/soo/sve_design_project/devel/.private/rosserial_server"
 PROJECT_VERSION = "0.8.0"

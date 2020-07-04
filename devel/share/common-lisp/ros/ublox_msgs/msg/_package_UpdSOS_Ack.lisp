@@ -1,10 +1,1 @@
-(cl:in-package ublox_msgs-msg)
-(cl:export '(CMD-VAL
-          CMD
-          RESERVED0-VAL
-          RESERVED0
-          RESPONSE-VAL
-          RESPONSE
-          RESERVED1-VAL
-          RESERVED1
-))
+/home/soo/sve_design_project/devel/.private/ublox_msgs/share/common-lisp/ros/ublox_msgs/msg/_package_UpdSOS_Ack.lisp

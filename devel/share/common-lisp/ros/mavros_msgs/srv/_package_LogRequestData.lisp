@@ -1,10 +1,1 @@
-(cl:in-package mavros_msgs-srv)
-(cl:export '(ID-VAL
-          ID
-          OFFSET-VAL
-          OFFSET
-          COUNT-VAL
-          COUNT
-          SUCCESS-VAL
-          SUCCESS
-))
+/home/soo/sve_design_project/devel/.private/mavros_msgs/share/common-lisp/ros/mavros_msgs/srv/_package_LogRequestData.lisp

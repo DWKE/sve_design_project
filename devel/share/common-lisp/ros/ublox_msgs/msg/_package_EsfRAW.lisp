@@ -1,6 +1,1 @@
-(cl:in-package ublox_msgs-msg)
-(cl:export '(RESERVED0-VAL
-          RESERVED0
-          BLOCKS-VAL
-          BLOCKS
-))
+/home/soo/sve_design_project/devel/.private/ublox_msgs/share/common-lisp/ros/ublox_msgs/msg/_package_EsfRAW.lisp

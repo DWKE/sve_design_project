@@ -7,7 +7,7 @@
 # new environment variables
 
 # modified environment variables
-export LD_LIBRARY_PATH="/opt/ros/melodic/lib"
-export PKG_CONFIG_PATH="/opt/ros/melodic/lib/pkgconfig"
+export CMAKE_PREFIX_PATH="/home/soo/sve_design_project/devel/.private/rosbag_to_csv:$CMAKE_PREFIX_PATH"
 export PWD="/home/soo/sve_design_project/build/rosbag_to_csv"
-export PYTHONPATH="/opt/ros/melodic/lib/python2.7/dist-packages"
+export ROSLISP_PACKAGE_DIRECTORIES="/home/soo/sve_design_project/devel/.private/rosbag_to_csv/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
+export ROS_PACKAGE_PATH="/home/soo/sve_design_project/src/localization/rosbag_to_csv-master:$ROS_PACKAGE_PATH"

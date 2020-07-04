@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "behavior_planning"
-PROJECT_SPACE_DIR = "/home/soo/sve_design_project/devel"
+PROJECT_SPACE_DIR = "/home/soo/sve_design_project/devel/.private/behavior_planning"
 PROJECT_VERSION = "0.0.0"

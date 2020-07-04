@@ -1,12 +1,1 @@
-(cl:in-package ublox_msgs-msg)
-(cl:export '(GNSSID-VAL
-          GNSSID
-          RESTRKCH-VAL
-          RESTRKCH
-          MAXTRKCH-VAL
-          MAXTRKCH
-          RESERVED1-VAL
-          RESERVED1
-          FLAGS-VAL
-          FLAGS
-))
+/home/soo/sve_design_project/devel/.private/ublox_msgs/share/common-lisp/ros/ublox_msgs/msg/_package_CfgGNSS_Block.lisp

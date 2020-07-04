@@ -9,8 +9,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/mavros.dir/src/lib/uas_data.cpp.o"
   "CMakeFiles/mavros.dir/src/lib/uas_stringify.cpp.o"
   "CMakeFiles/mavros.dir/src/lib/uas_timesync.cpp.o"
-  "/home/soo/sve_design_project/devel/lib/libmavros.pdb"
-  "/home/soo/sve_design_project/devel/lib/libmavros.so"
+  "/home/soo/sve_design_project/devel/.private/mavros/lib/libmavros.pdb"
+  "/home/soo/sve_design_project/devel/.private/mavros/lib/libmavros.so"
 )
 
 # Per-language clean rules from dependency scanning.

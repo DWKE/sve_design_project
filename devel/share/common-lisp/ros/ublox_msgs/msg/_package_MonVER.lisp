@@ -1,8 +1,1 @@
-(cl:in-package ublox_msgs-msg)
-(cl:export '(SWVERSION-VAL
-          SWVERSION
-          HWVERSION-VAL
-          HWVERSION
-          EXTENSION-VAL
-          EXTENSION
-))
+/home/soo/sve_design_project/devel/.private/ublox_msgs/share/common-lisp/ros/ublox_msgs/msg/_package_MonVER.lisp

@@ -1,2 +1,1 @@
-set(path_generator_MESSAGE_FILES "")
-set(path_generator_SERVICE_FILES "")
+/home/soo/sve_design_project/devel/.private/path_generator/share/path_generator/cmake/path_generator-msg-extras.cmake

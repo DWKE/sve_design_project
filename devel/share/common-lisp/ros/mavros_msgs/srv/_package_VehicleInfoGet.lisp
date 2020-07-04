@@ -1,12 +1,1 @@
-(cl:in-package mavros_msgs-srv)
-(cl:export '(SYSID-VAL
-          SYSID
-          COMPID-VAL
-          COMPID
-          GET_ALL-VAL
-          GET_ALL
-          SUCCESS-VAL
-          SUCCESS
-          VEHICLES-VAL
-          VEHICLES
-))
+/home/soo/sve_design_project/devel/.private/mavros_msgs/share/common-lisp/ros/mavros_msgs/srv/_package_VehicleInfoGet.lisp

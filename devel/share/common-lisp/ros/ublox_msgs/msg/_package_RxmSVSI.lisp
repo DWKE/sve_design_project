@@ -1,12 +1,1 @@
-(cl:in-package ublox_msgs-msg)
-(cl:export '(ITOW-VAL
-          ITOW
-          WEEK-VAL
-          WEEK
-          NUMVIS-VAL
-          NUMVIS
-          NUMSV-VAL
-          NUMSV
-          SV-VAL
-          SV
-))
+/home/soo/sve_design_project/devel/.private/ublox_msgs/share/common-lisp/ros/ublox_msgs/msg/_package_RxmSVSI.lisp

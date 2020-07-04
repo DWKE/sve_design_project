@@ -1,8 +1,1 @@
-prefix=/home/soo/sve_design_project/devel
-
-Name: path_generator
-Description: Description of path_generator
-Version: 0.1.0
-Cflags: 
-Libs: -L${prefix}/lib -lpath_generator
-Requires: roscpp std_msgs geometry_msgs message_runtime visualization_msgs
+/home/soo/sve_design_project/devel/.private/path_generator/lib/pkgconfig/path_generator.pc

@@ -6,5 +6,5 @@ CXX_FLAGS =   -std=c++11
 
 CXX_DEFINES = -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"local_route_from_map\"
 
-CXX_INCLUDES = -I/home/soo/sve_design_project/devel/include -I/home/soo/sve_design_project/src/localization/ublox/ublox_serialization/include -I/home/soo/sve_design_project/src/localization/ublox/ublox_msgs/include -I/home/soo/sve_design_project/src/localization/ublox/ublox_gps/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp 
+CXX_INCLUDES = -I/home/soo/sve_design_project/devel/.private/kusv_msgs/include -I/home/soo/sve_design_project/devel/.private/ublox_msgs/include -I/home/soo/sve_design_project/src/localization/ublox/ublox_serialization/include -I/home/soo/sve_design_project/src/localization/ublox/ublox_msgs/include -I/home/soo/sve_design_project/src/localization/ublox/ublox_gps/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp 
 

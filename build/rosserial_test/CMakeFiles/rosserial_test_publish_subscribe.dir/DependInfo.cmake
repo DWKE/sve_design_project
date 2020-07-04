@@ -19,7 +19,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/home/soo/sve_design_project/src/control/rosserial-noetic-devel/rosserial_test/include"
   "include"
-  "/home/soo/sve_design_project/devel/include"
+  "/home/soo/sve_design_project/devel/.private/rosserial_msgs/include"
   "/home/soo/sve_design_project/src/control/rosserial-noetic-devel/rosserial_server/include"
   "/opt/ros/melodic/include"
   "/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"

@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/soo/sve_design_project/devel/include/kusv_msgs/LanePointData.h
+/home/soo/sve_design_project/devel/.private/kusv_msgs/include/kusv_msgs/LanePointData.h
 string
 -
 vector
@@ -24,7 +24,7 @@ ros/message_operations.h
 geometry_msgs/Point.h
 -
 
-/home/soo/sve_design_project/devel/include/kusv_msgs/LanePointDataArray.h
+/home/soo/sve_design_project/devel/.private/kusv_msgs/include/kusv_msgs/LanePointDataArray.h
 string
 -
 vector
@@ -42,7 +42,7 @@ ros/message_operations.h
 kusv_msgs/LanePointData.h
 -
 
-/home/soo/sve_design_project/devel/include/kusv_msgs/PolyfitLaneData.h
+/home/soo/sve_design_project/devel/.private/kusv_msgs/include/kusv_msgs/PolyfitLaneData.h
 string
 -
 vector
@@ -58,7 +58,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/soo/sve_design_project/devel/include/kusv_msgs/PolyfitLaneDataArray.h
+/home/soo/sve_design_project/devel/.private/kusv_msgs/include/kusv_msgs/PolyfitLaneDataArray.h
 string
 -
 vector

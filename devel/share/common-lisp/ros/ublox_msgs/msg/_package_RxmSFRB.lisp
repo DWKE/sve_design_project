@@ -1,8 +1,1 @@
-(cl:in-package ublox_msgs-msg)
-(cl:export '(CHN-VAL
-          CHN
-          SVID-VAL
-          SVID
-          DWRD-VAL
-          DWRD
-))
+/home/soo/sve_design_project/devel/.private/ublox_msgs/share/common-lisp/ros/ublox_msgs/msg/_package_RxmSFRB.lisp

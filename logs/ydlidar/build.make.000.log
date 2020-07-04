@@ -157,6 +157,7 @@
 [35m[1mScanning dependencies of target ydlidar[0m
 [ 25%] [32mBuilding CXX object CMakeFiles/ydlidar.dir/src/main.cpp.o[0m
 [ 50%] [32mBuilding CXX object CMakeFiles/ydlidar.dir/src/ydlidar.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/ydlidar.dir/src/cluster.cpp.o[0m
 In file included from [01m[K/usr/include/pcl-1.8/pcl/sample_consensus/sac_model.h:52:0[m[K,
                  from [01m[K/usr/include/pcl-1.8/pcl/sample_consensus/sac.h:45[m[K,
                  from [01m[K/usr/include/pcl-1.8/pcl/segmentation/sac_segmentation.h:49[m[K,
@@ -167,7 +168,6 @@ In file included from [01m[K/usr/include/pcl-1.8/pcl/sample_consensus/sac_mode
    [01;35m[KSAC_SAMPLE_SIZE[m[K (sample_size_pairs, sample_size_pairs + sizeof (sample_size_pairs) / sizeof (SampleSizeModel));
    [01;35m[K^~~~~~~~~~~~~~~[m[K
 [01m[K/usr/include/pcl-1.8/pcl/sample_consensus/model_types.h:99:3:[m[K [01;36m[Knote: [m[Kdeclared here
-[ 75%] [32mBuilding CXX object CMakeFiles/ydlidar.dir/src/cluster.cpp.o[0m
 In file included from [01m[K/usr/include/pcl-1.8/pcl/sample_consensus/sac_model.h:52:0[m[K,
                  from [01m[K/usr/include/pcl-1.8/pcl/sample_consensus/sac.h:45[m[K,
                  from [01m[K/usr/include/pcl-1.8/pcl/segmentation/sac_segmentation.h:49[m[K,
@@ -178,5 +178,5 @@ In file included from [01m[K/usr/include/pcl-1.8/pcl/sample_consensus/sac_mode
    [01;35m[KSAC_SAMPLE_SIZE[m[K (sample_size_pairs, sample_size_pairs + sizeof (sample_size_pairs) / sizeof (SampleSizeModel));
    [01;35m[K^~~~~~~~~~~~~~~[m[K
 [01m[K/usr/include/pcl-1.8/pcl/sample_consensus/model_types.h:99:3:[m[K [01;36m[Knote: [m[Kdeclared here
-[100%] [32m[1mLinking CXX executable /home/soo/sve_design_project/devel/lib/ydlidar/ydlidar[0m
+[100%] [32m[1mLinking CXX executable /home/soo/sve_design_project/devel/.private/ydlidar/lib/ydlidar/ydlidar[0m
 [100%] Built target ydlidar
