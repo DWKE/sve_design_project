@@ -3,13 +3,13 @@
 [  0%] Built target roscpp_generate_messages_cpp
 [  0%] Built target actionlib_generate_messages_cpp
 [  0%] Built target sensor_msgs_generate_messages_lisp
-[  0%] Built target geometry_msgs_generate_messages_py
 [  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_py
 [  0%] Built target std_msgs_generate_messages_nodejs
 [  0%] Built target sensor_msgs_generate_messages_eus
 [  0%] Built target sensor_msgs_generate_messages_cpp
-[  0%] Built target ublox_msgs_generate_messages_nodejs
 [  0%] Built target tf_generate_messages_nodejs
+[  0%] Built target ublox_msgs_generate_messages_nodejs
 [  0%] Built target sensor_msgs_generate_messages_py
 [  0%] Built target std_msgs_generate_messages_cpp
 [  0%] Built target geometry_msgs_generate_messages_nodejs
@@ -58,5 +58,12 @@
 [ 14%] Built target kusv_msgs_generate_messages_py
 [ 14%] Built target pose_estimation_generate_messages_lisp
 [ 14%] Built target pose_estimation_generate_messages_cpp
-[ 14%] Built target pose_estimation_generate_messages
+[ 28%] [32mBuilding CXX object CMakeFiles/pose_estimation_ekf.dir/src/kusv_pose_estimation_ekf.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/pose_estimation_ekf.dir/src/pose_estimation_ekf.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/pose_estimation_ekf.dir/src/geometry2d.cpp.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/pose_estimation_ekf.dir/src/ini_parser.cpp.o[0m
+[ 71%] Built target pose_estimation_generate_messages
+[ 85%] [32mBuilding C object CMakeFiles/pose_estimation_ekf.dir/src/mkgmtime.c.o[0m
+[01m[Kcc1:[m[K [01;35m[Kwarning: [m[Kcommand line option ‘[01m[K-std=c++11[m[K’ is valid for C++/ObjC++ but not for C
+[100%] [32m[1mLinking CXX executable /home/soo/sve_design_project/devel/.private/pose_estimation/lib/pose_estimation/pose_estimation_ekf[0m
 [100%] Built target pose_estimation_ekf

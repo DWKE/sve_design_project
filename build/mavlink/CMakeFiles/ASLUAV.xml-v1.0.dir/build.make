@@ -60,7 +60,7 @@ include/v1.0/ASLUAV/ASLUAV.h: /home/soo/sve_design_project/src/control/mavlink/m
 include/v1.0/ASLUAV/ASLUAV.h: /home/soo/sve_design_project/src/control/mavlink/message_definitions/v1.0/common.xml
 include/v1.0/ASLUAV/ASLUAV.h: /home/soo/sve_design_project/src/control/mavlink/pymavlink/tools/mavgen.py
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/soo/sve_design_project/build/mavlink/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating include/v1.0/ASLUAV/ASLUAV.h"
-	/usr/bin/env PYTHONPATH="/home/soo/sve_design_project/src/control/mavlink:/home/soo/FlyMeToTheHome/devel/lib/python2.7/dist-packages:/opt/ros/melodic/lib/python2.7/dist-packages" /usr/bin/python2 /home/soo/sve_design_project/src/control/mavlink/pymavlink/tools/mavgen.py --lang=C --wire-protocol=1.0 --output=include/v1.0 /home/soo/sve_design_project/src/control/mavlink/message_definitions/v1.0/ASLUAV.xml
+	/usr/bin/env PYTHONPATH="/home/soo/sve_design_project/src/control/mavlink:/home/soo/sve_design_project/devel/lib/python2.7/dist-packages:/home/soo/FlyMeToTheHome/devel/lib/python2.7/dist-packages:/opt/ros/melodic/lib/python2.7/dist-packages" /usr/bin/python2 /home/soo/sve_design_project/src/control/mavlink/pymavlink/tools/mavgen.py --lang=C --wire-protocol=1.0 --output=include/v1.0 /home/soo/sve_design_project/src/control/mavlink/message_definitions/v1.0/ASLUAV.xml
 
 ASLUAV.xml-v1.0: CMakeFiles/ASLUAV.xml-v1.0
 ASLUAV.xml-v1.0: include/v1.0/ASLUAV/ASLUAV.h

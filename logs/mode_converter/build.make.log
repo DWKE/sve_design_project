@@ -24,8 +24,10 @@
 [  0%] Built target kusv_msgs_generate_messages_nodejs
 [  0%] Built target kusv_msgs_generate_messages_py
 [  0%] Built target roscpp_generate_messages_cpp
-[  0%] Built target geometry_msgs_generate_messages_cpp
 [  0%] Built target sensor_msgs_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_cpp
 [  0%] Built target geometry_msgs_generate_messages_lisp
 [  0%] Built target geometry_msgs_generate_messages_py
+[ 50%] [32mBuilding CXX object CMakeFiles/mode_convert.dir/src/mode_convert.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/soo/sve_design_project/devel/.private/mode_converter/lib/mode_converter/mode_convert[0m
 [100%] Built target mode_convert

@@ -33,8 +33,8 @@
 [  0%] Built target geometry_msgs_generate_messages_cpp
 [  0%] Built target actionlib_generate_messages_lisp
 [  0%] Built target tf_generate_messages_cpp
-[  0%] Built target tf_generate_messages_eus
 [  0%] Built target actionlib_generate_messages_nodejs
+[  0%] Built target tf_generate_messages_eus
 [  0%] Built target actionlib_msgs_generate_messages_cpp
 [  0%] Built target visualization_msgs_generate_messages_lisp
 [  0%] Built target roscpp_generate_messages_eus
@@ -59,7 +59,13 @@
 [  0%] Built target path_generator_generate_messages_nodejs
 [ 14%] Built target path_generator_generate_messages_eus
 [ 14%] Built target path_generator_generate_messages_lisp
-[ 14%] Built target path_generator_generate_messages
-[ 42%] Built target find_drivingway
+[ 28%] [32mBuilding CXX object CMakeFiles/path_generator.dir/src/path_generator.cpp.o[0m
+[ 42%] [32m[1mLinking CXX executable /home/soo/sve_design_project/devel/.private/path_generator/lib/path_generator/path_generator[0m
+[ 42%] Built target path_generator
+[ 42%] Built target path_generator_generate_messages
+[ 57%] [32mBuilding CXX object CMakeFiles/display_marker.dir/src/display_marker.cpp.o[0m
+[ 71%] [32m[1mLinking CXX executable /home/soo/sve_design_project/devel/.private/path_generator/lib/path_generator/display_marker[0m
 [ 71%] Built target display_marker
-[100%] Built target path_generator
+[ 85%] [32mBuilding CXX object CMakeFiles/find_drivingway.dir/src/find_drivingway.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/soo/sve_design_project/devel/.private/path_generator/lib/path_generator/find_drivingway[0m
+[100%] Built target find_drivingway

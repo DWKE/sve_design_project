@@ -15,8 +15,8 @@
 [  0%] Built target _kusv_msgs_generate_messages_check_deps_kusv_GlobalPose
 [  0%] Built target _kusv_msgs_generate_messages_check_deps_PlanningLocalization
 [  0%] Built target std_msgs_generate_messages_py
-[  0%] Built target sensor_msgs_generate_messages_py
 [  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target sensor_msgs_generate_messages_py
 [  0%] Built target std_msgs_generate_messages_nodejs
 [  0%] Built target geometry_msgs_generate_messages_nodejs
 [  0%] Built target sensor_msgs_generate_messages_nodejs
@@ -26,9 +26,9 @@
 [  0%] Built target sensor_msgs_generate_messages_eus
 [  0%] Built target std_msgs_generate_messages_eus
 [  0%] Built target geometry_msgs_generate_messages_eus
-[ 35%] Built target kusv_msgs_generate_messages_py
-[ 40%] Built target kusv_msgs_generate_messages_cpp
+[ 19%] Built target kusv_msgs_generate_messages_cpp
+[ 40%] Built target kusv_msgs_generate_messages_py
+[ 59%] Built target kusv_msgs_generate_messages_nodejs
 [ 79%] Built target kusv_msgs_generate_messages_lisp
-[ 79%] Built target kusv_msgs_generate_messages_nodejs
 [100%] Built target kusv_msgs_generate_messages_eus
 [100%] Built target kusv_msgs_generate_messages

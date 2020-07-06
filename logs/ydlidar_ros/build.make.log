@@ -1,2 +1,4 @@
+[  8%] [32m[1mLinking CXX executable /home/soo/sve_design_project/devel/.private/ydlidar_ros/lib/ydlidar_ros/ydlidar_node[0m
 [ 83%] Built target ydlidar_node
+[ 91%] [32m[1mLinking CXX executable /home/soo/sve_design_project/devel/.private/ydlidar_ros/lib/ydlidar_ros/ydlidar_client[0m
 [100%] Built target ydlidar_client
