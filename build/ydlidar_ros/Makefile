@@ -662,33 +662,6 @@ sdk/src/CYdLidar.cpp.s:
 	$(MAKE) -f CMakeFiles/ydlidar_node.dir/build.make CMakeFiles/ydlidar_node.dir/sdk/src/CYdLidar.cpp.s
 .PHONY : sdk/src/CYdLidar.cpp.s
 
-sdk/src/Console.o: sdk/src/Console.cpp.o
-
-.PHONY : sdk/src/Console.o
-
-# target to build an object file
-sdk/src/Console.cpp.o:
-	$(MAKE) -f CMakeFiles/ydlidar_node.dir/build.make CMakeFiles/ydlidar_node.dir/sdk/src/Console.cpp.o
-.PHONY : sdk/src/Console.cpp.o
-
-sdk/src/Console.i: sdk/src/Console.cpp.i
-
-.PHONY : sdk/src/Console.i
-
-# target to preprocess a source file
-sdk/src/Console.cpp.i:
-	$(MAKE) -f CMakeFiles/ydlidar_node.dir/build.make CMakeFiles/ydlidar_node.dir/sdk/src/Console.cpp.i
-.PHONY : sdk/src/Console.cpp.i
-
-sdk/src/Console.s: sdk/src/Console.cpp.s
-
-.PHONY : sdk/src/Console.s
-
-# target to generate assembly for a file
-sdk/src/Console.cpp.s:
-	$(MAKE) -f CMakeFiles/ydlidar_node.dir/build.make CMakeFiles/ydlidar_node.dir/sdk/src/Console.cpp.s
-.PHONY : sdk/src/Console.cpp.s
-
 sdk/src/impl/unix/list_ports_linux.o: sdk/src/impl/unix/list_ports_linux.cpp.o
 
 .PHONY : sdk/src/impl/unix/list_ports_linux.o
@@ -957,9 +930,6 @@ help:
 	@echo "... sdk/src/CYdLidar.o"
 	@echo "... sdk/src/CYdLidar.i"
 	@echo "... sdk/src/CYdLidar.s"
-	@echo "... sdk/src/Console.o"
-	@echo "... sdk/src/Console.i"
-	@echo "... sdk/src/Console.s"
 	@echo "... sdk/src/impl/unix/list_ports_linux.o"
 	@echo "... sdk/src/impl/unix/list_ports_linux.i"
 	@echo "... sdk/src/impl/unix/list_ports_linux.s"

@@ -463,9 +463,9 @@ Copying fixed C++ headers for protocol 2.0 to include/v2.0
 Validating /home/soo/sve_design_project/src/control/mavlink/message_definitions/v1.0/paparazzi.xml
 Parsing /home/soo/sve_design_project/src/control/mavlink/message_definitions/v1.0/paparazzi.xml
 Validating /home/soo/sve_design_project/src/control/mavlink/message_definitions/v1.0/common.xml
-Parsing /home/soo/sve_design_project/src/control/mavlink/message_definitions/v1.0/common.xml
 Validating /home/soo/sve_design_project/src/control/mavlink/message_definitions/v1.0/matrixpilot.xml
 Parsing /home/soo/sve_design_project/src/control/mavlink/message_definitions/v1.0/matrixpilot.xml
+Parsing /home/soo/sve_design_project/src/control/mavlink/message_definitions/v1.0/common.xml
 MAV_CMD
 MAV_CMD_PREFLIGHT_STORAGE_ADVANCED
 Note: message FLEXIFUNCTION_BUFFER_FUNCTION is longer than 64 bytes long (66 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
@@ -475,7 +475,6 @@ Note: message SERIAL_UDB_EXTRA_F15 is longer than 64 bytes long (68 bytes), whic
 Note: message SERIAL_UDB_EXTRA_F16 is longer than 64 bytes long (118 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
 Validating /home/soo/sve_design_project/src/control/mavlink/message_definitions/v1.0/common.xml
 Parsing /home/soo/sve_design_project/src/control/mavlink/message_definitions/v1.0/common.xml
-[ 22%] [34m[1mGenerating icarous-v2.0-cxx-stamp[0m
 MAV_CMD
 MAV_CMD_NAV_WAYPOINT
 MAV_CMD_NAV_LOITER_UNLIM
@@ -662,11 +661,6 @@ Note: message HOME_POSITION is longer than 64 bytes long (68 bytes), which can c
 Note: message SET_HOME_POSITION is longer than 64 bytes long (69 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
 Note: message V2_EXTENSION is longer than 64 bytes long (262 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
 Note: message PLAY_TUNE is longer than 64 bytes long (240 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
-Note: message CAMERA_INFORMATION is longer than 64 bytes long (243 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
-Note: message CAMERA_IMAGE_CAPTURED is longer than 64 bytes long (263 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
-Note: message LOGGING_DATA is longer than 64 bytes long (263 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
-Note: message LOGGING_DATA_ACKED is longer than 64 bytes long (263 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
-Note: message VIDEO_STREAM_INFORMATION is longer than 64 bytes long (221 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
 MAV_CMD
 MAV_CMD_NAV_WAYPOINT
 MAV_CMD_NAV_LOITER_UNLIM
@@ -723,6 +717,7 @@ MAV_CMD_DO_SET_ROI
 MAV_CMD_DO_DIGICAM_CONFIGURE
 MAV_CMD_DO_DIGICAM_CONTROL
 MAV_CMD_DO_MOUNT_CONFIGURE
+Note: message CAMERA_INFORMATION is longer than 64 bytes long (243 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
 MAV_CMD_DO_MOUNT_CONTROL
 MAV_CMD_DO_SET_CAM_TRIGG_DIST
 MAV_CMD_DO_FENCE_ENABLE
@@ -743,6 +738,7 @@ MAV_CMD_PREFLIGHT_UAVCAN
 MAV_CMD_PREFLIGHT_STORAGE
 MAV_CMD_PREFLIGHT_REBOOT_SHUTDOWN
 MAV_CMD_OVERRIDE_GOTO
+Note: message CAMERA_IMAGE_CAPTURED is longer than 64 bytes long (263 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
 MAV_CMD_MISSION_START
 MAV_CMD_COMPONENT_ARM_DISARM
 MAV_CMD_ILLUMINATOR_ON_OFF
@@ -787,7 +783,6 @@ MAV_CMD_PANORAMA_CREATE
 MAV_CMD_DO_VTOL_TRANSITION
 MAV_CMD_ARM_AUTHORIZATION_REQUEST
 MAV_CMD_SET_GUIDED_SUBMODE_STANDARD
-Note: message GIMBAL_DEVICE_INFORMATION is longer than 64 bytes long (106 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
 MAV_CMD_SET_GUIDED_SUBMODE_CIRCLE
 MAV_CMD_CONDITION_GATE
 MAV_CMD_NAV_FENCE_RETURN_POINT
@@ -824,13 +819,17 @@ MAV_CMD_ACK_ERR_COORDINATES_OUT_OF_RANGE
 MAV_CMD_ACK_ERR_X_LAT_OUT_OF_RANGE
 MAV_CMD_ACK_ERR_Y_LON_OUT_OF_RANGE
 MAV_CMD_ACK_ERR_Z_ALT_OUT_OF_RANGE
+Note: message LOGGING_DATA is longer than 64 bytes long (263 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
+Note: message LOGGING_DATA_ACKED is longer than 64 bytes long (263 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
+Note: message VIDEO_STREAM_INFORMATION is longer than 64 bytes long (221 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
+Note: message GIMBAL_DEVICE_INFORMATION is longer than 64 bytes long (106 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
 Note: message WIFI_CONFIG_AP is longer than 64 bytes long (104 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
 Note: message AIS_VESSEL is longer than 64 bytes long (66 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
+Note: message GPS_STATUS is longer than 64 bytes long (109 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
 Note: message UAVCAN_NODE_INFO is longer than 64 bytes long (124 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
 Note: message PARAM_EXT_VALUE is longer than 64 bytes long (157 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
 Note: message PARAM_EXT_SET is longer than 64 bytes long (155 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
 Note: message PARAM_EXT_ACK is longer than 64 bytes long (154 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
-Note: message GPS_STATUS is longer than 64 bytes long (109 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
 Note: message OBSTACLE_DISTANCE is longer than 64 bytes long (175 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
 Note: message ODOMETRY is longer than 64 bytes long (240 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
 Note: message TRAJECTORY_REPRESENTATION_WAYPOINTS is longer than 64 bytes long (247 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
@@ -842,49 +841,41 @@ Note: message ACTUATOR_OUTPUT_STATUS is longer than 64 bytes long (148 bytes), w
 Note: message TUNNEL is longer than 64 bytes long (141 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
 Note: message ONBOARD_COMPUTER_STATUS is longer than 64 bytes long (246 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
 Note: message COMPONENT_INFORMATION is longer than 64 bytes long (230 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
-Note: message ATTITUDE_QUATERNION_COV is longer than 64 bytes long (80 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
 Note: message PLAY_TUNE_V2 is longer than 64 bytes long (262 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
 Note: message WHEEL_DISTANCE is longer than 64 bytes long (145 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
+Note: message ATTITUDE_QUATERNION_COV is longer than 64 bytes long (80 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
+Note: message OPEN_DRONE_ID_MESSAGE_PACK is longer than 64 bytes long (260 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
 Note: message GLOBAL_POSITION_INT_COV is longer than 64 bytes long (189 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
 Note: message LOCAL_POSITION_NED_COV is longer than 64 bytes long (233 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
-Note: message OPEN_DRONE_ID_MESSAGE_PACK is longer than 64 bytes long (260 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
 Note: message HIL_ACTUATOR_CONTROLS is longer than 64 bytes long (89 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
 Note: message GLOBAL_VISION_POSITION_ESTIMATE is longer than 64 bytes long (125 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
+Found 204 MAVLink message types in 2 XML files
 Note: message VISION_POSITION_ESTIMATE is longer than 64 bytes long (125 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
 Note: message VISION_SPEED_ESTIMATE is longer than 64 bytes long (65 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
 Note: message VICON_POSITION_ESTIMATE is longer than 64 bytes long (124 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
 Note: message HIGHRES_IMU is longer than 64 bytes long (71 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
-Found 204 MAVLink message types in 2 XML files
 Generating C headers
 Generating C implementation in directory include/v2.0/paparazzi
 Note: message HIL_SENSOR is longer than 64 bytes long (72 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
 Note: message SIM_STATE is longer than 64 bytes long (92 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
-Validating /home/soo/sve_design_project/src/control/mavlink/message_definitions/v1.0/icarous.xml
 Note: message FILE_TRANSFER_PROTOCOL is longer than 64 bytes long (262 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
 Note: message HIL_STATE_QUATERNION is longer than 64 bytes long (72 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
 Note: message LOG_DATA is longer than 64 bytes long (105 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
 Note: message GPS_INJECT_DATA is longer than 64 bytes long (121 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
 Note: message SERIAL_CONTROL is longer than 64 bytes long (87 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
-Parsing /home/soo/sve_design_project/src/control/mavlink/message_definitions/v1.0/icarous.xml
-Found 2 MAVLink message types in 1 XML files
 Note: message ENCAPSULATED_DATA is longer than 64 bytes long (263 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
-Generating C headers
-Generating C implementation in directory include/v2.0/icarous
 Note: message ATT_POS_MOCAP is longer than 64 bytes long (128 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
+Generating C implementation in directory include/v2.0/common
 Note: message RESOURCE_REQUEST is longer than 64 bytes long (251 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
 Note: message FOLLOW_TARGET is longer than 64 bytes long (101 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
 Note: message CONTROL_SYSTEM_STATE is longer than 64 bytes long (108 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
-Generating C implementation in directory include/v2.0/common
 Note: message AUTOPILOT_VERSION is longer than 64 bytes long (86 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
 Note: message LANDING_TARGET is longer than 64 bytes long (68 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
 Note: message GPS_INPUT is longer than 64 bytes long (73 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
 Note: message GPS_RTCM_DATA is longer than 64 bytes long (190 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
 Note: message HOME_POSITION is longer than 64 bytes long (68 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
 Note: message SET_HOME_POSITION is longer than 64 bytes long (69 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
-Copying fixed headers for protocol 2.0 to include/v2.0
-Generating C++ implementation in directory include/v2.0/icarous
 Note: message V2_EXTENSION is longer than 64 bytes long (262 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
-Copying fixed C++ headers for protocol 2.0 to include/v2.0
 Note: message PLAY_TUNE is longer than 64 bytes long (240 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
 Note: message CAMERA_INFORMATION is longer than 64 bytes long (243 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
 Note: message CAMERA_IMAGE_CAPTURED is longer than 64 bytes long (263 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
@@ -916,9 +907,29 @@ Merged enum MAV_CMD
 Found 226 MAVLink message types in 2 XML files
 Generating C headers
 Generating C implementation in directory include/v2.0/matrixpilot
-[ 22%] Built target icarous.xml-v2.0
-[ 27%] [34m[1mGenerating include/v1.0/icarous/icarous.h[0m
 Generating C implementation in directory include/v2.0/common
+Copying fixed headers for protocol 2.0 to include/v2.0
+Generating C++ implementation in directory include/v2.0/paparazzi
+Generating C++ implementation in directory include/v2.0/common
+Copying fixed headers for protocol 2.0 to include/v2.0
+Generating C++ implementation in directory include/v2.0/matrixpilot
+Generating C++ implementation in directory include/v2.0/common
+Copying fixed C++ headers for protocol 2.0 to include/v2.0
+[ 18%] Built target paparazzi.xml-v2.0
+[ 22%] [34m[1mGenerating icarous-v2.0-cxx-stamp[0m
+Copying fixed C++ headers for protocol 2.0 to include/v2.0
+[ 22%] Built target matrixpilot.xml-v2.0
+Validating /home/soo/sve_design_project/src/control/mavlink/message_definitions/v1.0/icarous.xml
+Parsing /home/soo/sve_design_project/src/control/mavlink/message_definitions/v1.0/icarous.xml
+Found 2 MAVLink message types in 1 XML files
+Generating C headers
+Generating C implementation in directory include/v2.0/icarous
+Copying fixed headers for protocol 2.0 to include/v2.0
+Generating C++ implementation in directory include/v2.0/icarous
+Copying fixed C++ headers for protocol 2.0 to include/v2.0
+[ 27%] [34m[1mGenerating include/v1.0/icarous/icarous.h[0m
+[ 27%] Built target icarous.xml-v2.0
+[ 31%] [34m[1mGenerating include/v1.0/autoquad/autoquad.h[0m
 Validating /home/soo/sve_design_project/src/control/mavlink/message_definitions/v1.0/icarous.xml
 Parsing /home/soo/sve_design_project/src/control/mavlink/message_definitions/v1.0/icarous.xml
 Ignoring MAVLink2 message ICAROUS_HEARTBEAT
@@ -926,8 +937,7 @@ Ignoring MAVLink2 message ICAROUS_KINEMATIC_BANDS
 Found 0 MAVLink message types in 1 XML files
 Generating C implementation in directory include/v1.0/icarous
 Copying fixed headers for protocol 1.0 to include/v1.0
-[ 27%] Built target icarous.xml-v1.0
-[ 31%] [34m[1mGenerating include/v1.0/autoquad/autoquad.h[0m
+[ 31%] Built target icarous.xml-v1.0
 Validating /home/soo/sve_design_project/src/control/mavlink/message_definitions/v1.0/autoquad.xml
 Parsing /home/soo/sve_design_project/src/control/mavlink/message_definitions/v1.0/autoquad.xml
 MAV_CMD
@@ -936,7 +946,14 @@ MAV_CMD_AQ_TELEMETRY
 MAV_CMD_AQ_REQUEST_VERSION
 Note: message AQ_TELEMETRY_F is longer than 64 bytes long (90 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
 Validating /home/soo/sve_design_project/src/control/mavlink/message_definitions/v1.0/common.xml
+[ 36%] [34m[1mGenerating include/v1.0/uAvionix/uAvionix.h[0m
 Parsing /home/soo/sve_design_project/src/control/mavlink/message_definitions/v1.0/common.xml
+Validating /home/soo/sve_design_project/src/control/mavlink/message_definitions/v1.0/uAvionix.xml
+Parsing /home/soo/sve_design_project/src/control/mavlink/message_definitions/v1.0/uAvionix.xml
+Ignoring MAVLink2 message UAVIONIX_ADSB_OUT_CFG
+Ignoring MAVLink2 message UAVIONIX_ADSB_OUT_DYNAMIC
+Ignoring MAVLink2 message UAVIONIX_ADSB_TRANSCEIVER_HEALTH_REPORT
+Validating /home/soo/sve_design_project/src/control/mavlink/message_definitions/v1.0/common.xml
 MAV_CMD
 MAV_CMD_NAV_WAYPOINT
 MAV_CMD_NAV_LOITER_UNLIM
@@ -1006,7 +1023,6 @@ MAV_CMD_DO_GUIDED_MASTER
 MAV_CMD_DO_GUIDED_LIMITS
 MAV_CMD_DO_ENGINE_CONTROL
 MAV_CMD_DO_SET_MISSION_CURRENT
-Copying fixed headers for protocol 2.0 to include/v2.0
 MAV_CMD_DO_LAST
 MAV_CMD_PREFLIGHT_CALIBRATION
 MAV_CMD_PREFLIGHT_SET_SENSOR_OFFSETS
@@ -1153,9 +1169,8 @@ Ignoring MAVLink2 message OPEN_DRONE_ID_SELF_ID
 Ignoring MAVLink2 message OPEN_DRONE_ID_SYSTEM
 Ignoring MAVLink2 message OPEN_DRONE_ID_OPERATOR_ID
 Ignoring MAVLink2 message OPEN_DRONE_ID_MESSAGE_PACK
-Generating C++ implementation in directory include/v2.0/paparazzi
 Note: message GPS_STATUS is longer than 64 bytes long (109 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
-Generating C++ implementation in directory include/v2.0/common
+Parsing /home/soo/sve_design_project/src/control/mavlink/message_definitions/v1.0/common.xml
 Note: message ATTITUDE_QUATERNION_COV is longer than 64 bytes long (80 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
 Note: message GLOBAL_POSITION_INT_COV is longer than 64 bytes long (189 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
 Note: message LOCAL_POSITION_NED_COV is longer than 64 bytes long (233 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
@@ -1183,23 +1198,6 @@ Note: An enum value was auto-generated: MAV_DATA_STREAM_PROPULSION = 13
 Found 142 MAVLink message types in 2 XML files
 Generating C implementation in directory include/v1.0/autoquad
 Generating C implementation in directory include/v1.0/common
-Copying fixed headers for protocol 2.0 to include/v2.0
-Generating C++ implementation in directory include/v2.0/matrixpilot
-Copying fixed C++ headers for protocol 2.0 to include/v2.0
-Generating C++ implementation in directory include/v2.0/common
-[ 31%] Built target paparazzi.xml-v2.0
-[ 36%] [34m[1mGenerating include/v1.0/uAvionix/uAvionix.h[0m
-Validating /home/soo/sve_design_project/src/control/mavlink/message_definitions/v1.0/uAvionix.xml
-Parsing /home/soo/sve_design_project/src/control/mavlink/message_definitions/v1.0/uAvionix.xml
-Ignoring MAVLink2 message UAVIONIX_ADSB_OUT_CFG
-Ignoring MAVLink2 message UAVIONIX_ADSB_OUT_DYNAMIC
-Ignoring MAVLink2 message UAVIONIX_ADSB_TRANSCEIVER_HEALTH_REPORT
-Validating /home/soo/sve_design_project/src/control/mavlink/message_definitions/v1.0/common.xml
-Copying fixed C++ headers for protocol 2.0 to include/v2.0
-Parsing /home/soo/sve_design_project/src/control/mavlink/message_definitions/v1.0/common.xml
-[ 36%] Built target matrixpilot.xml-v2.0
-[ 40%] [34m[1mGenerating include/v1.0/ASLUAV/ASLUAV.h[0m
-Copying fixed headers for protocol 1.0 to include/v1.0
 MAV_CMD
 MAV_CMD_NAV_WAYPOINT
 MAV_CMD_NAV_LOITER_UNLIM
@@ -1251,7 +1249,6 @@ MAV_CMD_DO_SET_ROI_LOCATION
 MAV_CMD_DO_SET_ROI_WPNEXT_OFFSET
 MAV_CMD_DO_SET_ROI_NONE
 MAV_CMD_DO_SET_ROI_SYSID
-[ 40%] Built target autoquad.xml-v1.0
 MAV_CMD_DO_CONTROL_VIDEO
 MAV_CMD_DO_SET_ROI
 MAV_CMD_DO_DIGICAM_CONFIGURE
@@ -1428,7 +1425,6 @@ Note: message FILE_TRANSFER_PROTOCOL is longer than 64 bytes long (262 bytes), w
 Note: message HIL_STATE_QUATERNION is longer than 64 bytes long (72 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
 Note: message LOG_DATA is longer than 64 bytes long (105 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
 Note: message GPS_INJECT_DATA is longer than 64 bytes long (121 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
-[ 45%] [34m[1mGenerating include/v1.0/slugs/slugs.h[0m
 Note: message SERIAL_CONTROL is longer than 64 bytes long (87 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
 Note: message ENCAPSULATED_DATA is longer than 64 bytes long (263 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
 Note: message RESOURCE_REQUEST is longer than 64 bytes long (251 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
@@ -1437,18 +1433,24 @@ Note: message CONTROL_SYSTEM_STATE is longer than 64 bytes long (108 bytes), whi
 Note: message AUTOPILOT_VERSION is longer than 64 bytes long (68 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
 Note: message GPS_INPUT is longer than 64 bytes long (71 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
 Note: message GPS_RTCM_DATA is longer than 64 bytes long (190 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
-Validating /home/soo/sve_design_project/src/control/mavlink/message_definitions/v1.0/ASLUAV.xml
 Note: message V2_EXTENSION is longer than 64 bytes long (262 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
+Found 140 MAVLink message types in 2 XML files
+Generating C implementation in directory include/v1.0/uAvionix
+Generating C implementation in directory include/v1.0/common
+Copying fixed headers for protocol 1.0 to include/v1.0
+[ 36%] Built target autoquad.xml-v1.0
+[ 40%] [34m[1mGenerating include/v1.0/ASLUAV/ASLUAV.h[0m
+Copying fixed headers for protocol 1.0 to include/v1.0
+[ 40%] Built target uAvionix.xml-v1.0
+Validating /home/soo/sve_design_project/src/control/mavlink/message_definitions/v1.0/ASLUAV.xml
+[ 45%] [34m[1mGenerating include/v1.0/slugs/slugs.h[0m
 Parsing /home/soo/sve_design_project/src/control/mavlink/message_definitions/v1.0/ASLUAV.xml
 MAV_CMD
 MAV_CMD_RESET_MPPT
 MAV_CMD_PAYLOAD_CONTROL
 Note: message ASLCTRL_DATA is longer than 64 bytes long (106 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
-Found 140 MAVLink message types in 2 XML files
-Generating C implementation in directory include/v1.0/uAvionix
 Note: message FW_SOARING_DATA is longer than 64 bytes long (110 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
 Validating /home/soo/sve_design_project/src/control/mavlink/message_definitions/v1.0/common.xml
-Generating C implementation in directory include/v1.0/common
 Parsing /home/soo/sve_design_project/src/control/mavlink/message_definitions/v1.0/common.xml
 Validating /home/soo/sve_design_project/src/control/mavlink/message_definitions/v1.0/slugs.xml
 Parsing /home/soo/sve_design_project/src/control/mavlink/message_definitions/v1.0/slugs.xml
@@ -1675,8 +1677,8 @@ Ignoring MAVLink2 message OPEN_DRONE_ID_SELF_ID
 Ignoring MAVLink2 message OPEN_DRONE_ID_SYSTEM
 Ignoring MAVLink2 message OPEN_DRONE_ID_OPERATOR_ID
 Ignoring MAVLink2 message OPEN_DRONE_ID_MESSAGE_PACK
-Note: message GPS_STATUS is longer than 64 bytes long (109 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
 Parsing /home/soo/sve_design_project/src/control/mavlink/message_definitions/v1.0/common.xml
+Note: message GPS_STATUS is longer than 64 bytes long (109 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
 Note: message ATTITUDE_QUATERNION_COV is longer than 64 bytes long (80 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
 Note: message GLOBAL_POSITION_INT_COV is longer than 64 bytes long (189 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
 Note: message LOCAL_POSITION_NED_COV is longer than 64 bytes long (233 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
@@ -1943,15 +1945,14 @@ Found 160 MAVLink message types in 2 XML files
 Generating C implementation in directory include/v1.0/slugs
 Generating C implementation in directory include/v1.0/common
 Copying fixed headers for protocol 1.0 to include/v1.0
-[ 45%] Built target uAvionix.xml-v1.0
+[ 45%] Built target ASLUAV.xml-v1.0
+Copying fixed headers for protocol 1.0 to include/v1.0
+[ 45%] Built target slugs.xml-v1.0
 [ 50%] [34m[1mGenerating ualberta-v2.0-cxx-stamp[0m
 Validating /home/soo/sve_design_project/src/control/mavlink/message_definitions/v1.0/ualberta.xml
 Parsing /home/soo/sve_design_project/src/control/mavlink/message_definitions/v1.0/ualberta.xml
 Validating /home/soo/sve_design_project/src/control/mavlink/message_definitions/v1.0/common.xml
 Parsing /home/soo/sve_design_project/src/control/mavlink/message_definitions/v1.0/common.xml
-Copying fixed headers for protocol 1.0 to include/v1.0
-[ 50%] Built target ASLUAV.xml-v1.0
-[ 54%] [34m[1mGenerating standard-v2.0-cxx-stamp[0m
 MAV_CMD
 MAV_CMD_NAV_WAYPOINT
 MAV_CMD_NAV_LOITER_UNLIM
@@ -2117,7 +2118,6 @@ Note: message GLOBAL_VISION_POSITION_ESTIMATE is longer than 64 bytes long (125 
 Note: message VISION_POSITION_ESTIMATE is longer than 64 bytes long (125 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
 Note: message VISION_SPEED_ESTIMATE is longer than 64 bytes long (65 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
 Note: message VICON_POSITION_ESTIMATE is longer than 64 bytes long (124 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
-Copying fixed headers for protocol 1.0 to include/v1.0
 Note: message HIGHRES_IMU is longer than 64 bytes long (71 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
 Note: message HIL_SENSOR is longer than 64 bytes long (72 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
 Note: message SIM_STATE is longer than 64 bytes long (92 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
@@ -2150,7 +2150,6 @@ Note: message AIS_VESSEL is longer than 64 bytes long (66 bytes), which can caus
 Note: message UAVCAN_NODE_INFO is longer than 64 bytes long (124 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
 Note: message PARAM_EXT_VALUE is longer than 64 bytes long (157 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
 Note: message PARAM_EXT_SET is longer than 64 bytes long (155 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
-[ 54%] Built target slugs.xml-v1.0
 Note: message PARAM_EXT_ACK is longer than 64 bytes long (154 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
 Note: message OBSTACLE_DISTANCE is longer than 64 bytes long (175 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
 Note: message ODOMETRY is longer than 64 bytes long (240 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
@@ -2182,11 +2181,16 @@ Found 202 MAVLink message types in 2 XML files
 Generating C headers
 Generating C implementation in directory include/v2.0/ualberta
 Generating C implementation in directory include/v2.0/common
+Copying fixed headers for protocol 2.0 to include/v2.0
+Generating C++ implementation in directory include/v2.0/ualberta
+Generating C++ implementation in directory include/v2.0/common
+Copying fixed C++ headers for protocol 2.0 to include/v2.0
+[ 50%] Built target ualberta.xml-v2.0
+[ 54%] [34m[1mGenerating standard-v2.0-cxx-stamp[0m
 Validating /home/soo/sve_design_project/src/control/mavlink/message_definitions/v1.0/standard.xml
 Parsing /home/soo/sve_design_project/src/control/mavlink/message_definitions/v1.0/standard.xml
 Validating /home/soo/sve_design_project/src/control/mavlink/message_definitions/v1.0/common.xml
 Parsing /home/soo/sve_design_project/src/control/mavlink/message_definitions/v1.0/common.xml
-[ 59%] [34m[1mGenerating include/v1.0/matrixpilot/matrixpilot.h[0m
 MAV_CMD
 MAV_CMD_NAV_WAYPOINT
 MAV_CMD_NAV_LOITER_UNLIM
@@ -2402,8 +2406,14 @@ Note: message OPEN_DRONE_ID_MESSAGE_PACK is longer than 64 bytes long (260 bytes
 Found 199 MAVLink message types in 2 XML files
 Generating C headers
 Generating C implementation in directory include/v2.0/standard
-Validating /home/soo/sve_design_project/src/control/mavlink/message_definitions/v1.0/matrixpilot.xml
 Generating C implementation in directory include/v2.0/common
+Copying fixed headers for protocol 2.0 to include/v2.0
+Generating C++ implementation in directory include/v2.0/standard
+Generating C++ implementation in directory include/v2.0/common
+Copying fixed C++ headers for protocol 2.0 to include/v2.0
+[ 54%] Built target standard.xml-v2.0
+[ 59%] [34m[1mGenerating include/v1.0/matrixpilot/matrixpilot.h[0m
+Validating /home/soo/sve_design_project/src/control/mavlink/message_definitions/v1.0/matrixpilot.xml
 Parsing /home/soo/sve_design_project/src/control/mavlink/message_definitions/v1.0/matrixpilot.xml
 MAV_CMD
 MAV_CMD_PREFLIGHT_STORAGE_ADVANCED
@@ -2654,23 +2664,10 @@ Merged enum MAV_CMD
 Found 167 MAVLink message types in 2 XML files
 Generating C implementation in directory include/v1.0/matrixpilot
 Generating C implementation in directory include/v1.0/common
-Copying fixed headers for protocol 2.0 to include/v2.0
-Generating C++ implementation in directory include/v2.0/ualberta
-Generating C++ implementation in directory include/v2.0/common
-Copying fixed C++ headers for protocol 2.0 to include/v2.0
-[ 59%] Built target ualberta.xml-v2.0
-Copying fixed headers for protocol 2.0 to include/v2.0
-Generating C++ implementation in directory include/v2.0/standard
-Generating C++ implementation in directory include/v2.0/common
 [ 63%] Built target common.xml-v1.0
 [ 68%] [34m[1mGenerating include/v1.0/ardupilotmega/ardupilotmega.h[0m
-Copying fixed headers for protocol 1.0 to include/v1.0
-[ 68%] Built target matrixpilot.xml-v1.0
-[ 72%] [34m[1mGenerating include/v1.0/paparazzi/paparazzi.h[0m
-Copying fixed C++ headers for protocol 2.0 to include/v2.0
 Validating /home/soo/sve_design_project/src/control/mavlink/message_definitions/v1.0/ardupilotmega.xml
 Parsing /home/soo/sve_design_project/src/control/mavlink/message_definitions/v1.0/ardupilotmega.xml
-[ 72%] Built target standard.xml-v2.0
 MAV_CMD
 MAV_CMD_DO_GRIPPER
 MAV_CMD_DO_AUTOTUNE_ENABLE
@@ -2713,15 +2710,10 @@ Note: message DATA96 is longer than 64 bytes long (106 bytes), which can cause f
 Note: message REMOTE_LOG_DATA_BLOCK is longer than 64 bytes long (214 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
 Note: message EFI_STATUS is longer than 64 bytes long (73 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
 Validating /home/soo/sve_design_project/src/control/mavlink/message_definitions/v1.0/common.xml
-[ 77%] [34m[1mGenerating include/v1.0/standard/standard.h[0m
 Parsing /home/soo/sve_design_project/src/control/mavlink/message_definitions/v1.0/common.xml
-Validating /home/soo/sve_design_project/src/control/mavlink/message_definitions/v1.0/paparazzi.xml
-Parsing /home/soo/sve_design_project/src/control/mavlink/message_definitions/v1.0/paparazzi.xml
-Validating /home/soo/sve_design_project/src/control/mavlink/message_definitions/v1.0/common.xml
-Parsing /home/soo/sve_design_project/src/control/mavlink/message_definitions/v1.0/common.xml
-Validating /home/soo/sve_design_project/src/control/mavlink/message_definitions/v1.0/standard.xml
-Parsing /home/soo/sve_design_project/src/control/mavlink/message_definitions/v1.0/standard.xml
-Validating /home/soo/sve_design_project/src/control/mavlink/message_definitions/v1.0/common.xml
+Copying fixed headers for protocol 1.0 to include/v1.0
+[ 68%] Built target matrixpilot.xml-v1.0
+[ 72%] [34m[1mGenerating include/v1.0/paparazzi/paparazzi.h[0m
 MAV_CMD
 MAV_CMD_NAV_WAYPOINT
 MAV_CMD_NAV_LOITER_UNLIM
@@ -2938,7 +2930,6 @@ Ignoring MAVLink2 message OPEN_DRONE_ID_SYSTEM
 Ignoring MAVLink2 message OPEN_DRONE_ID_OPERATOR_ID
 Ignoring MAVLink2 message OPEN_DRONE_ID_MESSAGE_PACK
 Note: message GPS_STATUS is longer than 64 bytes long (109 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
-Parsing /home/soo/sve_design_project/src/control/mavlink/message_definitions/v1.0/common.xml
 Note: message ATTITUDE_QUATERNION_COV is longer than 64 bytes long (80 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
 Note: message GLOBAL_POSITION_INT_COV is longer than 64 bytes long (189 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
 Note: message LOCAL_POSITION_NED_COV is longer than 64 bytes long (233 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
@@ -2971,6 +2962,11 @@ Ignoring MAVLink2 message ICAROUS_KINEMATIC_BANDS
 Merged enum MAV_CMD
 Found 190 MAVLink message types in 4 XML files
 Generating C implementation in directory include/v1.0/ardupilotmega
+Validating /home/soo/sve_design_project/src/control/mavlink/message_definitions/v1.0/paparazzi.xml
+Parsing /home/soo/sve_design_project/src/control/mavlink/message_definitions/v1.0/paparazzi.xml
+Validating /home/soo/sve_design_project/src/control/mavlink/message_definitions/v1.0/common.xml
+Parsing /home/soo/sve_design_project/src/control/mavlink/message_definitions/v1.0/common.xml
+Generating C implementation in directory include/v1.0/common
 MAV_CMD
 MAV_CMD_NAV_WAYPOINT
 MAV_CMD_NAV_LOITER_UNLIM
@@ -3210,6 +3206,26 @@ Note: message V2_EXTENSION is longer than 64 bytes long (262 bytes), which can c
 Found 145 MAVLink message types in 2 XML files
 Generating C implementation in directory include/v1.0/paparazzi
 Generating C implementation in directory include/v1.0/common
+Generating C implementation in directory include/v1.0/uAvionix
+Generating C implementation in directory include/v1.0/icarous
+Copying fixed headers for protocol 1.0 to include/v1.0
+[ 72%] Built target ardupilotmega.xml-v1.0
+[ 77%] [34m[1mGenerating include/v1.0/standard/standard.h[0m
+Copying fixed headers for protocol 1.0 to include/v1.0
+[ 77%] Built target paparazzi.xml-v1.0
+[ 81%] [34m[1mGenerating autoquad-v2.0-cxx-stamp[0m
+Validating /home/soo/sve_design_project/src/control/mavlink/message_definitions/v1.0/standard.xml
+Parsing /home/soo/sve_design_project/src/control/mavlink/message_definitions/v1.0/standard.xml
+Validating /home/soo/sve_design_project/src/control/mavlink/message_definitions/v1.0/common.xml
+Parsing /home/soo/sve_design_project/src/control/mavlink/message_definitions/v1.0/common.xml
+Validating /home/soo/sve_design_project/src/control/mavlink/message_definitions/v1.0/autoquad.xml
+Parsing /home/soo/sve_design_project/src/control/mavlink/message_definitions/v1.0/autoquad.xml
+MAV_CMD
+MAV_CMD_AQ_NAV_LEG_ORBIT
+MAV_CMD_AQ_TELEMETRY
+MAV_CMD_AQ_REQUEST_VERSION
+Note: message AQ_TELEMETRY_F is longer than 64 bytes long (90 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
+Validating /home/soo/sve_design_project/src/control/mavlink/message_definitions/v1.0/common.xml
 MAV_CMD
 MAV_CMD_NAV_WAYPOINT
 MAV_CMD_NAV_LOITER_UNLIM
@@ -3425,6 +3441,7 @@ Ignoring MAVLink2 message OPEN_DRONE_ID_SELF_ID
 Ignoring MAVLink2 message OPEN_DRONE_ID_SYSTEM
 Ignoring MAVLink2 message OPEN_DRONE_ID_OPERATOR_ID
 Ignoring MAVLink2 message OPEN_DRONE_ID_MESSAGE_PACK
+Parsing /home/soo/sve_design_project/src/control/mavlink/message_definitions/v1.0/common.xml
 Note: message GPS_STATUS is longer than 64 bytes long (109 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
 Note: message ATTITUDE_QUATERNION_COV is longer than 64 bytes long (80 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
 Note: message GLOBAL_POSITION_INT_COV is longer than 64 bytes long (189 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
@@ -3449,41 +3466,6 @@ Note: message V2_EXTENSION is longer than 64 bytes long (262 bytes), which can c
 Found 140 MAVLink message types in 2 XML files
 Generating C implementation in directory include/v1.0/standard
 Generating C implementation in directory include/v1.0/common
-Generating C implementation in directory include/v1.0/common
-Copying fixed headers for protocol 1.0 to include/v1.0
-[ 77%] Built target paparazzi.xml-v1.0
-[ 81%] [34m[1mGenerating autoquad-v2.0-cxx-stamp[0m
-Copying fixed headers for protocol 1.0 to include/v1.0
-Generating C implementation in directory include/v1.0/uAvionix
-Generating C implementation in directory include/v1.0/icarous
-Copying fixed headers for protocol 1.0 to include/v1.0
-[ 81%] Built target standard.xml-v1.0
-[ 81%] Built target ardupilotmega.xml-v1.0
-[ 86%] [34m[1mGenerating ASLUAV-v2.0-cxx-stamp[0m
-[ 90%] [34m[1mGenerating ardupilotmega-v2.0-cxx-stamp[0m
-Validating /home/soo/sve_design_project/src/control/mavlink/message_definitions/v1.0/autoquad.xml
-Parsing /home/soo/sve_design_project/src/control/mavlink/message_definitions/v1.0/autoquad.xml
-MAV_CMD
-MAV_CMD_AQ_NAV_LEG_ORBIT
-MAV_CMD_AQ_TELEMETRY
-MAV_CMD_AQ_REQUEST_VERSION
-Note: message AQ_TELEMETRY_F is longer than 64 bytes long (90 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
-Validating /home/soo/sve_design_project/src/control/mavlink/message_definitions/v1.0/common.xml
-Parsing /home/soo/sve_design_project/src/control/mavlink/message_definitions/v1.0/common.xml
-Validating /home/soo/sve_design_project/src/control/mavlink/message_definitions/v1.0/ASLUAV.xml
-Parsing /home/soo/sve_design_project/src/control/mavlink/message_definitions/v1.0/ASLUAV.xml
-MAV_CMD
-MAV_CMD_RESET_MPPT
-MAV_CMD_PAYLOAD_CONTROL
-Note: message ASLCTRL_DATA is longer than 64 bytes long (106 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
-Note: message FW_SOARING_DATA is longer than 64 bytes long (110 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
-Validating /home/soo/sve_design_project/src/control/mavlink/message_definitions/v1.0/common.xml
-Validating /home/soo/sve_design_project/src/control/mavlink/message_definitions/v1.0/ardupilotmega.xml
-Parsing /home/soo/sve_design_project/src/control/mavlink/message_definitions/v1.0/common.xml
-Parsing /home/soo/sve_design_project/src/control/mavlink/message_definitions/v1.0/ardupilotmega.xml
-MAV_CMD
-MAV_CMD_DO_GRIPPER
-MAV_CMD_DO_AUTOTUNE_ENABLE
 MAV_CMD
 MAV_CMD_NAV_WAYPOINT
 MAV_CMD_NAV_LOITER_UNLIM
@@ -3640,49 +3622,18 @@ MAV_CMD_ACK_ERR_COORDINATES_OUT_OF_RANGE
 MAV_CMD_ACK_ERR_X_LAT_OUT_OF_RANGE
 MAV_CMD_ACK_ERR_Y_LON_OUT_OF_RANGE
 MAV_CMD_ACK_ERR_Z_ALT_OUT_OF_RANGE
-MAV_CMD_DO_SET_RESUME_REPEAT_DIST
-MAV_CMD_NAV_ALTITUDE_WAIT
-MAV_CMD_POWER_OFF_INITIATED
-MAV_CMD_SOLO_BTN_FLY_CLICK
-MAV_CMD_SOLO_BTN_FLY_HOLD
-MAV_CMD_SOLO_BTN_PAUSE_CLICK
-MAV_CMD_FIXED_MAG_CAL
-MAV_CMD_FIXED_MAG_CAL_FIELD
-MAV_CMD_FIXED_MAG_CAL_YAW
-MAV_CMD_DO_START_MAG_CAL
-MAV_CMD_DO_ACCEPT_MAG_CAL
-MAV_CMD_DO_CANCEL_MAG_CAL
-MAV_CMD_ACCELCAL_VEHICLE_POS
-MAV_CMD_DO_SEND_BANNER
-MAV_CMD_SET_FACTORY_TEST_MODE
-MAV_CMD_GIMBAL_RESET
-MAV_CMD_GIMBAL_AXIS_CALIBRATION_STATUS
-MAV_CMD_GIMBAL_REQUEST_AXIS_CALIBRATION
-MAV_CMD_GIMBAL_FULL_RESET
-MAV_CMD_DO_WINCH
-MAV_CMD_FLASH_BOOTLOADER
-MAV_CMD_BATTERY_RESET
-MAV_CMD_DEBUG_TRAP
-MAV_CMD_SCRIPTING
 Note: message GPS_STATUS is longer than 64 bytes long (109 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
-Note: message DATA64 is longer than 64 bytes long (74 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
-Note: message DATA96 is longer than 64 bytes long (106 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
 Note: message ATTITUDE_QUATERNION_COV is longer than 64 bytes long (80 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
 Note: message GLOBAL_POSITION_INT_COV is longer than 64 bytes long (189 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
 Note: message LOCAL_POSITION_NED_COV is longer than 64 bytes long (233 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
-Note: message REMOTE_LOG_DATA_BLOCK is longer than 64 bytes long (214 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
-Note: message EFI_STATUS is longer than 64 bytes long (73 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
-Note: message DEVICE_OP_READ_REPLY is longer than 64 bytes long (143 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
 Note: message HIL_ACTUATOR_CONTROLS is longer than 64 bytes long (89 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
 Note: message GLOBAL_VISION_POSITION_ESTIMATE is longer than 64 bytes long (125 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
 Note: message VISION_POSITION_ESTIMATE is longer than 64 bytes long (125 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
 Note: message VISION_SPEED_ESTIMATE is longer than 64 bytes long (65 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
-Note: message DEVICE_OP_WRITE is longer than 64 bytes long (187 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
 Note: message VICON_POSITION_ESTIMATE is longer than 64 bytes long (124 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
 Note: message HIGHRES_IMU is longer than 64 bytes long (71 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
 Note: message HIL_SENSOR is longer than 64 bytes long (72 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
 Note: message SIM_STATE is longer than 64 bytes long (92 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
-Validating /home/soo/sve_design_project/src/control/mavlink/message_definitions/v1.0/common.xml
 Note: message FILE_TRANSFER_PROTOCOL is longer than 64 bytes long (262 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
 Note: message HIL_STATE_QUATERNION is longer than 64 bytes long (72 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
 Note: message LOG_DATA is longer than 64 bytes long (105 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
@@ -3707,7 +3658,6 @@ Note: message LOGGING_DATA is longer than 64 bytes long (263 bytes), which can c
 Note: message LOGGING_DATA_ACKED is longer than 64 bytes long (263 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
 Note: message VIDEO_STREAM_INFORMATION is longer than 64 bytes long (221 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
 Note: message GIMBAL_DEVICE_INFORMATION is longer than 64 bytes long (106 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
-Parsing /home/soo/sve_design_project/src/control/mavlink/message_definitions/v1.0/common.xml
 Note: message WIFI_CONFIG_AP is longer than 64 bytes long (104 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
 Note: message AIS_VESSEL is longer than 64 bytes long (66 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
 Note: message UAVCAN_NODE_INFO is longer than 64 bytes long (124 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
@@ -3735,6 +3685,24 @@ Note: An enum value was auto-generated: MAV_DATA_STREAM_PROPULSION = 13
 Found 201 MAVLink message types in 2 XML files
 Generating C headers
 Generating C implementation in directory include/v2.0/autoquad
+Generating C implementation in directory include/v2.0/common
+Copying fixed headers for protocol 1.0 to include/v1.0
+[ 81%] Built target standard.xml-v1.0
+Copying fixed headers for protocol 2.0 to include/v2.0
+Generating C++ implementation in directory include/v2.0/autoquad
+Generating C++ implementation in directory include/v2.0/common
+Copying fixed C++ headers for protocol 2.0 to include/v2.0
+[ 81%] Built target autoquad.xml-v2.0
+[ 86%] [34m[1mGenerating ASLUAV-v2.0-cxx-stamp[0m
+Validating /home/soo/sve_design_project/src/control/mavlink/message_definitions/v1.0/ASLUAV.xml
+Parsing /home/soo/sve_design_project/src/control/mavlink/message_definitions/v1.0/ASLUAV.xml
+MAV_CMD
+MAV_CMD_RESET_MPPT
+MAV_CMD_PAYLOAD_CONTROL
+Note: message ASLCTRL_DATA is longer than 64 bytes long (106 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
+Note: message FW_SOARING_DATA is longer than 64 bytes long (110 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
+Validating /home/soo/sve_design_project/src/control/mavlink/message_definitions/v1.0/common.xml
+Parsing /home/soo/sve_design_project/src/control/mavlink/message_definitions/v1.0/common.xml
 MAV_CMD
 MAV_CMD_NAV_WAYPOINT
 MAV_CMD_NAV_LOITER_UNLIM
@@ -3891,7 +3859,6 @@ MAV_CMD_ACK_ERR_COORDINATES_OUT_OF_RANGE
 MAV_CMD_ACK_ERR_X_LAT_OUT_OF_RANGE
 MAV_CMD_ACK_ERR_Y_LON_OUT_OF_RANGE
 MAV_CMD_ACK_ERR_Z_ALT_OUT_OF_RANGE
-Generating C implementation in directory include/v2.0/common
 Note: message GPS_STATUS is longer than 64 bytes long (109 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
 Note: message ATTITUDE_QUATERNION_COV is longer than 64 bytes long (80 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
 Note: message GLOBAL_POSITION_INT_COV is longer than 64 bytes long (189 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
@@ -3953,6 +3920,50 @@ Note: An enum value was auto-generated: GSM_MODEM_TYPE_HUAWEI_E3372 = 1
 Found 214 MAVLink message types in 2 XML files
 Generating C headers
 Generating C implementation in directory include/v2.0/ASLUAV
+Generating C implementation in directory include/v2.0/common
+Copying fixed headers for protocol 2.0 to include/v2.0
+Generating C++ implementation in directory include/v2.0/ASLUAV
+Generating C++ implementation in directory include/v2.0/common
+Copying fixed C++ headers for protocol 2.0 to include/v2.0
+[ 86%] Built target ASLUAV.xml-v2.0
+[ 90%] [34m[1mGenerating ardupilotmega-v2.0-cxx-stamp[0m
+Validating /home/soo/sve_design_project/src/control/mavlink/message_definitions/v1.0/ardupilotmega.xml
+Parsing /home/soo/sve_design_project/src/control/mavlink/message_definitions/v1.0/ardupilotmega.xml
+MAV_CMD
+MAV_CMD_DO_GRIPPER
+MAV_CMD_DO_AUTOTUNE_ENABLE
+MAV_CMD_DO_SET_RESUME_REPEAT_DIST
+MAV_CMD_NAV_ALTITUDE_WAIT
+MAV_CMD_POWER_OFF_INITIATED
+MAV_CMD_SOLO_BTN_FLY_CLICK
+MAV_CMD_SOLO_BTN_FLY_HOLD
+MAV_CMD_SOLO_BTN_PAUSE_CLICK
+MAV_CMD_FIXED_MAG_CAL
+MAV_CMD_FIXED_MAG_CAL_FIELD
+MAV_CMD_FIXED_MAG_CAL_YAW
+MAV_CMD_DO_START_MAG_CAL
+MAV_CMD_DO_ACCEPT_MAG_CAL
+MAV_CMD_DO_CANCEL_MAG_CAL
+MAV_CMD_ACCELCAL_VEHICLE_POS
+MAV_CMD_DO_SEND_BANNER
+MAV_CMD_SET_FACTORY_TEST_MODE
+MAV_CMD_GIMBAL_RESET
+MAV_CMD_GIMBAL_AXIS_CALIBRATION_STATUS
+MAV_CMD_GIMBAL_REQUEST_AXIS_CALIBRATION
+MAV_CMD_GIMBAL_FULL_RESET
+MAV_CMD_DO_WINCH
+MAV_CMD_FLASH_BOOTLOADER
+MAV_CMD_BATTERY_RESET
+MAV_CMD_DEBUG_TRAP
+MAV_CMD_SCRIPTING
+Note: message DATA64 is longer than 64 bytes long (74 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
+Note: message DATA96 is longer than 64 bytes long (106 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
+Note: message REMOTE_LOG_DATA_BLOCK is longer than 64 bytes long (214 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
+Note: message EFI_STATUS is longer than 64 bytes long (73 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
+Note: message DEVICE_OP_READ_REPLY is longer than 64 bytes long (143 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
+Note: message DEVICE_OP_WRITE is longer than 64 bytes long (187 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
+Validating /home/soo/sve_design_project/src/control/mavlink/message_definitions/v1.0/common.xml
+Parsing /home/soo/sve_design_project/src/control/mavlink/message_definitions/v1.0/common.xml
 MAV_CMD
 MAV_CMD_NAV_WAYPOINT
 MAV_CMD_NAV_LOITER_UNLIM
@@ -4167,7 +4178,6 @@ Note: message WHEEL_DISTANCE is longer than 64 bytes long (145 bytes), which can
 Note: message OPEN_DRONE_ID_MESSAGE_PACK is longer than 64 bytes long (260 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
 Validating /home/soo/sve_design_project/src/control/mavlink/message_definitions/v1.0/uAvionix.xml
 Parsing /home/soo/sve_design_project/src/control/mavlink/message_definitions/v1.0/uAvionix.xml
-Generating C implementation in directory include/v2.0/common
 Validating /home/soo/sve_design_project/src/control/mavlink/message_definitions/v1.0/icarous.xml
 Parsing /home/soo/sve_design_project/src/control/mavlink/message_definitions/v1.0/icarous.xml
 Merged enum MAV_CMD
@@ -4175,25 +4185,19 @@ Found 264 MAVLink message types in 4 XML files
 Generating C headers
 Generating C implementation in directory include/v2.0/ardupilotmega
 Generating C implementation in directory include/v2.0/common
-Copying fixed headers for protocol 2.0 to include/v2.0
-Generating C++ implementation in directory include/v2.0/autoquad
-Generating C++ implementation in directory include/v2.0/common
-Copying fixed headers for protocol 2.0 to include/v2.0
-Generating C++ implementation in directory include/v2.0/ASLUAV
-Generating C++ implementation in directory include/v2.0/common
-Copying fixed C++ headers for protocol 2.0 to include/v2.0
-[ 90%] Built target autoquad.xml-v2.0
-[ 95%] [34m[1mGenerating include/v1.0/ualberta/ualberta.h[0m
-Copying fixed C++ headers for protocol 2.0 to include/v2.0
 Generating C implementation in directory include/v2.0/uAvionix
 Generating C implementation in directory include/v2.0/icarous
 Copying fixed headers for protocol 2.0 to include/v2.0
 Generating C++ implementation in directory include/v2.0/ardupilotmega
-[ 95%] Built target ASLUAV.xml-v2.0
+Generating C++ implementation in directory include/v2.0/common
+Generating C++ implementation in directory include/v2.0/uAvionix
+Generating C++ implementation in directory include/v2.0/icarous
+Copying fixed C++ headers for protocol 2.0 to include/v2.0
+[ 90%] Built target ardupilotmega.xml-v2.0
+[ 95%] [34m[1mGenerating include/v1.0/ualberta/ualberta.h[0m
 Validating /home/soo/sve_design_project/src/control/mavlink/message_definitions/v1.0/ualberta.xml
 Parsing /home/soo/sve_design_project/src/control/mavlink/message_definitions/v1.0/ualberta.xml
 Validating /home/soo/sve_design_project/src/control/mavlink/message_definitions/v1.0/common.xml
-Generating C++ implementation in directory include/v2.0/common
 Parsing /home/soo/sve_design_project/src/control/mavlink/message_definitions/v1.0/common.xml
 MAV_CMD
 MAV_CMD_NAV_WAYPOINT
@@ -4431,7 +4435,6 @@ Note: message AUTOPILOT_VERSION is longer than 64 bytes long (68 bytes), which c
 Note: message GPS_INPUT is longer than 64 bytes long (71 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
 Note: message GPS_RTCM_DATA is longer than 64 bytes long (190 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
 Note: message V2_EXTENSION is longer than 64 bytes long (262 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
-Generating C++ implementation in directory include/v2.0/uAvionix
 Note: An enum value was auto-generated: MODE_MANUAL_DIRECT = 1
 Note: An enum value was auto-generated: MODE_MANUAL_SCALED = 2
 Note: An enum value was auto-generated: MODE_AUTO_PID_ATT = 3
@@ -4444,12 +4447,11 @@ Note: An enum value was auto-generated: NAV_INS_GPS = 4
 Note: An enum value was auto-generated: PILOT_MANUAL = 1
 Note: An enum value was auto-generated: PILOT_AUTO = 2
 Note: An enum value was auto-generated: PILOT_ROTO = 3
-Generating C++ implementation in directory include/v2.0/icarous
 Found 143 MAVLink message types in 2 XML files
-Copying fixed C++ headers for protocol 2.0 to include/v2.0
 Generating C implementation in directory include/v1.0/ualberta
 Generating C implementation in directory include/v1.0/common
-[ 95%] Built target ardupilotmega.xml-v2.0
+Copying fixed headers for protocol 1.0 to include/v1.0
+[ 95%] Built target ualberta.xml-v1.0
 [100%] [34m[1mGenerating common-v2.0-cxx-stamp[0m
 Validating /home/soo/sve_design_project/src/control/mavlink/message_definitions/v1.0/common.xml
 Parsing /home/soo/sve_design_project/src/control/mavlink/message_definitions/v1.0/common.xml
@@ -4668,8 +4670,6 @@ Note: message OPEN_DRONE_ID_MESSAGE_PACK is longer than 64 bytes long (260 bytes
 Found 199 MAVLink message types in 1 XML files
 Generating C headers
 Generating C implementation in directory include/v2.0/common
-Copying fixed headers for protocol 1.0 to include/v1.0
-[100%] Built target ualberta.xml-v1.0
 Copying fixed headers for protocol 2.0 to include/v2.0
 Generating C++ implementation in directory include/v2.0/common
 Copying fixed C++ headers for protocol 2.0 to include/v2.0

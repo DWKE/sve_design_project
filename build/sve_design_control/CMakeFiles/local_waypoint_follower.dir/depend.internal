@@ -7,6 +7,13 @@ CMakeFiles/local_waypoint_follower.dir/src/local_waypoint_follower.cpp.o
  /opt/ros/melodic/include/geometry_msgs/Pose.h
  /opt/ros/melodic/include/geometry_msgs/PoseStamped.h
  /opt/ros/melodic/include/geometry_msgs/Quaternion.h
+ /opt/ros/melodic/include/mavros_msgs/CommandBool.h
+ /opt/ros/melodic/include/mavros_msgs/CommandBoolRequest.h
+ /opt/ros/melodic/include/mavros_msgs/CommandBoolResponse.h
+ /opt/ros/melodic/include/mavros_msgs/SetMode.h
+ /opt/ros/melodic/include/mavros_msgs/SetModeRequest.h
+ /opt/ros/melodic/include/mavros_msgs/SetModeResponse.h
+ /opt/ros/melodic/include/mavros_msgs/State.h
  /opt/ros/melodic/include/ros/advertise_options.h
  /opt/ros/melodic/include/ros/advertise_service_options.h
  /opt/ros/melodic/include/ros/assert.h

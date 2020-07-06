@@ -30,11 +30,18 @@
 [  0%] Built target geometry_msgs_generate_messages_cpp
 [  0%] Built target geometry_msgs_generate_messages_lisp
 [  0%] Built target geometry_msgs_generate_messages_py
+[  7%] [34m[1mGenerating Javascript code from sve_design_control/driving_control_msg.msg[0m
 [  7%] Built target sve_design_control_generate_messages_nodejs
+[ 15%] [34m[1mGenerating EusLisp code from sve_design_control/driving_control_msg.msg[0m
 [ 23%] Built target sve_design_control_generate_messages_eus
+[ 30%] [34m[1mGenerating C++ code from sve_design_control/driving_control_msg.msg[0m
 [ 30%] Built target sve_design_control_generate_messages_cpp
-[ 38%] Built target sve_design_control_generate_messages_lisp
+[ 38%] [34m[1mGenerating Lisp code from sve_design_control/driving_control_msg.msg[0m
+[ 46%] [34m[1mGenerating Python from MSG sve_design_control/driving_control_msg[0m
+[ 46%] Built target sve_design_control_generate_messages_lisp
+[ 53%] [34m[1mGenerating Python msg __init__.py for sve_design_control[0m
 [ 53%] Built target sve_design_control_generate_messages_py
+[35m[1mScanning dependencies of target control_node[0m
 [ 61%] [32mBuilding CXX object CMakeFiles/control_node.dir/src/control_node.cpp.o[0m
 [ 69%] [32m[1mLinking CXX executable /home/soo/sve_design_project/devel/.private/sve_design_control/lib/sve_design_control/control_node[0m
 [ 69%] Built target control_node
@@ -46,6 +53,7 @@
                      [01;35m[K^~~~[m[K
 [ 84%] [32m[1mLinking CXX executable /home/soo/sve_design_project/devel/.private/sve_design_control/lib/sve_design_control/keyboard_interface[0m
 [ 84%] Built target keyboard_interface
+[35m[1mScanning dependencies of target local_waypoint_follower[0m
 [ 92%] [32mBuilding CXX object CMakeFiles/local_waypoint_follower.dir/src/local_waypoint_follower.cpp.o[0m
 [100%] [32m[1mLinking CXX executable /home/soo/sve_design_project/devel/.private/sve_design_control/lib/sve_design_control/local_waypoint_follower[0m
 [100%] Built target local_waypoint_follower

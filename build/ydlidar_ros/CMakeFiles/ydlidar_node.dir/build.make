@@ -177,33 +177,9 @@ CMakeFiles/ydlidar_node.dir/sdk/src/CYdLidar.cpp.o.provides: CMakeFiles/ydlidar_
 CMakeFiles/ydlidar_node.dir/sdk/src/CYdLidar.cpp.o.provides.build: CMakeFiles/ydlidar_node.dir/sdk/src/CYdLidar.cpp.o
 
 
-CMakeFiles/ydlidar_node.dir/sdk/src/Console.cpp.o: CMakeFiles/ydlidar_node.dir/flags.make
-CMakeFiles/ydlidar_node.dir/sdk/src/Console.cpp.o: /home/soo/sve_design_project/src/lidar_detection/ydlidar_ros-master/sdk/src/Console.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/soo/sve_design_project/build/ydlidar_ros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ydlidar_node.dir/sdk/src/Console.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ydlidar_node.dir/sdk/src/Console.cpp.o -c /home/soo/sve_design_project/src/lidar_detection/ydlidar_ros-master/sdk/src/Console.cpp
-
-CMakeFiles/ydlidar_node.dir/sdk/src/Console.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ydlidar_node.dir/sdk/src/Console.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/soo/sve_design_project/src/lidar_detection/ydlidar_ros-master/sdk/src/Console.cpp > CMakeFiles/ydlidar_node.dir/sdk/src/Console.cpp.i
-
-CMakeFiles/ydlidar_node.dir/sdk/src/Console.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ydlidar_node.dir/sdk/src/Console.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/soo/sve_design_project/src/lidar_detection/ydlidar_ros-master/sdk/src/Console.cpp -o CMakeFiles/ydlidar_node.dir/sdk/src/Console.cpp.s
-
-CMakeFiles/ydlidar_node.dir/sdk/src/Console.cpp.o.requires:
-
-.PHONY : CMakeFiles/ydlidar_node.dir/sdk/src/Console.cpp.o.requires
-
-CMakeFiles/ydlidar_node.dir/sdk/src/Console.cpp.o.provides: CMakeFiles/ydlidar_node.dir/sdk/src/Console.cpp.o.requires
-	$(MAKE) -f CMakeFiles/ydlidar_node.dir/build.make CMakeFiles/ydlidar_node.dir/sdk/src/Console.cpp.o.provides.build
-.PHONY : CMakeFiles/ydlidar_node.dir/sdk/src/Console.cpp.o.provides
-
-CMakeFiles/ydlidar_node.dir/sdk/src/Console.cpp.o.provides.build: CMakeFiles/ydlidar_node.dir/sdk/src/Console.cpp.o
-
-
 CMakeFiles/ydlidar_node.dir/sdk/src/serial.cpp.o: CMakeFiles/ydlidar_node.dir/flags.make
 CMakeFiles/ydlidar_node.dir/sdk/src/serial.cpp.o: /home/soo/sve_design_project/src/lidar_detection/ydlidar_ros-master/sdk/src/serial.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/soo/sve_design_project/build/ydlidar_ros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/ydlidar_node.dir/sdk/src/serial.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/soo/sve_design_project/build/ydlidar_ros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ydlidar_node.dir/sdk/src/serial.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ydlidar_node.dir/sdk/src/serial.cpp.o -c /home/soo/sve_design_project/src/lidar_detection/ydlidar_ros-master/sdk/src/serial.cpp
 
 CMakeFiles/ydlidar_node.dir/sdk/src/serial.cpp.i: cmake_force
@@ -227,7 +203,7 @@ CMakeFiles/ydlidar_node.dir/sdk/src/serial.cpp.o.provides.build: CMakeFiles/ydli
 
 CMakeFiles/ydlidar_node.dir/sdk/src/ydlidar_driver.cpp.o: CMakeFiles/ydlidar_node.dir/flags.make
 CMakeFiles/ydlidar_node.dir/sdk/src/ydlidar_driver.cpp.o: /home/soo/sve_design_project/src/lidar_detection/ydlidar_ros-master/sdk/src/ydlidar_driver.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/soo/sve_design_project/build/ydlidar_ros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/ydlidar_node.dir/sdk/src/ydlidar_driver.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/soo/sve_design_project/build/ydlidar_ros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/ydlidar_node.dir/sdk/src/ydlidar_driver.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ydlidar_node.dir/sdk/src/ydlidar_driver.cpp.o -c /home/soo/sve_design_project/src/lidar_detection/ydlidar_ros-master/sdk/src/ydlidar_driver.cpp
 
 CMakeFiles/ydlidar_node.dir/sdk/src/ydlidar_driver.cpp.i: cmake_force
@@ -251,7 +227,7 @@ CMakeFiles/ydlidar_node.dir/sdk/src/ydlidar_driver.cpp.o.provides.build: CMakeFi
 
 CMakeFiles/ydlidar_node.dir/sdk/src/lock.c.o: CMakeFiles/ydlidar_node.dir/flags.make
 CMakeFiles/ydlidar_node.dir/sdk/src/lock.c.o: /home/soo/sve_design_project/src/lidar_detection/ydlidar_ros-master/sdk/src/lock.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/soo/sve_design_project/build/ydlidar_ros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/ydlidar_node.dir/sdk/src/lock.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/soo/sve_design_project/build/ydlidar_ros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/ydlidar_node.dir/sdk/src/lock.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ydlidar_node.dir/sdk/src/lock.c.o   -c /home/soo/sve_design_project/src/lidar_detection/ydlidar_ros-master/sdk/src/lock.c
 
 CMakeFiles/ydlidar_node.dir/sdk/src/lock.c.i: cmake_force
@@ -280,7 +256,6 @@ ydlidar_node_OBJECTS = \
 "CMakeFiles/ydlidar_node.dir/sdk/src/impl/unix/unix_serial.cpp.o" \
 "CMakeFiles/ydlidar_node.dir/sdk/src/impl/unix/unix_timer.cpp.o" \
 "CMakeFiles/ydlidar_node.dir/sdk/src/CYdLidar.cpp.o" \
-"CMakeFiles/ydlidar_node.dir/sdk/src/Console.cpp.o" \
 "CMakeFiles/ydlidar_node.dir/sdk/src/serial.cpp.o" \
 "CMakeFiles/ydlidar_node.dir/sdk/src/ydlidar_driver.cpp.o" \
 "CMakeFiles/ydlidar_node.dir/sdk/src/lock.c.o"
@@ -293,7 +268,6 @@ ydlidar_node_EXTERNAL_OBJECTS =
 /home/soo/sve_design_project/devel/.private/ydlidar_ros/lib/ydlidar_ros/ydlidar_node: CMakeFiles/ydlidar_node.dir/sdk/src/impl/unix/unix_serial.cpp.o
 /home/soo/sve_design_project/devel/.private/ydlidar_ros/lib/ydlidar_ros/ydlidar_node: CMakeFiles/ydlidar_node.dir/sdk/src/impl/unix/unix_timer.cpp.o
 /home/soo/sve_design_project/devel/.private/ydlidar_ros/lib/ydlidar_ros/ydlidar_node: CMakeFiles/ydlidar_node.dir/sdk/src/CYdLidar.cpp.o
-/home/soo/sve_design_project/devel/.private/ydlidar_ros/lib/ydlidar_ros/ydlidar_node: CMakeFiles/ydlidar_node.dir/sdk/src/Console.cpp.o
 /home/soo/sve_design_project/devel/.private/ydlidar_ros/lib/ydlidar_ros/ydlidar_node: CMakeFiles/ydlidar_node.dir/sdk/src/serial.cpp.o
 /home/soo/sve_design_project/devel/.private/ydlidar_ros/lib/ydlidar_ros/ydlidar_node: CMakeFiles/ydlidar_node.dir/sdk/src/ydlidar_driver.cpp.o
 /home/soo/sve_design_project/devel/.private/ydlidar_ros/lib/ydlidar_ros/ydlidar_node: CMakeFiles/ydlidar_node.dir/sdk/src/lock.c.o
@@ -317,7 +291,7 @@ ydlidar_node_EXTERNAL_OBJECTS =
 /home/soo/sve_design_project/devel/.private/ydlidar_ros/lib/ydlidar_ros/ydlidar_node: /usr/lib/x86_64-linux-gnu/libpthread.so
 /home/soo/sve_design_project/devel/.private/ydlidar_ros/lib/ydlidar_ros/ydlidar_node: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
 /home/soo/sve_design_project/devel/.private/ydlidar_ros/lib/ydlidar_ros/ydlidar_node: CMakeFiles/ydlidar_node.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/soo/sve_design_project/build/ydlidar_ros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable /home/soo/sve_design_project/devel/.private/ydlidar_ros/lib/ydlidar_ros/ydlidar_node"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/soo/sve_design_project/build/ydlidar_ros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable /home/soo/sve_design_project/devel/.private/ydlidar_ros/lib/ydlidar_ros/ydlidar_node"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ydlidar_node.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -330,7 +304,6 @@ CMakeFiles/ydlidar_node.dir/requires: CMakeFiles/ydlidar_node.dir/sdk/src/impl/u
 CMakeFiles/ydlidar_node.dir/requires: CMakeFiles/ydlidar_node.dir/sdk/src/impl/unix/unix_serial.cpp.o.requires
 CMakeFiles/ydlidar_node.dir/requires: CMakeFiles/ydlidar_node.dir/sdk/src/impl/unix/unix_timer.cpp.o.requires
 CMakeFiles/ydlidar_node.dir/requires: CMakeFiles/ydlidar_node.dir/sdk/src/CYdLidar.cpp.o.requires
-CMakeFiles/ydlidar_node.dir/requires: CMakeFiles/ydlidar_node.dir/sdk/src/Console.cpp.o.requires
 CMakeFiles/ydlidar_node.dir/requires: CMakeFiles/ydlidar_node.dir/sdk/src/serial.cpp.o.requires
 CMakeFiles/ydlidar_node.dir/requires: CMakeFiles/ydlidar_node.dir/sdk/src/ydlidar_driver.cpp.o.requires
 CMakeFiles/ydlidar_node.dir/requires: CMakeFiles/ydlidar_node.dir/sdk/src/lock.c.o.requires

@@ -5,7 +5,8 @@ CMakeFiles/ydlidar_node.dir/sdk/src/lock.c.o: /home/soo/sve_design_project/src/l
 CMakeFiles/ydlidar_node.dir/sdk/src/lock.c.o: /home/soo/sve_design_project/src/lidar_detection/ydlidar_ros-master/sdk/src/lock.c
 
 CMakeFiles/ydlidar_node.dir/sdk/src/CYdLidar.cpp.o: /home/soo/sve_design_project/src/lidar_detection/ydlidar_ros-master/sdk/include/CYdLidar.h
-CMakeFiles/ydlidar_node.dir/sdk/src/CYdLidar.cpp.o: /home/soo/sve_design_project/src/lidar_detection/ydlidar_ros-master/sdk/include/Console.h
+CMakeFiles/ydlidar_node.dir/sdk/src/CYdLidar.cpp.o: /home/soo/sve_design_project/src/lidar_detection/ydlidar_ros-master/sdk/include/angles.h
+CMakeFiles/ydlidar_node.dir/sdk/src/CYdLidar.cpp.o: /home/soo/sve_design_project/src/lidar_detection/ydlidar_ros-master/sdk/include/help_info.h
 CMakeFiles/ydlidar_node.dir/sdk/src/CYdLidar.cpp.o: /home/soo/sve_design_project/src/lidar_detection/ydlidar_ros-master/sdk/include/locker.h
 CMakeFiles/ydlidar_node.dir/sdk/src/CYdLidar.cpp.o: /home/soo/sve_design_project/src/lidar_detection/ydlidar_ros-master/sdk/include/serial.h
 CMakeFiles/ydlidar_node.dir/sdk/src/CYdLidar.cpp.o: /home/soo/sve_design_project/src/lidar_detection/ydlidar_ros-master/sdk/include/thread.h
@@ -21,10 +22,6 @@ CMakeFiles/ydlidar_node.dir/sdk/src/CYdLidar.cpp.o: /home/soo/sve_design_project
 CMakeFiles/ydlidar_node.dir/sdk/src/CYdLidar.cpp.o: /home/soo/sve_design_project/src/lidar_detection/ydlidar_ros-master/sdk/src/impl/windows/win.h
 CMakeFiles/ydlidar_node.dir/sdk/src/CYdLidar.cpp.o: /home/soo/sve_design_project/src/lidar_detection/ydlidar_ros-master/sdk/src/impl/windows/win_serial.h
 
-CMakeFiles/ydlidar_node.dir/sdk/src/Console.cpp.o: /home/soo/sve_design_project/src/lidar_detection/ydlidar_ros-master/sdk/include/Console.h
-CMakeFiles/ydlidar_node.dir/sdk/src/Console.cpp.o: /home/soo/sve_design_project/src/lidar_detection/ydlidar_ros-master/sdk/include/v8stdint.h
-CMakeFiles/ydlidar_node.dir/sdk/src/Console.cpp.o: /home/soo/sve_design_project/src/lidar_detection/ydlidar_ros-master/sdk/src/Console.cpp
-
 CMakeFiles/ydlidar_node.dir/sdk/src/impl/unix/list_ports_linux.cpp.o: /home/soo/sve_design_project/src/lidar_detection/ydlidar_ros-master/sdk/include/serial.h
 CMakeFiles/ydlidar_node.dir/sdk/src/impl/unix/list_ports_linux.cpp.o: /home/soo/sve_design_project/src/lidar_detection/ydlidar_ros-master/sdk/include/v8stdint.h
 CMakeFiles/ydlidar_node.dir/sdk/src/impl/unix/list_ports_linux.cpp.o: /home/soo/sve_design_project/src/lidar_detection/ydlidar_ros-master/sdk/src/impl/unix/list_ports_linux.cpp
@@ -39,7 +36,6 @@ CMakeFiles/ydlidar_node.dir/sdk/src/impl/unix/unix_timer.cpp.o: /home/soo/sve_de
 CMakeFiles/ydlidar_node.dir/sdk/src/impl/unix/unix_timer.cpp.o: /home/soo/sve_design_project/src/lidar_detection/ydlidar_ros-master/sdk/include/v8stdint.h
 CMakeFiles/ydlidar_node.dir/sdk/src/impl/unix/unix_timer.cpp.o: /home/soo/sve_design_project/src/lidar_detection/ydlidar_ros-master/sdk/src/impl/unix/unix_timer.cpp
 
-CMakeFiles/ydlidar_node.dir/sdk/src/serial.cpp.o: /home/soo/sve_design_project/src/lidar_detection/ydlidar_ros-master/sdk/include/Console.h
 CMakeFiles/ydlidar_node.dir/sdk/src/serial.cpp.o: /home/soo/sve_design_project/src/lidar_detection/ydlidar_ros-master/sdk/include/locker.h
 CMakeFiles/ydlidar_node.dir/sdk/src/serial.cpp.o: /home/soo/sve_design_project/src/lidar_detection/ydlidar_ros-master/sdk/include/serial.h
 CMakeFiles/ydlidar_node.dir/sdk/src/serial.cpp.o: /home/soo/sve_design_project/src/lidar_detection/ydlidar_ros-master/sdk/include/thread.h
@@ -52,7 +48,7 @@ CMakeFiles/ydlidar_node.dir/sdk/src/serial.cpp.o: /home/soo/sve_design_project/s
 CMakeFiles/ydlidar_node.dir/sdk/src/serial.cpp.o: /home/soo/sve_design_project/src/lidar_detection/ydlidar_ros-master/sdk/src/impl/windows/win_serial.h
 CMakeFiles/ydlidar_node.dir/sdk/src/serial.cpp.o: /home/soo/sve_design_project/src/lidar_detection/ydlidar_ros-master/sdk/src/serial.cpp
 
-CMakeFiles/ydlidar_node.dir/sdk/src/ydlidar_driver.cpp.o: /home/soo/sve_design_project/src/lidar_detection/ydlidar_ros-master/sdk/include/Console.h
+CMakeFiles/ydlidar_node.dir/sdk/src/ydlidar_driver.cpp.o: /home/soo/sve_design_project/src/lidar_detection/ydlidar_ros-master/sdk/include/help_info.h
 CMakeFiles/ydlidar_node.dir/sdk/src/ydlidar_driver.cpp.o: /home/soo/sve_design_project/src/lidar_detection/ydlidar_ros-master/sdk/include/locker.h
 CMakeFiles/ydlidar_node.dir/sdk/src/ydlidar_driver.cpp.o: /home/soo/sve_design_project/src/lidar_detection/ydlidar_ros-master/sdk/include/serial.h
 CMakeFiles/ydlidar_node.dir/sdk/src/ydlidar_driver.cpp.o: /home/soo/sve_design_project/src/lidar_detection/ydlidar_ros-master/sdk/include/thread.h
@@ -68,7 +64,7 @@ CMakeFiles/ydlidar_node.dir/sdk/src/ydlidar_driver.cpp.o: /home/soo/sve_design_p
 CMakeFiles/ydlidar_node.dir/sdk/src/ydlidar_driver.cpp.o: /home/soo/sve_design_project/src/lidar_detection/ydlidar_ros-master/sdk/src/ydlidar_driver.cpp
 
 CMakeFiles/ydlidar_node.dir/src/ydlidar_node.cpp.o: /home/soo/sve_design_project/src/lidar_detection/ydlidar_ros-master/sdk/include/CYdLidar.h
-CMakeFiles/ydlidar_node.dir/src/ydlidar_node.cpp.o: /home/soo/sve_design_project/src/lidar_detection/ydlidar_ros-master/sdk/include/Console.h
+CMakeFiles/ydlidar_node.dir/src/ydlidar_node.cpp.o: /home/soo/sve_design_project/src/lidar_detection/ydlidar_ros-master/sdk/include/help_info.h
 CMakeFiles/ydlidar_node.dir/src/ydlidar_node.cpp.o: /home/soo/sve_design_project/src/lidar_detection/ydlidar_ros-master/sdk/include/locker.h
 CMakeFiles/ydlidar_node.dir/src/ydlidar_node.cpp.o: /home/soo/sve_design_project/src/lidar_detection/ydlidar_ros-master/sdk/include/serial.h
 CMakeFiles/ydlidar_node.dir/src/ydlidar_node.cpp.o: /home/soo/sve_design_project/src/lidar_detection/ydlidar_ros-master/sdk/include/thread.h

@@ -24,6 +24,6 @@
 [  0%] Built target geometry_msgs_generate_messages_py
 [  0%] Built target std_msgs_generate_messages_py
 [ 25%] [32m[1mLinking CXX executable /home/soo/sve_design_project/devel/.private/visualization/lib/visualization/basic_shapes[0m
-[ 50%] [32m[1mLinking CXX executable /home/soo/sve_design_project/devel/.private/visualization/lib/visualization/points_and_lines[0m
-[ 75%] Built target basic_shapes
+[ 50%] Built target basic_shapes
+[ 75%] [32m[1mLinking CXX executable /home/soo/sve_design_project/devel/.private/visualization/lib/visualization/points_and_lines[0m
 [100%] Built target points_and_lines

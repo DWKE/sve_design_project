@@ -1,6 +1,6 @@
 set(_CATKIN_CURRENT_PACKAGE "ydlidar_ros")
-set(ydlidar_ros_VERSION "1.4.1")
-set(ydlidar_ros_MAINTAINER "shao <shao@eaibot.com>")
+set(ydlidar_ros_VERSION "1.4.6")
+set(ydlidar_ros_MAINTAINER "Tony <Tony@eaibot.com>")
 set(ydlidar_ros_PACKAGE_FORMAT "1")
 set(ydlidar_ros_BUILD_DEPENDS "rosconsole" "roscpp" "sensor_msgs")
 set(ydlidar_ros_BUILD_EXPORT_DEPENDS "rosconsole" "roscpp" "sensor_msgs")
