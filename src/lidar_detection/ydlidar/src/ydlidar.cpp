@@ -179,6 +179,7 @@ void ydlidar::displayShape (const std::vector<clusterPtr> pVecClusters)
 
         // tracking objects
         m_arrShapes.markers.clear();
+        m_collisionShapes.markers.clear();
 
         uint32_t objectNumber = 0;
         for (auto pCluster : pVecClusters)
@@ -213,7 +214,7 @@ void ydlidar::displayShape (const std::vector<clusterPtr> pVecClusters)
                         colShape.color.r = 1.0;
                         colShape.color.g = 0.0;
                         colShape.color.b = 0.0;
-                        colShape.color.a = 0.5;
+                        colShape.color.a = 1.0;
 
                         colShape.type = visualization_msgs::Marker::LINE_STRIP;
                         colShape.action = visualization_msgs::Marker::ADD;
@@ -257,6 +258,20 @@ void ydlidar::displayShape (const std::vector<clusterPtr> pVecClusters)
 //			shape.text = std::to_string(distance);
                         shape.text = std::to_string(pCluster->m_id);
                         m_arrShapes.markers.push_back (shape);
+
+                        colShape.scale.x = 0.5;
+                        colShape.scale.y = 0.5;
+                        colShape.points.clear();
+                        colShape.pose.position = pCluster->m_center.position;
+                        colShape.pose.orientation = pCluster->m_center.orientation;
+                        colShape.color.r = shape.color.g = shape.color.b = 1.0;
+                        colShape.color.a = 1.0;
+                        colShape.type = visualization_msgs::Marker::TEXT_VIEW_FACING;
+                        colShape.ns = "/Text";
+//			double distance = sqrt(pow(shape.pose.position.x, 2.0) + pow (shape.pose.position.y, 2.0));
+//			shape.text = std::to_string(distance);
+                        colShape.text = std::to_string(pCluster->m_id);
+                        m_collisionShapes.markers.push_back (colShape);
                 }
                 objectNumber++;
         }
