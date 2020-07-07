@@ -226,21 +226,21 @@ void ydlidar::displayShape (const std::vector<clusterPtr> pVecClusters)
 
                         for (auto const &point: pCluster->m_polygon.polygon.points)
                         {
-                                if(fabs(point.y)<1.0 && point.x >1.5){
+                                if(fabs(point.y)<2.0 && point.x <5.0){
                                         geometry_msgs:: Point colPoint;
                                         colPoint.x = point.x;
                                         colPoint.y = point.y;
         //                                tmpPoint.z = point.z;
                                         colPoint.z = 0;
                                         colShape.points.push_back (colPoint);
+                                        isObstacle = true;
                                 }else{
                                         geometry_msgs:: Point tmpPoint;
                                         tmpPoint.x = point.x;
                                         tmpPoint.y = point.y;
         //                                tmpPoint.z = point.z;
                                         tmpPoint.z = 0;
-                                        shape.points.push_back (tmpPoint);
-                                        isObstacle = true;
+                                        shape.points.push_back (tmpPoint);                                        
                                 }
                         }
                         obstacle.isObstacle = isObstacle;

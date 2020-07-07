@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/soo/sve_design_project/src/lidar_detection/ydlidar_ros-master/src/ydlidar_client.cpp
+/home/soyeong/sve_design_project/src/lidar_detection/ydlidar_ros-master/src/ydlidar_client.cpp
 ros/ros.h
-/home/soo/sve_design_project/src/lidar_detection/ydlidar_ros-master/src/ros/ros.h
+/home/soyeong/sve_design_project/src/lidar_detection/ydlidar_ros-master/src/ros/ros.h
 sensor_msgs/LaserScan.h
-/home/soo/sve_design_project/src/lidar_detection/ydlidar_ros-master/src/sensor_msgs/LaserScan.h
+/home/soyeong/sve_design_project/src/lidar_detection/ydlidar_ros-master/src/sensor_msgs/LaserScan.h
 
 /opt/ros/melodic/include/ros/advertise_options.h
 ros/forwards.h

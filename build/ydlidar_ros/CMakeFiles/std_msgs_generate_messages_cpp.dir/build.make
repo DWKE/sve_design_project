@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/soo/sve_design_project/src/lidar_detection/ydlidar_ros-master
+CMAKE_SOURCE_DIR = /home/soyeong/sve_design_project/src/lidar_detection/ydlidar_ros-master
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/soo/sve_design_project/build/ydlidar_ros
+CMAKE_BINARY_DIR = /home/soyeong/sve_design_project/build/ydlidar_ros
 
 # Utility rule file for std_msgs_generate_messages_cpp.
 
@@ -67,6 +67,6 @@ CMakeFiles/std_msgs_generate_messages_cpp.dir/clean:
 .PHONY : CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
 
 CMakeFiles/std_msgs_generate_messages_cpp.dir/depend:
-	cd /home/soo/sve_design_project/build/ydlidar_ros && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/soo/sve_design_project/src/lidar_detection/ydlidar_ros-master /home/soo/sve_design_project/src/lidar_detection/ydlidar_ros-master /home/soo/sve_design_project/build/ydlidar_ros /home/soo/sve_design_project/build/ydlidar_ros /home/soo/sve_design_project/build/ydlidar_ros/CMakeFiles/std_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/soyeong/sve_design_project/build/ydlidar_ros && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/soyeong/sve_design_project/src/lidar_detection/ydlidar_ros-master /home/soyeong/sve_design_project/src/lidar_detection/ydlidar_ros-master /home/soyeong/sve_design_project/build/ydlidar_ros /home/soyeong/sve_design_project/build/ydlidar_ros /home/soyeong/sve_design_project/build/ydlidar_ros/CMakeFiles/std_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/std_msgs_generate_messages_cpp.dir/depend
 

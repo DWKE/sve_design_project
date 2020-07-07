@@ -1,1 +1,1 @@
-/home/soo/sve_design_project/devel/.private/ydlidar_ros/lib/pkgconfig/ydlidar_ros.pc
+/home/soyeong/sve_design_project/devel/.private/ydlidar_ros/lib/pkgconfig/ydlidar_ros.pc

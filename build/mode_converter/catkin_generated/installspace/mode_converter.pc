@@ -1,8 +1,0 @@
-prefix=/home/soo/sve_design_project/install
-
-Name: mode_converter
-Description: Description of mode_converter
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

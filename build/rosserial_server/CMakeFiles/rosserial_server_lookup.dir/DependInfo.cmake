@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/soo/sve_design_project/src/control/rosserial-noetic-devel/rosserial_server/src/msg_lookup.cpp" "/home/soo/sve_design_project/build/rosserial_server/CMakeFiles/rosserial_server_lookup.dir/src/msg_lookup.cpp.o"
+  "/home/soyeong/sve_design_project/src/control/rosserial-noetic-devel/rosserial_server/src/msg_lookup.cpp" "/home/soyeong/sve_design_project/build/rosserial_server/CMakeFiles/rosserial_server_lookup.dir/src/msg_lookup.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -17,8 +17,8 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/soo/sve_design_project/src/control/rosserial-noetic-devel/rosserial_server/include"
-  "/home/soo/sve_design_project/devel/.private/rosserial_msgs/include"
+  "/home/soyeong/sve_design_project/src/control/rosserial-noetic-devel/rosserial_server/include"
+  "/home/soyeong/sve_design_project/devel/.private/rosserial_msgs/include"
   "/opt/ros/melodic/include"
   "/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   "/usr/include/python2.7"

@@ -1,5 +1,5 @@
-prefix=/home/soo/sve_design_project/devel
-exec_prefix=/home/soo/sve_design_project/devel
+prefix=/home/soyeong/sve_design_project/devel
+exec_prefix=/home/soyeong/sve_design_project/devel
 includedir=${prefix}/include
 
 Name: mavlink

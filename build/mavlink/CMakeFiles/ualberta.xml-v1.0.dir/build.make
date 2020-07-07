@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/soo/sve_design_project/src/control/mavlink
+CMAKE_SOURCE_DIR = /home/soyeong/sve_design_project/src/control/mavlink
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/soo/sve_design_project/build/mavlink
+CMAKE_BINARY_DIR = /home/soyeong/sve_design_project/build/mavlink
 
 # Utility rule file for ualberta.xml-v1.0.
 
@@ -56,11 +56,11 @@ include CMakeFiles/ualberta.xml-v1.0.dir/progress.make
 CMakeFiles/ualberta.xml-v1.0: include/v1.0/ualberta/ualberta.h
 
 
-include/v1.0/ualberta/ualberta.h: /home/soo/sve_design_project/src/control/mavlink/message_definitions/v1.0/ualberta.xml
-include/v1.0/ualberta/ualberta.h: /home/soo/sve_design_project/src/control/mavlink/message_definitions/v1.0/common.xml
-include/v1.0/ualberta/ualberta.h: /home/soo/sve_design_project/src/control/mavlink/pymavlink/tools/mavgen.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/soo/sve_design_project/build/mavlink/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating include/v1.0/ualberta/ualberta.h"
-	/usr/bin/env PYTHONPATH="/home/soo/sve_design_project/src/control/mavlink:/home/soo/sve_design_project/devel/lib/python2.7/dist-packages:/home/soo/FlyMeToTheHome/devel/lib/python2.7/dist-packages:/opt/ros/melodic/lib/python2.7/dist-packages" /usr/bin/python2 /home/soo/sve_design_project/src/control/mavlink/pymavlink/tools/mavgen.py --lang=C --wire-protocol=1.0 --output=include/v1.0 /home/soo/sve_design_project/src/control/mavlink/message_definitions/v1.0/ualberta.xml
+include/v1.0/ualberta/ualberta.h: /home/soyeong/sve_design_project/src/control/mavlink/message_definitions/v1.0/ualberta.xml
+include/v1.0/ualberta/ualberta.h: /home/soyeong/sve_design_project/src/control/mavlink/message_definitions/v1.0/common.xml
+include/v1.0/ualberta/ualberta.h: /home/soyeong/sve_design_project/src/control/mavlink/pymavlink/tools/mavgen.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/soyeong/sve_design_project/build/mavlink/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating include/v1.0/ualberta/ualberta.h"
+	/usr/bin/env PYTHONPATH="/home/soyeong/sve_design_project/src/control/mavlink:/opt/ros/melodic/lib/python2.7/dist-packages" /usr/bin/python2 /home/soyeong/sve_design_project/src/control/mavlink/pymavlink/tools/mavgen.py --lang=C --wire-protocol=1.0 --output=include/v1.0 /home/soyeong/sve_design_project/src/control/mavlink/message_definitions/v1.0/ualberta.xml
 
 ualberta.xml-v1.0: CMakeFiles/ualberta.xml-v1.0
 ualberta.xml-v1.0: include/v1.0/ualberta/ualberta.h
@@ -78,6 +78,6 @@ CMakeFiles/ualberta.xml-v1.0.dir/clean:
 .PHONY : CMakeFiles/ualberta.xml-v1.0.dir/clean
 
 CMakeFiles/ualberta.xml-v1.0.dir/depend:
-	cd /home/soo/sve_design_project/build/mavlink && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/soo/sve_design_project/src/control/mavlink /home/soo/sve_design_project/src/control/mavlink /home/soo/sve_design_project/build/mavlink /home/soo/sve_design_project/build/mavlink /home/soo/sve_design_project/build/mavlink/CMakeFiles/ualberta.xml-v1.0.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/soyeong/sve_design_project/build/mavlink && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/soyeong/sve_design_project/src/control/mavlink /home/soyeong/sve_design_project/src/control/mavlink /home/soyeong/sve_design_project/build/mavlink /home/soyeong/sve_design_project/build/mavlink /home/soyeong/sve_design_project/build/mavlink/CMakeFiles/ualberta.xml-v1.0.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ualberta.xml-v1.0.dir/depend
 

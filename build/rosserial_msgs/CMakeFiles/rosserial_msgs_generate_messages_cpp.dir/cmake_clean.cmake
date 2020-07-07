@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/rosserial_msgs_generate_messages_cpp"
-  "/home/soo/sve_design_project/devel/.private/rosserial_msgs/include/rosserial_msgs/Log.h"
-  "/home/soo/sve_design_project/devel/.private/rosserial_msgs/include/rosserial_msgs/TopicInfo.h"
-  "/home/soo/sve_design_project/devel/.private/rosserial_msgs/include/rosserial_msgs/RequestParam.h"
+  "/home/soyeong/sve_design_project/devel/.private/rosserial_msgs/include/rosserial_msgs/TopicInfo.h"
+  "/home/soyeong/sve_design_project/devel/.private/rosserial_msgs/include/rosserial_msgs/Log.h"
+  "/home/soyeong/sve_design_project/devel/.private/rosserial_msgs/include/rosserial_msgs/RequestParam.h"
 )
 
 # Per-language clean rules from dependency scanning.

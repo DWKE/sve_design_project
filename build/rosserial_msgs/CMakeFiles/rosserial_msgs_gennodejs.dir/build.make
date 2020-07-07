@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/soo/sve_design_project/src/control/rosserial-noetic-devel/rosserial_msgs
+CMAKE_SOURCE_DIR = /home/soyeong/sve_design_project/src/control/rosserial-noetic-devel/rosserial_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/soo/sve_design_project/build/rosserial_msgs
+CMAKE_BINARY_DIR = /home/soyeong/sve_design_project/build/rosserial_msgs
 
 # Utility rule file for rosserial_msgs_gennodejs.
 
@@ -67,6 +67,6 @@ CMakeFiles/rosserial_msgs_gennodejs.dir/clean:
 .PHONY : CMakeFiles/rosserial_msgs_gennodejs.dir/clean
 
 CMakeFiles/rosserial_msgs_gennodejs.dir/depend:
-	cd /home/soo/sve_design_project/build/rosserial_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/soo/sve_design_project/src/control/rosserial-noetic-devel/rosserial_msgs /home/soo/sve_design_project/src/control/rosserial-noetic-devel/rosserial_msgs /home/soo/sve_design_project/build/rosserial_msgs /home/soo/sve_design_project/build/rosserial_msgs /home/soo/sve_design_project/build/rosserial_msgs/CMakeFiles/rosserial_msgs_gennodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/soyeong/sve_design_project/build/rosserial_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/soyeong/sve_design_project/src/control/rosserial-noetic-devel/rosserial_msgs /home/soyeong/sve_design_project/src/control/rosserial-noetic-devel/rosserial_msgs /home/soyeong/sve_design_project/build/rosserial_msgs /home/soyeong/sve_design_project/build/rosserial_msgs /home/soyeong/sve_design_project/build/rosserial_msgs/CMakeFiles/rosserial_msgs_gennodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/rosserial_msgs_gennodejs.dir/depend
 

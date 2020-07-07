@@ -13,16 +13,16 @@ Not searching for unused variables given on the command line.
 [36m--[0m Detecting CXX compiler ABI info - done
 [36m--[0m Detecting CXX compile features
 [36m--[0m Detecting CXX compile features - done
-[36m--[0m Using CATKIN_DEVEL_PREFIX: /home/soo/sve_design_project/devel/.private/rosserial_server
-[36m--[0m Using CMAKE_PREFIX_PATH: /home/soo/sve_design_project/devel;/home/soo/catkin_ws/devel;/home/soo/FlyMeToTheHome/devel;/opt/ros/melodic
-[36m--[0m This workspace overlays: /home/soo/sve_design_project/devel;/home/soo/catkin_ws/devel;/home/soo/FlyMeToTheHome/devel;/opt/ros/melodic
+[36m--[0m Using CATKIN_DEVEL_PREFIX: /home/soyeong/sve_design_project/devel/.private/rosserial_server
+[36m--[0m Using CMAKE_PREFIX_PATH: /home/soyeong/sve_design_project/devel;/opt/ros/melodic
+[36m--[0m This workspace overlays: /home/soyeong/sve_design_project/devel;/opt/ros/melodic
 [36m--[0m Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2")
 [36m--[0m Using PYTHON_EXECUTABLE: /usr/bin/python2
 [36m--[0m Using Debian Python package layout
 [36m--[0m Using empy: /usr/bin/empy
 [36m--[0m Using CATKIN_ENABLE_TESTING: ON
 [36m--[0m Call enable_testing()
-[36m--[0m Using CATKIN_TEST_RESULTS_DIR: /home/soo/sve_design_project/build/rosserial_server/test_results
+[36m--[0m Using CATKIN_TEST_RESULTS_DIR: /home/soyeong/sve_design_project/build/rosserial_server/test_results
 [36m--[0m Found gtest sources under '/usr/src/googletest': gtests will be built
 [36m--[0m Found gmock sources under '/usr/src/googletest': gmock will be built
 [36m--[0m Found PythonInterp: /usr/bin/python2 (found version "2.7.17")
@@ -48,4 +48,4 @@ Not searching for unused variables given on the command line.
 [36m--[0m Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython2.7.so (found version "2.7.17")
 [36m--[0m Configuring done
 [36m--[0m Generating done
-[36m--[0m Build files have been written to: /home/soo/sve_design_project/build/rosserial_server
+[36m--[0m Build files have been written to: /home/soyeong/sve_design_project/build/rosserial_server

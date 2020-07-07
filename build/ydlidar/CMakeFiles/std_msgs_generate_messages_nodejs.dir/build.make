@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/soo/sve_design_project/src/lidar_detection/ydlidar
+CMAKE_SOURCE_DIR = /home/soyeong/sve_design_project/src/lidar_detection/ydlidar
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/soo/sve_design_project/build/ydlidar
+CMAKE_BINARY_DIR = /home/soyeong/sve_design_project/build/ydlidar
 
 # Utility rule file for std_msgs_generate_messages_nodejs.
 
@@ -67,6 +67,6 @@ CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean:
 .PHONY : CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean
 
 CMakeFiles/std_msgs_generate_messages_nodejs.dir/depend:
-	cd /home/soo/sve_design_project/build/ydlidar && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/soo/sve_design_project/src/lidar_detection/ydlidar /home/soo/sve_design_project/src/lidar_detection/ydlidar /home/soo/sve_design_project/build/ydlidar /home/soo/sve_design_project/build/ydlidar /home/soo/sve_design_project/build/ydlidar/CMakeFiles/std_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/soyeong/sve_design_project/build/ydlidar && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/soyeong/sve_design_project/src/lidar_detection/ydlidar /home/soyeong/sve_design_project/src/lidar_detection/ydlidar /home/soyeong/sve_design_project/build/ydlidar /home/soyeong/sve_design_project/build/ydlidar /home/soyeong/sve_design_project/build/ydlidar/CMakeFiles/std_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/std_msgs_generate_messages_nodejs.dir/depend
 

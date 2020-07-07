@@ -1,1 +1,1 @@
-/home/soo/sve_design_project/devel/.private/ydlidar/lib/pkgconfig/ydlidar.pc
+/home/soyeong/sve_design_project/devel/.private/ydlidar/lib/pkgconfig/ydlidar.pc

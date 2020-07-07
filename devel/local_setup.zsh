@@ -1,1 +1,1 @@
-/home/soo/sve_design_project/devel/.private/catkin_tools_prebuild/local_setup.zsh
+/home/soyeong/sve_design_project/devel/.private/catkin_tools_prebuild/local_setup.zsh

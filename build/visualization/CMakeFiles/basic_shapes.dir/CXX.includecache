@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/soo/sve_design_project/src/sw_platform/visualization/src/basic_shapes.cpp
+/home/soyeong/sve_design_project/src/sw_platform/visualization/src/basic_shapes.cpp
 ros/ros.h
 -
 visualization_msgs/Marker.h

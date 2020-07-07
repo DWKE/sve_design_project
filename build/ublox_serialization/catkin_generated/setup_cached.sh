@@ -7,9 +7,7 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/soo/sve_design_project/devel/.private/ublox_serialization:$CMAKE_PREFIX_PATH"
-export LD_LIBRARY_PATH="/home/soo/sve_design_project/devel/.private/ublox_serialization/lib:$LD_LIBRARY_PATH"
-export PKG_CONFIG_PATH="/home/soo/sve_design_project/devel/.private/ublox_serialization/lib/pkgconfig:$PKG_CONFIG_PATH"
-export PWD="/home/soo/sve_design_project/build/ublox_serialization"
-export ROSLISP_PACKAGE_DIRECTORIES="/home/soo/sve_design_project/devel/.private/ublox_serialization/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/soo/sve_design_project/src/localization/ublox/ublox_serialization:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/home/soyeong/sve_design_project/devel/.private/ublox_serialization:$CMAKE_PREFIX_PATH"
+export PWD="/home/soyeong/sve_design_project/build/ublox_serialization"
+export ROSLISP_PACKAGE_DIRECTORIES="/home/soyeong/sve_design_project/devel/.private/ublox_serialization/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
+export ROS_PACKAGE_PATH="/home/soyeong/sve_design_project/src/localization/ublox/ublox_serialization:$ROS_PACKAGE_PATH"

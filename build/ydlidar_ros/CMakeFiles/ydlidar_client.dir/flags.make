@@ -6,5 +6,5 @@ CXX_FLAGS =  -std=c++11
 
 CXX_DEFINES = -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"ydlidar_ros\"
 
-CXX_INCLUDES = -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/soo/sve_design_project/src/lidar_detection/ydlidar_ros-master/src -I/home/soo/sve_design_project/src/lidar_detection/ydlidar_ros-master/sdk/include -I/home/soo/sve_design_project/src/lidar_detection/ydlidar_ros-master/sdk/src 
+CXX_INCLUDES = -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/soyeong/sve_design_project/src/lidar_detection/ydlidar_ros-master/src -I/home/soyeong/sve_design_project/src/lidar_detection/ydlidar_ros-master/sdk/include -I/home/soyeong/sve_design_project/src/lidar_detection/ydlidar_ros-master/sdk/src 
 

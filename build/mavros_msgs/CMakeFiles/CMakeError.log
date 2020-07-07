@@ -1,24 +1,24 @@
 Determining if the pthread_create exist failed with the following output:
-Change Dir: /home/soo/sve_design_project/build/mavros_msgs/CMakeFiles/CMakeTmp
+Change Dir: /home/soyeong/sve_design_project/build/mavros_msgs/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_de27d/fast"
-/usr/bin/make -f CMakeFiles/cmTC_de27d.dir/build.make CMakeFiles/cmTC_de27d.dir/build
-make[1]: 디렉터리 '/home/soo/sve_design_project/build/mavros_msgs/CMakeFiles/CMakeTmp' 들어감
-Building C object CMakeFiles/cmTC_de27d.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_de27d.dir/CheckSymbolExists.c.o   -c /home/soo/sve_design_project/build/mavros_msgs/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_de27d
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_de27d.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_de27d.dir/CheckSymbolExists.c.o  -o cmTC_de27d 
-CMakeFiles/cmTC_de27d.dir/CheckSymbolExists.c.o: In function `main':
+Run Build Command:"/usr/bin/make" "cmTC_4ec63/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4ec63.dir/build.make CMakeFiles/cmTC_4ec63.dir/build
+make[1]: Entering directory '/home/soyeong/sve_design_project/build/mavros_msgs/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4ec63.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_4ec63.dir/CheckSymbolExists.c.o   -c /home/soyeong/sve_design_project/build/mavros_msgs/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_4ec63
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4ec63.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_4ec63.dir/CheckSymbolExists.c.o  -o cmTC_4ec63 
+CMakeFiles/cmTC_4ec63.dir/CheckSymbolExists.c.o: In function `main':
 CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_de27d.dir/build.make:97: recipe for target 'cmTC_de27d' failed
-make[1]: *** [cmTC_de27d] Error 1
-make[1]: 디렉터리 '/home/soo/sve_design_project/build/mavros_msgs/CMakeFiles/CMakeTmp' 나감
-Makefile:126: recipe for target 'cmTC_de27d/fast' failed
-make: *** [cmTC_de27d/fast] Error 2
+CMakeFiles/cmTC_4ec63.dir/build.make:97: recipe for target 'cmTC_4ec63' failed
+make[1]: *** [cmTC_4ec63] Error 1
+make[1]: Leaving directory '/home/soyeong/sve_design_project/build/mavros_msgs/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_4ec63/fast' failed
+make: *** [cmTC_4ec63/fast] Error 2
 
-File /home/soo/sve_design_project/build/mavros_msgs/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/soyeong/sve_design_project/build/mavros_msgs/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <pthread.h>
 
@@ -34,22 +34,22 @@ int main(int argc, char** argv)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/soo/sve_design_project/build/mavros_msgs/CMakeFiles/CMakeTmp
+Change Dir: /home/soyeong/sve_design_project/build/mavros_msgs/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_5b592/fast"
-/usr/bin/make -f CMakeFiles/cmTC_5b592.dir/build.make CMakeFiles/cmTC_5b592.dir/build
-make[1]: 디렉터리 '/home/soo/sve_design_project/build/mavros_msgs/CMakeFiles/CMakeTmp' 들어감
-Building C object CMakeFiles/cmTC_5b592.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_5b592.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_5b592
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5b592.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_5b592.dir/CheckFunctionExists.c.o  -o cmTC_5b592 -lpthreads 
+Run Build Command:"/usr/bin/make" "cmTC_54b5b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_54b5b.dir/build.make CMakeFiles/cmTC_54b5b.dir/build
+make[1]: Entering directory '/home/soyeong/sve_design_project/build/mavros_msgs/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_54b5b.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_54b5b.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_54b5b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_54b5b.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_54b5b.dir/CheckFunctionExists.c.o  -o cmTC_54b5b -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_5b592.dir/build.make:97: recipe for target 'cmTC_5b592' failed
-make[1]: *** [cmTC_5b592] Error 1
-make[1]: 디렉터리 '/home/soo/sve_design_project/build/mavros_msgs/CMakeFiles/CMakeTmp' 나감
-Makefile:126: recipe for target 'cmTC_5b592/fast' failed
-make: *** [cmTC_5b592/fast] Error 2
+CMakeFiles/cmTC_54b5b.dir/build.make:97: recipe for target 'cmTC_54b5b' failed
+make[1]: *** [cmTC_54b5b] Error 1
+make[1]: Leaving directory '/home/soyeong/sve_design_project/build/mavros_msgs/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_54b5b/fast' failed
+make: *** [cmTC_54b5b/fast] Error 2
 
 

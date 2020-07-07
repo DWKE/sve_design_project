@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "ydlidar_ros"
-PROJECT_SPACE_DIR = "/home/soo/sve_design_project/install"
+PROJECT_SPACE_DIR = "/home/soyeong/sve_design_project/install"
 PROJECT_VERSION = "1.4.6"

@@ -1,1 +1,1 @@
-/home/soo/sve_design_project/devel/.private/rosserial_server/lib/pkgconfig/rosserial_server.pc
+/home/soyeong/sve_design_project/devel/.private/rosserial_server/lib/pkgconfig/rosserial_server.pc

@@ -1,1 +1,1 @@
-/home/soo/sve_design_project/devel/.private/catkin_tools_prebuild/env.sh
+/home/soyeong/sve_design_project/devel/.private/catkin_tools_prebuild/env.sh

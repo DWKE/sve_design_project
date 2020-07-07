@@ -1,1 +1,1 @@
-/home/soo/sve_design_project/devel/.private/trajectory_planning/share/trajectory_planning/cmake/trajectory_planningConfig.cmake
+/home/soyeong/sve_design_project/devel/.private/trajectory_planning/share/trajectory_planning/cmake/trajectory_planningConfig.cmake

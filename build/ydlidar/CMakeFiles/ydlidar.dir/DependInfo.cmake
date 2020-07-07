@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/soo/sve_design_project/src/lidar_detection/ydlidar/src/cluster.cpp" "/home/soo/sve_design_project/build/ydlidar/CMakeFiles/ydlidar.dir/src/cluster.cpp.o"
-  "/home/soo/sve_design_project/src/lidar_detection/ydlidar/src/main.cpp" "/home/soo/sve_design_project/build/ydlidar/CMakeFiles/ydlidar.dir/src/main.cpp.o"
-  "/home/soo/sve_design_project/src/lidar_detection/ydlidar/src/ydlidar.cpp" "/home/soo/sve_design_project/build/ydlidar/CMakeFiles/ydlidar.dir/src/ydlidar.cpp.o"
+  "/home/soyeong/sve_design_project/src/lidar_detection/ydlidar/src/cluster.cpp" "/home/soyeong/sve_design_project/build/ydlidar/CMakeFiles/ydlidar.dir/src/cluster.cpp.o"
+  "/home/soyeong/sve_design_project/src/lidar_detection/ydlidar/src/main.cpp" "/home/soyeong/sve_design_project/build/ydlidar/CMakeFiles/ydlidar.dir/src/main.cpp.o"
+  "/home/soyeong/sve_design_project/src/lidar_detection/ydlidar/src/ydlidar.cpp" "/home/soyeong/sve_design_project/build/ydlidar/CMakeFiles/ydlidar.dir/src/ydlidar.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -19,6 +19,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "/home/soyeong/sve_design_project/devel/.private/kusv_msgs/include"
   "/opt/ros/melodic/include"
   "/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   "/usr/include/eigen3"
@@ -38,7 +39,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/usr/include/jsoncpp"
   "/usr/include/tcl"
   "/usr/include/opencv"
-  "/home/soo/sve_design_project/src/lidar_detection/ydlidar/include"
+  "/home/soyeong/sve_design_project/src/lidar_detection/ydlidar/include"
   )
 
 # Targets to which this target links.

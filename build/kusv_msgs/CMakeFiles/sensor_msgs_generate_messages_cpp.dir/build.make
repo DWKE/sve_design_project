@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/soo/sve_design_project/src/msgs/kusv_msgs
+CMAKE_SOURCE_DIR = /home/soyeong/sve_design_project/src/msgs/kusv_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/soo/sve_design_project/build/kusv_msgs
+CMAKE_BINARY_DIR = /home/soyeong/sve_design_project/build/kusv_msgs
 
 # Utility rule file for sensor_msgs_generate_messages_cpp.
 
@@ -67,6 +67,6 @@ CMakeFiles/sensor_msgs_generate_messages_cpp.dir/clean:
 .PHONY : CMakeFiles/sensor_msgs_generate_messages_cpp.dir/clean
 
 CMakeFiles/sensor_msgs_generate_messages_cpp.dir/depend:
-	cd /home/soo/sve_design_project/build/kusv_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/soo/sve_design_project/src/msgs/kusv_msgs /home/soo/sve_design_project/src/msgs/kusv_msgs /home/soo/sve_design_project/build/kusv_msgs /home/soo/sve_design_project/build/kusv_msgs /home/soo/sve_design_project/build/kusv_msgs/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/soyeong/sve_design_project/build/kusv_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/soyeong/sve_design_project/src/msgs/kusv_msgs /home/soyeong/sve_design_project/src/msgs/kusv_msgs /home/soyeong/sve_design_project/build/kusv_msgs /home/soyeong/sve_design_project/build/kusv_msgs /home/soyeong/sve_design_project/build/kusv_msgs/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/sensor_msgs_generate_messages_cpp.dir/depend
 

@@ -1,4 +1,4 @@
-prefix=/home/soo/sve_design_project/install
+prefix=/home/soyeong/sve_design_project/install
 
 Name: rosserial_python
 Description: Description of rosserial_python

@@ -1,1 +1,1 @@
-/home/soo/sve_design_project/devel/.private/trajectory_planning/lib/pkgconfig/trajectory_planning.pc
+/home/soyeong/sve_design_project/devel/.private/trajectory_planning/lib/pkgconfig/trajectory_planning.pc

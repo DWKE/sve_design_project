@@ -1,4 +1,4 @@
-prefix=/home/soo/sve_design_project/install
+prefix=/home/soyeong/sve_design_project/install
 
 Name: mavros_msgs
 Description: Description of mavros_msgs
