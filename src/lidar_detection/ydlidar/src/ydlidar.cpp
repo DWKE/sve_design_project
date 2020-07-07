@@ -18,7 +18,7 @@ ydlidar::ydlidar()
     pub_shape = nh.advertise<visualization_msgs::MarkerArray>("/lidar/Shape", 1);
     pub_colShape = nh.advertise<visualization_msgs::MarkerArray>("/lidar/colShape", 1);
     pub_Origin = nh.advertise<visualization_msgs::Marker> ("/lidar/Origin", 1);
-//     pub_collisionChecker =  nh.advertise<PlanningLiDAR> ("/lidar/obstacle", 1);
+    pub_collisionChecker =  nh.advertise<kusv_msgs::PlanningLiDAR> ("/lidar/obstacle", 1);
 
     ydlidar_sub = nh.subscribe<sensor_msgs::LaserScan>("/scan", 1, &ydlidar::ydlidar_callback, this);
 
@@ -151,6 +151,9 @@ void ydlidar::displayShape (const std::vector<clusterPtr> pVecClusters)
         m_Origin.header.frame_id = "/laser_frame";
         m_Origin.header.stamp = ros::Time::now();
 
+        obstacle.header.frame_id = "/laser_frame";
+        obstacle.header.stamp = ros::Time::now();
+
         m_Origin.ns = "/origin";
         m_Origin.id = 0;
 
@@ -240,6 +243,7 @@ void ydlidar::displayShape (const std::vector<clusterPtr> pVecClusters)
                                         isObstacle = true;
                                 }
                         }
+                        obstacle.isObstacle = isObstacle;
 
                         m_arrShapes.markers.push_back(shape);
                         m_collisionShapes.markers.push_back(colShape);
@@ -294,6 +298,7 @@ void ydlidar::publish ()
         pub_shape.publish (m_arrShapes);
         pub_Origin.publish(m_Origin);
         pub_colShape.publish(m_collisionShapes);
+        pub_collisionChecker.publish(obstacle);
         // pub_collisionChecker.publish(isObstacle);
 }
 

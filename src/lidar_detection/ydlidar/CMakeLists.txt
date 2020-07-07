@@ -16,7 +16,8 @@ find_package(catkin REQUIRED COMPONENTS
 	roscpp
 	sensor_msgs
 	cv_bridge
-        laser_geometry
+	laser_geometry
+	kusv_msgs
 	)
 
 find_package(OpenCV REQUIRED)
