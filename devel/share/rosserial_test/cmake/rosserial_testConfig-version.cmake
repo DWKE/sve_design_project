@@ -1,0 +1,1 @@
+/home/soo/sve_design_project/devel/.private/rosserial_test/share/rosserial_test/cmake/rosserial_testConfig-version.cmake

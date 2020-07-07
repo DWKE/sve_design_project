@@ -56,6 +56,7 @@ find_package(catkin REQUIRED COMPONENTS
        #sve_design_project
        #put msg name at here
        PlanningControl.msg
+       VisionMark.msg
        PlanningLocalization.msg
        PlanningLiDAR.msg
        PlanningVision.msg

@@ -1,0 +1,1 @@
+/home/soo/sve_design_project/devel/.private/path_generator/share/roseus/ros/path_generator/manifest.l

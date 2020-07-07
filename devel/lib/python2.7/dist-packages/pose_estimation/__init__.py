@@ -1,0 +1,1 @@
+/home/soo/sve_design_project/devel/.private/pose_estimation/lib/python2.7/dist-packages/pose_estimation/__init__.py
