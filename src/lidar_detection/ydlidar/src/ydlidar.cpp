@@ -226,7 +226,7 @@ void ydlidar::displayShape (const std::vector<clusterPtr> pVecClusters)
 
                         for (auto const &point: pCluster->m_polygon.polygon.points)
                         {
-                                if(fabs(point.y)<2.0 && point.x <5.0){
+                                if(fabs(point.y)<1.0 && point.x <3.0){
                                         geometry_msgs:: Point colPoint;
                                         colPoint.x = point.x;
                                         colPoint.y = point.y;

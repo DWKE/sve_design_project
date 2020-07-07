@@ -1,11 +1,13 @@
 [  4%] [34m[1mGenerating uAvionix-v2.0-cxx-stamp[0m
 [  9%] [34m[1mGenerating slugs-v2.0-cxx-stamp[0m
+[ 13%] [34m[1mGenerating paparazzi-v2.0-cxx-stamp[0m
 Traceback (most recent call last):
   File "/home/soyeong/sve_design_project/src/control/mavlink/pymavlink/tools/mavgen.py", line 16, in <module>
     from pymavlink.generator import mavgen
   File "/home/soyeong/sve_design_project/src/control/mavlink/pymavlink/generator/mavgen.py", line 12, in <module>
     from future import standard_library
 ImportError: No module named future
+[ 18%] [34m[1mGenerating matrixpilot-v2.0-cxx-stamp[0m
 CMakeFiles/uAvionix.xml-v2.0.dir/build.make:62: recipe for target 'uAvionix-v2.0-cxx-stamp' failed
 make[2]: *** [uAvionix-v2.0-cxx-stamp] Error 1
 CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/uAvionix.xml-v2.0.dir/all' failed
@@ -21,5 +23,47 @@ CMakeFiles/slugs.xml-v2.0.dir/build.make:62: recipe for target 'slugs-v2.0-cxx-s
 make[2]: *** [slugs-v2.0-cxx-stamp] Error 1
 CMakeFiles/Makefile2:104: recipe for target 'CMakeFiles/slugs.xml-v2.0.dir/all' failed
 make[1]: *** [CMakeFiles/slugs.xml-v2.0.dir/all] Error 2
+[ 22%] [34m[1mGenerating icarous-v2.0-cxx-stamp[0m
+Traceback (most recent call last):
+  File "/home/soyeong/sve_design_project/src/control/mavlink/pymavlink/tools/mavgen.py", line 16, in <module>
+    from pymavlink.generator import mavgen
+  File "/home/soyeong/sve_design_project/src/control/mavlink/pymavlink/generator/mavgen.py", line 12, in <module>
+    from future import standard_library
+ImportError: No module named future
+Traceback (most recent call last):
+  File "/home/soyeong/sve_design_project/src/control/mavlink/pymavlink/tools/mavgen.py", line 16, in <module>
+    from pymavlink.generator import mavgen
+  File "/home/soyeong/sve_design_project/src/control/mavlink/pymavlink/generator/mavgen.py", line 12, in <module>
+    from future import standard_library
+ImportError: No module named future
+CMakeFiles/matrixpilot.xml-v2.0.dir/build.make:62: recipe for target 'matrixpilot-v2.0-cxx-stamp' failed
+CMakeFiles/paparazzi.xml-v2.0.dir/build.make:62: recipe for target 'paparazzi-v2.0-cxx-stamp' failed
+make[2]: *** [matrixpilot-v2.0-cxx-stamp] Error 1
+make[2]: *** [paparazzi-v2.0-cxx-stamp] Error 1
+CMakeFiles/Makefile2:141: recipe for target 'CMakeFiles/paparazzi.xml-v2.0.dir/all' failed
+CMakeFiles/Makefile2:178: recipe for target 'CMakeFiles/matrixpilot.xml-v2.0.dir/all' failed
+make[1]: *** [CMakeFiles/paparazzi.xml-v2.0.dir/all] Error 2
+make[1]: *** [CMakeFiles/matrixpilot.xml-v2.0.dir/all] Error 2
+[ 27%] [34m[1mGenerating include/v1.0/icarous/icarous.h[0m
+Traceback (most recent call last):
+  File "/home/soyeong/sve_design_project/src/control/mavlink/pymavlink/tools/mavgen.py", line 16, in <module>
+    from pymavlink.generator import mavgen
+  File "/home/soyeong/sve_design_project/src/control/mavlink/pymavlink/generator/mavgen.py", line 12, in <module>
+    from future import standard_library
+ImportError: No module named future
+CMakeFiles/icarous.xml-v2.0.dir/build.make:62: recipe for target 'icarous-v2.0-cxx-stamp' failed
+make[2]: *** [icarous-v2.0-cxx-stamp] Error 1
+CMakeFiles/Makefile2:215: recipe for target 'CMakeFiles/icarous.xml-v2.0.dir/all' failed
+make[1]: *** [CMakeFiles/icarous.xml-v2.0.dir/all] Error 2
+Traceback (most recent call last):
+  File "/home/soyeong/sve_design_project/src/control/mavlink/pymavlink/tools/mavgen.py", line 16, in <module>
+    from pymavlink.generator import mavgen
+  File "/home/soyeong/sve_design_project/src/control/mavlink/pymavlink/generator/mavgen.py", line 12, in <module>
+    from future import standard_library
+ImportError: No module named future
+CMakeFiles/icarous.xml-v1.0.dir/build.make:62: recipe for target 'include/v1.0/icarous/icarous.h' failed
+make[2]: *** [include/v1.0/icarous/icarous.h] Error 1
+CMakeFiles/Makefile2:252: recipe for target 'CMakeFiles/icarous.xml-v1.0.dir/all' failed
+make[1]: *** [CMakeFiles/icarous.xml-v1.0.dir/all] Error 2
 Makefile:117: recipe for target 'all' failed
 make: *** [all] Error 2
