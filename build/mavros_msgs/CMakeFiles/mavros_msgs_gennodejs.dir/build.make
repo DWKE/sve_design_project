@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/soo/sve_design_project/src/control/mavros/mavros_msgs
+CMAKE_SOURCE_DIR = /home/yuseung/sve_design_project/src/control/mavros/mavros_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/soo/sve_design_project/build/mavros_msgs
+CMAKE_BINARY_DIR = /home/yuseung/sve_design_project/build/mavros_msgs
 
 # Utility rule file for mavros_msgs_gennodejs.
 
@@ -67,6 +67,6 @@ CMakeFiles/mavros_msgs_gennodejs.dir/clean:
 .PHONY : CMakeFiles/mavros_msgs_gennodejs.dir/clean
 
 CMakeFiles/mavros_msgs_gennodejs.dir/depend:
-	cd /home/soo/sve_design_project/build/mavros_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/soo/sve_design_project/src/control/mavros/mavros_msgs /home/soo/sve_design_project/src/control/mavros/mavros_msgs /home/soo/sve_design_project/build/mavros_msgs /home/soo/sve_design_project/build/mavros_msgs /home/soo/sve_design_project/build/mavros_msgs/CMakeFiles/mavros_msgs_gennodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/yuseung/sve_design_project/build/mavros_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yuseung/sve_design_project/src/control/mavros/mavros_msgs /home/yuseung/sve_design_project/src/control/mavros/mavros_msgs /home/yuseung/sve_design_project/build/mavros_msgs /home/yuseung/sve_design_project/build/mavros_msgs /home/yuseung/sve_design_project/build/mavros_msgs/CMakeFiles/mavros_msgs_gennodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/mavros_msgs_gennodejs.dir/depend
 

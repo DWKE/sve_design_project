@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/soo/sve_design_project/src/control/sve_design_control
+CMAKE_SOURCE_DIR = /home/yuseung/sve_design_project/src/control/sve_design_control
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/soo/sve_design_project/build/sve_design_control
+CMAKE_BINARY_DIR = /home/yuseung/sve_design_project/build/sve_design_control
 
 # Utility rule file for run_tests.
 
@@ -67,6 +67,6 @@ CMakeFiles/run_tests.dir/clean:
 .PHONY : CMakeFiles/run_tests.dir/clean
 
 CMakeFiles/run_tests.dir/depend:
-	cd /home/soo/sve_design_project/build/sve_design_control && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/soo/sve_design_project/src/control/sve_design_control /home/soo/sve_design_project/src/control/sve_design_control /home/soo/sve_design_project/build/sve_design_control /home/soo/sve_design_project/build/sve_design_control /home/soo/sve_design_project/build/sve_design_control/CMakeFiles/run_tests.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/yuseung/sve_design_project/build/sve_design_control && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yuseung/sve_design_project/src/control/sve_design_control /home/yuseung/sve_design_project/src/control/sve_design_control /home/yuseung/sve_design_project/build/sve_design_control /home/yuseung/sve_design_project/build/sve_design_control /home/yuseung/sve_design_project/build/sve_design_control/CMakeFiles/run_tests.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/run_tests.dir/depend
 

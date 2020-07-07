@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/find_drivingway.dir/src/find_drivingway.cpp.o"
-  "/home/soo/sve_design_project/devel/.private/path_generator/lib/path_generator/find_drivingway.pdb"
-  "/home/soo/sve_design_project/devel/.private/path_generator/lib/path_generator/find_drivingway"
+  "/home/yuseung/sve_design_project/devel/.private/path_generator/lib/path_generator/find_drivingway.pdb"
+  "/home/yuseung/sve_design_project/devel/.private/path_generator/lib/path_generator/find_drivingway"
 )
 
 # Per-language clean rules from dependency scanning.

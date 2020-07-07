@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/soo/sve_design_project/devel/.private/kusv_msgs/include/kusv_msgs/VisionMark.h
+/home/yuseung/sve_design_project/devel/.private/kusv_msgs/include/kusv_msgs/VisionMark.h
 string
 -
 vector
@@ -22,7 +22,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/soo/sve_design_project/src/sw_platform/mode_converter/src/mode_convert.cpp
+/home/yuseung/sve_design_project/src/sw_platform/mode_converter/src/mode_convert.cpp
 ros/ros.h
 -
 std_msgs/Bool.h

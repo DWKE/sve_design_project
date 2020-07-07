@@ -1,4 +1,4 @@
-prefix=/home/soo/sve_design_project/install
+prefix=/home/yuseung/sve_design_project/install
 
 Name: ublox_gps
 Description: Description of ublox_gps

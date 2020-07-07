@@ -67,14 +67,14 @@ set(ublox_msgs_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(ublox_msgs_SOURCE_PREFIX /home/soo/sve_design_project/src/localization/ublox/ublox_msgs)
-  set(ublox_msgs_DEVEL_PREFIX /home/soo/sve_design_project/devel/.private/ublox_msgs)
+  set(ublox_msgs_SOURCE_PREFIX /home/yuseung/sve_design_project/src/localization/ublox/ublox_msgs)
+  set(ublox_msgs_DEVEL_PREFIX /home/yuseung/sve_design_project/devel/.private/ublox_msgs)
   set(ublox_msgs_INSTALL_PREFIX "")
   set(ublox_msgs_PREFIX ${ublox_msgs_DEVEL_PREFIX})
 else()
   set(ublox_msgs_SOURCE_PREFIX "")
   set(ublox_msgs_DEVEL_PREFIX "")
-  set(ublox_msgs_INSTALL_PREFIX /home/soo/sve_design_project/install)
+  set(ublox_msgs_INSTALL_PREFIX /home/yuseung/sve_design_project/install)
   set(ublox_msgs_PREFIX ${ublox_msgs_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/soo/sve_design_project/install/lib;/home/soo/sve_design_project/devel/lib;/home/soo/catkin_ws/devel/lib;/home/soo/FlyMeToTheHome/devel/lib;/opt/ros/melodic/lib)
+    foreach(path /home/yuseung/sve_design_project/install/lib;/home/yuseung/sve_design_project/devel/lib;/home/yuseung/rs/devel/lib;/home/yuseung/git/ai-brain/devel/lib;/home/yuseung/carla-ros-bridge/catkin_ws/devel/lib;/opt/ros/melodic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

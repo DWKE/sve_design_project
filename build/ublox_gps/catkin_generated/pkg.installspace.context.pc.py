@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "${prefix}/include".split(';') if "${prefix}/i
 PROJECT_CATKIN_DEPENDS = "roscpp;ublox_msgs;ublox_serialization".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "-lublox_gps".split(';') if "-lublox_gps" != "" else []
 PROJECT_NAME = "ublox_gps"
-PROJECT_SPACE_DIR = "/home/soo/sve_design_project/install"
+PROJECT_SPACE_DIR = "/home/yuseung/sve_design_project/install"
 PROJECT_VERSION = "1.1.2"

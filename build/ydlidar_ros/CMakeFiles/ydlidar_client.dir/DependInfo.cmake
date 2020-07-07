@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/soo/sve_design_project/src/lidar_detection/ydlidar_ros-master/src/ydlidar_client.cpp" "/home/soo/sve_design_project/build/ydlidar_ros/CMakeFiles/ydlidar_client.dir/src/ydlidar_client.cpp.o"
+  "/home/yuseung/sve_design_project/src/lidar_detection/ydlidar_ros-master/src/ydlidar_client.cpp" "/home/yuseung/sve_design_project/build/ydlidar_ros/CMakeFiles/ydlidar_client.dir/src/ydlidar_client.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -19,9 +19,9 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/opt/ros/melodic/include"
   "/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
-  "/home/soo/sve_design_project/src/lidar_detection/ydlidar_ros-master/src"
-  "/home/soo/sve_design_project/src/lidar_detection/ydlidar_ros-master/sdk/include"
-  "/home/soo/sve_design_project/src/lidar_detection/ydlidar_ros-master/sdk/src"
+  "/home/yuseung/sve_design_project/src/lidar_detection/ydlidar_ros-master/src"
+  "/home/yuseung/sve_design_project/src/lidar_detection/ydlidar_ros-master/sdk/include"
+  "/home/yuseung/sve_design_project/src/lidar_detection/ydlidar_ros-master/sdk/src"
   )
 
 # Targets to which this target links.

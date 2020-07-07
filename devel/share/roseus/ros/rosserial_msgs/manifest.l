@@ -1,1 +1,1 @@
-/home/soo/sve_design_project/devel/.private/rosserial_msgs/share/roseus/ros/rosserial_msgs/manifest.l
+/home/yuseung/sve_design_project/devel/.private/rosserial_msgs/share/roseus/ros/rosserial_msgs/manifest.l

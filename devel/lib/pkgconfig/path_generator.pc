@@ -1,1 +1,1 @@
-/home/soo/sve_design_project/devel/.private/path_generator/lib/pkgconfig/path_generator.pc
+/home/yuseung/sve_design_project/devel/.private/path_generator/lib/pkgconfig/path_generator.pc

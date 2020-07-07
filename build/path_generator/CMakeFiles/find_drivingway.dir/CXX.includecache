@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/soo/sve_design_project/devel/.private/kusv_msgs/include/kusv_msgs/PolyfitLaneData.h
+/home/yuseung/sve_design_project/devel/.private/kusv_msgs/include/kusv_msgs/PolyfitLaneData.h
 string
 -
 vector
@@ -22,7 +22,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/soo/sve_design_project/devel/.private/kusv_msgs/include/kusv_msgs/PolyfitLaneDataArray.h
+/home/yuseung/sve_design_project/devel/.private/kusv_msgs/include/kusv_msgs/PolyfitLaneDataArray.h
 string
 -
 vector
@@ -40,11 +40,11 @@ ros/message_operations.h
 kusv_msgs/PolyfitLaneData.h
 -
 
-/home/soo/sve_design_project/src/localization/path_generator/src/find_drivingway.cpp
+/home/yuseung/sve_design_project/src/localization/path_generator/src/find_drivingway.cpp
 ros/ros.h
 -
 std_msgs/Float64.h
-/home/soo/sve_design_project/src/localization/path_generator/src/std_msgs/Float64.h
+/home/yuseung/sve_design_project/src/localization/path_generator/src/std_msgs/Float64.h
 math.h
 -
 ros/ros.h
@@ -52,9 +52,9 @@ ros/ros.h
 string
 -
 kusv_msgs/PolyfitLaneDataArray.h
-/home/soo/sve_design_project/src/localization/path_generator/src/kusv_msgs/PolyfitLaneDataArray.h
+/home/yuseung/sve_design_project/src/localization/path_generator/src/kusv_msgs/PolyfitLaneDataArray.h
 kusv_msgs/PolyfitLaneData.h
-/home/soo/sve_design_project/src/localization/path_generator/src/kusv_msgs/PolyfitLaneData.h
+/home/yuseung/sve_design_project/src/localization/path_generator/src/kusv_msgs/PolyfitLaneData.h
 
 /opt/ros/melodic/include/ros/advertise_options.h
 ros/forwards.h

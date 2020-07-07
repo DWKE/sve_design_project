@@ -1,4 +1,4 @@
-prefix=/home/soo/sve_design_project/install
+prefix=/home/yuseung/sve_design_project/install
 
 Name: test_mavros
 Description: Description of test_mavros

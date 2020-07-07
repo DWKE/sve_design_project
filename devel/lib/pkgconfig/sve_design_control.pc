@@ -1,1 +1,1 @@
-/home/soo/sve_design_project/devel/.private/sve_design_control/lib/pkgconfig/sve_design_control.pc
+/home/yuseung/sve_design_project/devel/.private/sve_design_control/lib/pkgconfig/sve_design_control.pc

@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/behavior_planning.dir/src/behavior_planning.cpp.o"
-  "/home/soo/sve_design_project/devel/.private/behavior_planning/lib/behavior_planning/behavior_planning.pdb"
-  "/home/soo/sve_design_project/devel/.private/behavior_planning/lib/behavior_planning/behavior_planning"
+  "/home/yuseung/sve_design_project/devel/.private/behavior_planning/lib/behavior_planning/behavior_planning.pdb"
+  "/home/yuseung/sve_design_project/devel/.private/behavior_planning/lib/behavior_planning/behavior_planning"
 )
 
 # Per-language clean rules from dependency scanning.

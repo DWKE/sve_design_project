@@ -1,6 +1,6 @@
-devel_space: /home/soo/sve_design_project/devel
+devel_space: /home/yuseung/sve_design_project/devel
 install: false
-install_space: /home/soo/sve_design_project/install
+install_space: /home/yuseung/sve_design_project/install
 profile: default
-source_space: /home/soo/sve_design_project/src
-workspace: /home/soo/sve_design_project
+source_space: /home/yuseung/sve_design_project/src
+workspace: /home/yuseung/sve_design_project

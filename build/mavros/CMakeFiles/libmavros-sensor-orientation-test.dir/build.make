@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/soo/sve_design_project/src/control/mavros/mavros
+CMAKE_SOURCE_DIR = /home/yuseung/sve_design_project/src/control/mavros/mavros
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/soo/sve_design_project/build/mavros
+CMAKE_BINARY_DIR = /home/yuseung/sve_design_project/build/mavros
 
 # Include any dependencies generated for this target.
 include CMakeFiles/libmavros-sensor-orientation-test.dir/depend.make
@@ -58,17 +58,17 @@ include CMakeFiles/libmavros-sensor-orientation-test.dir/progress.make
 include CMakeFiles/libmavros-sensor-orientation-test.dir/flags.make
 
 CMakeFiles/libmavros-sensor-orientation-test.dir/test/test_sensor_orientation.cpp.o: CMakeFiles/libmavros-sensor-orientation-test.dir/flags.make
-CMakeFiles/libmavros-sensor-orientation-test.dir/test/test_sensor_orientation.cpp.o: /home/soo/sve_design_project/src/control/mavros/mavros/test/test_sensor_orientation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/soo/sve_design_project/build/mavros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/libmavros-sensor-orientation-test.dir/test/test_sensor_orientation.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libmavros-sensor-orientation-test.dir/test/test_sensor_orientation.cpp.o -c /home/soo/sve_design_project/src/control/mavros/mavros/test/test_sensor_orientation.cpp
+CMakeFiles/libmavros-sensor-orientation-test.dir/test/test_sensor_orientation.cpp.o: /home/yuseung/sve_design_project/src/control/mavros/mavros/test/test_sensor_orientation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yuseung/sve_design_project/build/mavros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/libmavros-sensor-orientation-test.dir/test/test_sensor_orientation.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libmavros-sensor-orientation-test.dir/test/test_sensor_orientation.cpp.o -c /home/yuseung/sve_design_project/src/control/mavros/mavros/test/test_sensor_orientation.cpp
 
 CMakeFiles/libmavros-sensor-orientation-test.dir/test/test_sensor_orientation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/libmavros-sensor-orientation-test.dir/test/test_sensor_orientation.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/soo/sve_design_project/src/control/mavros/mavros/test/test_sensor_orientation.cpp > CMakeFiles/libmavros-sensor-orientation-test.dir/test/test_sensor_orientation.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yuseung/sve_design_project/src/control/mavros/mavros/test/test_sensor_orientation.cpp > CMakeFiles/libmavros-sensor-orientation-test.dir/test/test_sensor_orientation.cpp.i
 
 CMakeFiles/libmavros-sensor-orientation-test.dir/test/test_sensor_orientation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/libmavros-sensor-orientation-test.dir/test/test_sensor_orientation.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/soo/sve_design_project/src/control/mavros/mavros/test/test_sensor_orientation.cpp -o CMakeFiles/libmavros-sensor-orientation-test.dir/test/test_sensor_orientation.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yuseung/sve_design_project/src/control/mavros/mavros/test/test_sensor_orientation.cpp -o CMakeFiles/libmavros-sensor-orientation-test.dir/test/test_sensor_orientation.cpp.s
 
 CMakeFiles/libmavros-sensor-orientation-test.dir/test/test_sensor_orientation.cpp.o.requires:
 
@@ -88,58 +88,58 @@ libmavros__sensor__orientation__test_OBJECTS = \
 # External object files for target libmavros-sensor-orientation-test
 libmavros__sensor__orientation__test_EXTERNAL_OBJECTS =
 
-/home/soo/sve_design_project/devel/.private/mavros/lib/mavros/libmavros-sensor-orientation-test: CMakeFiles/libmavros-sensor-orientation-test.dir/test/test_sensor_orientation.cpp.o
-/home/soo/sve_design_project/devel/.private/mavros/lib/mavros/libmavros-sensor-orientation-test: CMakeFiles/libmavros-sensor-orientation-test.dir/build.make
-/home/soo/sve_design_project/devel/.private/mavros/lib/mavros/libmavros-sensor-orientation-test: gtest/googlemock/gtest/libgtest.so
-/home/soo/sve_design_project/devel/.private/mavros/lib/mavros/libmavros-sensor-orientation-test: /home/soo/sve_design_project/devel/.private/mavros/lib/libmavros.so
-/home/soo/sve_design_project/devel/.private/mavros/lib/mavros/libmavros-sensor-orientation-test: /opt/ros/melodic/lib/libeigen_conversions.so
-/home/soo/sve_design_project/devel/.private/mavros/lib/mavros/libmavros-sensor-orientation-test: /opt/ros/melodic/lib/liborocos-kdl.so.1.4.0
-/home/soo/sve_design_project/devel/.private/mavros/lib/mavros/libmavros-sensor-orientation-test: /home/soo/sve_design_project/devel/.private/libmavconn/lib/libmavconn.so
-/home/soo/sve_design_project/devel/.private/mavros/lib/mavros/libmavros-sensor-orientation-test: /opt/ros/melodic/lib/libclass_loader.so
-/home/soo/sve_design_project/devel/.private/mavros/lib/mavros/libmavros-sensor-orientation-test: /usr/lib/libPocoFoundation.so
-/home/soo/sve_design_project/devel/.private/mavros/lib/mavros/libmavros-sensor-orientation-test: /usr/lib/x86_64-linux-gnu/libdl.so
-/home/soo/sve_design_project/devel/.private/mavros/lib/mavros/libmavros-sensor-orientation-test: /opt/ros/melodic/lib/libroslib.so
-/home/soo/sve_design_project/devel/.private/mavros/lib/mavros/libmavros-sensor-orientation-test: /opt/ros/melodic/lib/librospack.so
-/home/soo/sve_design_project/devel/.private/mavros/lib/mavros/libmavros-sensor-orientation-test: /usr/lib/x86_64-linux-gnu/libpython2.7.so
-/home/soo/sve_design_project/devel/.private/mavros/lib/mavros/libmavros-sensor-orientation-test: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
-/home/soo/sve_design_project/devel/.private/mavros/lib/mavros/libmavros-sensor-orientation-test: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
-/home/soo/sve_design_project/devel/.private/mavros/lib/mavros/libmavros-sensor-orientation-test: /opt/ros/melodic/lib/librosconsole_bridge.so
-/home/soo/sve_design_project/devel/.private/mavros/lib/mavros/libmavros-sensor-orientation-test: /opt/ros/melodic/lib/libtf2_ros.so
-/home/soo/sve_design_project/devel/.private/mavros/lib/mavros/libmavros-sensor-orientation-test: /opt/ros/melodic/lib/libactionlib.so
-/home/soo/sve_design_project/devel/.private/mavros/lib/mavros/libmavros-sensor-orientation-test: /opt/ros/melodic/lib/libmessage_filters.so
-/home/soo/sve_design_project/devel/.private/mavros/lib/mavros/libmavros-sensor-orientation-test: /opt/ros/melodic/lib/libroscpp.so
-/home/soo/sve_design_project/devel/.private/mavros/lib/mavros/libmavros-sensor-orientation-test: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/soo/sve_design_project/devel/.private/mavros/lib/mavros/libmavros-sensor-orientation-test: /opt/ros/melodic/lib/librosconsole.so
-/home/soo/sve_design_project/devel/.private/mavros/lib/mavros/libmavros-sensor-orientation-test: /opt/ros/melodic/lib/librosconsole_log4cxx.so
-/home/soo/sve_design_project/devel/.private/mavros/lib/mavros/libmavros-sensor-orientation-test: /opt/ros/melodic/lib/librosconsole_backend_interface.so
-/home/soo/sve_design_project/devel/.private/mavros/lib/mavros/libmavros-sensor-orientation-test: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/soo/sve_design_project/devel/.private/mavros/lib/mavros/libmavros-sensor-orientation-test: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/soo/sve_design_project/devel/.private/mavros/lib/mavros/libmavros-sensor-orientation-test: /opt/ros/melodic/lib/libxmlrpcpp.so
-/home/soo/sve_design_project/devel/.private/mavros/lib/mavros/libmavros-sensor-orientation-test: /opt/ros/melodic/lib/libtf2.so
-/home/soo/sve_design_project/devel/.private/mavros/lib/mavros/libmavros-sensor-orientation-test: /opt/ros/melodic/lib/libroscpp_serialization.so
-/home/soo/sve_design_project/devel/.private/mavros/lib/mavros/libmavros-sensor-orientation-test: /opt/ros/melodic/lib/librostime.so
-/home/soo/sve_design_project/devel/.private/mavros/lib/mavros/libmavros-sensor-orientation-test: /opt/ros/melodic/lib/libcpp_common.so
-/home/soo/sve_design_project/devel/.private/mavros/lib/mavros/libmavros-sensor-orientation-test: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/soo/sve_design_project/devel/.private/mavros/lib/mavros/libmavros-sensor-orientation-test: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/soo/sve_design_project/devel/.private/mavros/lib/mavros/libmavros-sensor-orientation-test: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/soo/sve_design_project/devel/.private/mavros/lib/mavros/libmavros-sensor-orientation-test: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/soo/sve_design_project/devel/.private/mavros/lib/mavros/libmavros-sensor-orientation-test: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/soo/sve_design_project/devel/.private/mavros/lib/mavros/libmavros-sensor-orientation-test: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/soo/sve_design_project/devel/.private/mavros/lib/mavros/libmavros-sensor-orientation-test: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-/home/soo/sve_design_project/devel/.private/mavros/lib/mavros/libmavros-sensor-orientation-test: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/soo/sve_design_project/devel/.private/mavros/lib/mavros/libmavros-sensor-orientation-test: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/soo/sve_design_project/devel/.private/mavros/lib/mavros/libmavros-sensor-orientation-test: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/soo/sve_design_project/devel/.private/mavros/lib/mavros/libmavros-sensor-orientation-test: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/soo/sve_design_project/devel/.private/mavros/lib/mavros/libmavros-sensor-orientation-test: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/soo/sve_design_project/devel/.private/mavros/lib/mavros/libmavros-sensor-orientation-test: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/soo/sve_design_project/devel/.private/mavros/lib/mavros/libmavros-sensor-orientation-test: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-/home/soo/sve_design_project/devel/.private/mavros/lib/mavros/libmavros-sensor-orientation-test: /usr/lib/x86_64-linux-gnu/libGeographic.so
-/home/soo/sve_design_project/devel/.private/mavros/lib/mavros/libmavros-sensor-orientation-test: CMakeFiles/libmavros-sensor-orientation-test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/soo/sve_design_project/build/mavros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/soo/sve_design_project/devel/.private/mavros/lib/mavros/libmavros-sensor-orientation-test"
+/home/yuseung/sve_design_project/devel/.private/mavros/lib/mavros/libmavros-sensor-orientation-test: CMakeFiles/libmavros-sensor-orientation-test.dir/test/test_sensor_orientation.cpp.o
+/home/yuseung/sve_design_project/devel/.private/mavros/lib/mavros/libmavros-sensor-orientation-test: CMakeFiles/libmavros-sensor-orientation-test.dir/build.make
+/home/yuseung/sve_design_project/devel/.private/mavros/lib/mavros/libmavros-sensor-orientation-test: gtest/googlemock/gtest/libgtest.so
+/home/yuseung/sve_design_project/devel/.private/mavros/lib/mavros/libmavros-sensor-orientation-test: /home/yuseung/sve_design_project/devel/.private/mavros/lib/libmavros.so
+/home/yuseung/sve_design_project/devel/.private/mavros/lib/mavros/libmavros-sensor-orientation-test: /opt/ros/melodic/lib/libeigen_conversions.so
+/home/yuseung/sve_design_project/devel/.private/mavros/lib/mavros/libmavros-sensor-orientation-test: /opt/ros/melodic/lib/liborocos-kdl.so.1.4.0
+/home/yuseung/sve_design_project/devel/.private/mavros/lib/mavros/libmavros-sensor-orientation-test: /home/yuseung/sve_design_project/devel/.private/libmavconn/lib/libmavconn.so
+/home/yuseung/sve_design_project/devel/.private/mavros/lib/mavros/libmavros-sensor-orientation-test: /opt/ros/melodic/lib/libclass_loader.so
+/home/yuseung/sve_design_project/devel/.private/mavros/lib/mavros/libmavros-sensor-orientation-test: /usr/lib/libPocoFoundation.so
+/home/yuseung/sve_design_project/devel/.private/mavros/lib/mavros/libmavros-sensor-orientation-test: /usr/lib/x86_64-linux-gnu/libdl.so
+/home/yuseung/sve_design_project/devel/.private/mavros/lib/mavros/libmavros-sensor-orientation-test: /opt/ros/melodic/lib/libroslib.so
+/home/yuseung/sve_design_project/devel/.private/mavros/lib/mavros/libmavros-sensor-orientation-test: /opt/ros/melodic/lib/librospack.so
+/home/yuseung/sve_design_project/devel/.private/mavros/lib/mavros/libmavros-sensor-orientation-test: /usr/lib/x86_64-linux-gnu/libpython2.7.so
+/home/yuseung/sve_design_project/devel/.private/mavros/lib/mavros/libmavros-sensor-orientation-test: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
+/home/yuseung/sve_design_project/devel/.private/mavros/lib/mavros/libmavros-sensor-orientation-test: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
+/home/yuseung/sve_design_project/devel/.private/mavros/lib/mavros/libmavros-sensor-orientation-test: /opt/ros/melodic/lib/librosconsole_bridge.so
+/home/yuseung/sve_design_project/devel/.private/mavros/lib/mavros/libmavros-sensor-orientation-test: /opt/ros/melodic/lib/libtf2_ros.so
+/home/yuseung/sve_design_project/devel/.private/mavros/lib/mavros/libmavros-sensor-orientation-test: /opt/ros/melodic/lib/libactionlib.so
+/home/yuseung/sve_design_project/devel/.private/mavros/lib/mavros/libmavros-sensor-orientation-test: /opt/ros/melodic/lib/libmessage_filters.so
+/home/yuseung/sve_design_project/devel/.private/mavros/lib/mavros/libmavros-sensor-orientation-test: /opt/ros/melodic/lib/libroscpp.so
+/home/yuseung/sve_design_project/devel/.private/mavros/lib/mavros/libmavros-sensor-orientation-test: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/yuseung/sve_design_project/devel/.private/mavros/lib/mavros/libmavros-sensor-orientation-test: /opt/ros/melodic/lib/librosconsole.so
+/home/yuseung/sve_design_project/devel/.private/mavros/lib/mavros/libmavros-sensor-orientation-test: /opt/ros/melodic/lib/librosconsole_log4cxx.so
+/home/yuseung/sve_design_project/devel/.private/mavros/lib/mavros/libmavros-sensor-orientation-test: /opt/ros/melodic/lib/librosconsole_backend_interface.so
+/home/yuseung/sve_design_project/devel/.private/mavros/lib/mavros/libmavros-sensor-orientation-test: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/yuseung/sve_design_project/devel/.private/mavros/lib/mavros/libmavros-sensor-orientation-test: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/yuseung/sve_design_project/devel/.private/mavros/lib/mavros/libmavros-sensor-orientation-test: /opt/ros/melodic/lib/libxmlrpcpp.so
+/home/yuseung/sve_design_project/devel/.private/mavros/lib/mavros/libmavros-sensor-orientation-test: /opt/ros/melodic/lib/libtf2.so
+/home/yuseung/sve_design_project/devel/.private/mavros/lib/mavros/libmavros-sensor-orientation-test: /opt/ros/melodic/lib/libroscpp_serialization.so
+/home/yuseung/sve_design_project/devel/.private/mavros/lib/mavros/libmavros-sensor-orientation-test: /opt/ros/melodic/lib/librostime.so
+/home/yuseung/sve_design_project/devel/.private/mavros/lib/mavros/libmavros-sensor-orientation-test: /opt/ros/melodic/lib/libcpp_common.so
+/home/yuseung/sve_design_project/devel/.private/mavros/lib/mavros/libmavros-sensor-orientation-test: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/yuseung/sve_design_project/devel/.private/mavros/lib/mavros/libmavros-sensor-orientation-test: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/yuseung/sve_design_project/devel/.private/mavros/lib/mavros/libmavros-sensor-orientation-test: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/yuseung/sve_design_project/devel/.private/mavros/lib/mavros/libmavros-sensor-orientation-test: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/yuseung/sve_design_project/devel/.private/mavros/lib/mavros/libmavros-sensor-orientation-test: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/yuseung/sve_design_project/devel/.private/mavros/lib/mavros/libmavros-sensor-orientation-test: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/yuseung/sve_design_project/devel/.private/mavros/lib/mavros/libmavros-sensor-orientation-test: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+/home/yuseung/sve_design_project/devel/.private/mavros/lib/mavros/libmavros-sensor-orientation-test: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/yuseung/sve_design_project/devel/.private/mavros/lib/mavros/libmavros-sensor-orientation-test: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/yuseung/sve_design_project/devel/.private/mavros/lib/mavros/libmavros-sensor-orientation-test: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/yuseung/sve_design_project/devel/.private/mavros/lib/mavros/libmavros-sensor-orientation-test: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/yuseung/sve_design_project/devel/.private/mavros/lib/mavros/libmavros-sensor-orientation-test: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/yuseung/sve_design_project/devel/.private/mavros/lib/mavros/libmavros-sensor-orientation-test: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/yuseung/sve_design_project/devel/.private/mavros/lib/mavros/libmavros-sensor-orientation-test: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+/home/yuseung/sve_design_project/devel/.private/mavros/lib/mavros/libmavros-sensor-orientation-test: /usr/lib/x86_64-linux-gnu/libGeographic.so
+/home/yuseung/sve_design_project/devel/.private/mavros/lib/mavros/libmavros-sensor-orientation-test: CMakeFiles/libmavros-sensor-orientation-test.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/yuseung/sve_design_project/build/mavros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/yuseung/sve_design_project/devel/.private/mavros/lib/mavros/libmavros-sensor-orientation-test"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/libmavros-sensor-orientation-test.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/libmavros-sensor-orientation-test.dir/build: /home/soo/sve_design_project/devel/.private/mavros/lib/mavros/libmavros-sensor-orientation-test
+CMakeFiles/libmavros-sensor-orientation-test.dir/build: /home/yuseung/sve_design_project/devel/.private/mavros/lib/mavros/libmavros-sensor-orientation-test
 
 .PHONY : CMakeFiles/libmavros-sensor-orientation-test.dir/build
 
@@ -152,6 +152,6 @@ CMakeFiles/libmavros-sensor-orientation-test.dir/clean:
 .PHONY : CMakeFiles/libmavros-sensor-orientation-test.dir/clean
 
 CMakeFiles/libmavros-sensor-orientation-test.dir/depend:
-	cd /home/soo/sve_design_project/build/mavros && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/soo/sve_design_project/src/control/mavros/mavros /home/soo/sve_design_project/src/control/mavros/mavros /home/soo/sve_design_project/build/mavros /home/soo/sve_design_project/build/mavros /home/soo/sve_design_project/build/mavros/CMakeFiles/libmavros-sensor-orientation-test.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/yuseung/sve_design_project/build/mavros && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yuseung/sve_design_project/src/control/mavros/mavros /home/yuseung/sve_design_project/src/control/mavros/mavros /home/yuseung/sve_design_project/build/mavros /home/yuseung/sve_design_project/build/mavros /home/yuseung/sve_design_project/build/mavros/CMakeFiles/libmavros-sensor-orientation-test.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/libmavros-sensor-orientation-test.dir/depend
 

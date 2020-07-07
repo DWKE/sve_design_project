@@ -1,1 +1,1 @@
-/home/soo/sve_design_project/devel/.private/ydlidar/share/ydlidar/cmake/ydlidarConfig.cmake
+/home/yuseung/sve_design_project/devel/.private/ydlidar/share/ydlidar/cmake/ydlidarConfig.cmake

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/soo/sve_design_project/src/localization/ublox/ublox_msgs
+CMAKE_SOURCE_DIR = /home/yuseung/sve_design_project/src/localization/ublox/ublox_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/soo/sve_design_project/build/ublox_msgs
+CMAKE_BINARY_DIR = /home/yuseung/sve_design_project/build/ublox_msgs
 
 # Utility rule file for ublox_msgs_gennodejs.
 
@@ -67,6 +67,6 @@ CMakeFiles/ublox_msgs_gennodejs.dir/clean:
 .PHONY : CMakeFiles/ublox_msgs_gennodejs.dir/clean
 
 CMakeFiles/ublox_msgs_gennodejs.dir/depend:
-	cd /home/soo/sve_design_project/build/ublox_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/soo/sve_design_project/src/localization/ublox/ublox_msgs /home/soo/sve_design_project/src/localization/ublox/ublox_msgs /home/soo/sve_design_project/build/ublox_msgs /home/soo/sve_design_project/build/ublox_msgs /home/soo/sve_design_project/build/ublox_msgs/CMakeFiles/ublox_msgs_gennodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/yuseung/sve_design_project/build/ublox_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yuseung/sve_design_project/src/localization/ublox/ublox_msgs /home/yuseung/sve_design_project/src/localization/ublox/ublox_msgs /home/yuseung/sve_design_project/build/ublox_msgs /home/yuseung/sve_design_project/build/ublox_msgs /home/yuseung/sve_design_project/build/ublox_msgs/CMakeFiles/ublox_msgs_gennodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ublox_msgs_gennodejs.dir/depend
 

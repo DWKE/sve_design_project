@@ -1,1 +1,1 @@
-/home/soo/sve_design_project/devel/.private/rosserial_mbed/share/roseus/ros/rosserial_mbed/srv/Test.l
+/home/yuseung/sve_design_project/devel/.private/rosserial_mbed/share/roseus/ros/rosserial_mbed/srv/Test.l

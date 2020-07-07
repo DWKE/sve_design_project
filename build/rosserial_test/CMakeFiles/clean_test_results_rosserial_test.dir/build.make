@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/soo/sve_design_project/src/control/rosserial-noetic-devel/rosserial_test
+CMAKE_SOURCE_DIR = /home/yuseung/sve_design_project/src/control/rosserial-noetic-devel/rosserial_test
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/soo/sve_design_project/build/rosserial_test
+CMAKE_BINARY_DIR = /home/yuseung/sve_design_project/build/rosserial_test
 
 # Utility rule file for clean_test_results_rosserial_test.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/soo/sve_design_project/build/rosserial_test
 include CMakeFiles/clean_test_results_rosserial_test.dir/progress.make
 
 CMakeFiles/clean_test_results_rosserial_test:
-	/usr/bin/python2 /opt/ros/melodic/share/catkin/cmake/test/remove_test_results.py /home/soo/sve_design_project/build/rosserial_test/test_results/rosserial_test
+	/usr/bin/python2 /opt/ros/melodic/share/catkin/cmake/test/remove_test_results.py /home/yuseung/sve_design_project/build/rosserial_test/test_results/rosserial_test
 
 clean_test_results_rosserial_test: CMakeFiles/clean_test_results_rosserial_test
 clean_test_results_rosserial_test: CMakeFiles/clean_test_results_rosserial_test.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/clean_test_results_rosserial_test.dir/clean:
 .PHONY : CMakeFiles/clean_test_results_rosserial_test.dir/clean
 
 CMakeFiles/clean_test_results_rosserial_test.dir/depend:
-	cd /home/soo/sve_design_project/build/rosserial_test && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/soo/sve_design_project/src/control/rosserial-noetic-devel/rosserial_test /home/soo/sve_design_project/src/control/rosserial-noetic-devel/rosserial_test /home/soo/sve_design_project/build/rosserial_test /home/soo/sve_design_project/build/rosserial_test /home/soo/sve_design_project/build/rosserial_test/CMakeFiles/clean_test_results_rosserial_test.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/yuseung/sve_design_project/build/rosserial_test && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yuseung/sve_design_project/src/control/rosserial-noetic-devel/rosserial_test /home/yuseung/sve_design_project/src/control/rosserial-noetic-devel/rosserial_test /home/yuseung/sve_design_project/build/rosserial_test /home/yuseung/sve_design_project/build/rosserial_test /home/yuseung/sve_design_project/build/rosserial_test/CMakeFiles/clean_test_results_rosserial_test.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/clean_test_results_rosserial_test.dir/depend
 

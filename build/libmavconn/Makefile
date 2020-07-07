@@ -48,57 +48,13 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/soo/sve_design_project/src/control/mavros/libmavconn
+CMAKE_SOURCE_DIR = /home/yuseung/sve_design_project/src/control/mavros/libmavconn
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/soo/sve_design_project/build/libmavconn
+CMAKE_BINARY_DIR = /home/yuseung/sve_design_project/build/libmavconn
 
 #=============================================================================
 # Targets provided globally by CMake.
-
-# Special rule for the target install
-install: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/usr/bin/cmake -P cmake_install.cmake
-.PHONY : install
-
-# Special rule for the target install
-install/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/usr/bin/cmake -P cmake_install.cmake
-.PHONY : install/fast
-
-# Special rule for the target list_install_components
-list_install_components:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
-.PHONY : list_install_components
-
-# Special rule for the target list_install_components
-list_install_components/fast: list_install_components
-
-.PHONY : list_install_components/fast
-
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
 
 # Special rule for the target install/local
 install/local: preinstall
@@ -112,17 +68,28 @@ install/local/fast: preinstall/fast
 	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local/fast
 
-# Special rule for the target install/strip
-install/strip: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip
+# Special rule for the target install
+install: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/usr/bin/cmake -P cmake_install.cmake
+.PHONY : install
 
-# Special rule for the target install/strip
-install/strip/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip/fast
+# Special rule for the target install
+install/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/usr/bin/cmake -P cmake_install.cmake
+.PHONY : install/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/usr/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # Special rule for the target test
 test:
@@ -135,11 +102,44 @@ test/fast: test
 
 .PHONY : test/fast
 
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
+
+# Special rule for the target install/strip
+install/strip: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip
+
+# Special rule for the target install/strip
+install/strip/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip/fast
+
+# Special rule for the target list_install_components
+list_install_components:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
+.PHONY : list_install_components
+
+# Special rule for the target list_install_components
+list_install_components/fast: list_install_components
+
+.PHONY : list_install_components/fast
+
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/soo/sve_design_project/build/libmavconn/CMakeFiles /home/soo/sve_design_project/build/libmavconn/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yuseung/sve_design_project/build/libmavconn/CMakeFiles /home/yuseung/sve_design_project/build/libmavconn/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/soo/sve_design_project/build/libmavconn/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yuseung/sve_design_project/build/libmavconn/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -168,69 +168,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named doxygen
+# Target rules for targets named _run_tests_libmavconn_gtest_mavconn-test
 
 # Build rule for target.
-doxygen: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 doxygen
-.PHONY : doxygen
+_run_tests_libmavconn_gtest_mavconn-test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _run_tests_libmavconn_gtest_mavconn-test
+.PHONY : _run_tests_libmavconn_gtest_mavconn-test
 
 # fast build rule for target.
-doxygen/fast:
-	$(MAKE) -f CMakeFiles/doxygen.dir/build.make CMakeFiles/doxygen.dir/build
-.PHONY : doxygen/fast
-
-#=============================================================================
-# Target rules for targets named clean_test_results
-
-# Build rule for target.
-clean_test_results: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 clean_test_results
-.PHONY : clean_test_results
-
-# fast build rule for target.
-clean_test_results/fast:
-	$(MAKE) -f CMakeFiles/clean_test_results.dir/build.make CMakeFiles/clean_test_results.dir/build
-.PHONY : clean_test_results/fast
-
-#=============================================================================
-# Target rules for targets named download_extra_data
-
-# Build rule for target.
-download_extra_data: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 download_extra_data
-.PHONY : download_extra_data
-
-# fast build rule for target.
-download_extra_data/fast:
-	$(MAKE) -f CMakeFiles/download_extra_data.dir/build.make CMakeFiles/download_extra_data.dir/build
-.PHONY : download_extra_data/fast
-
-#=============================================================================
-# Target rules for targets named run_tests
-
-# Build rule for target.
-run_tests: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 run_tests
-.PHONY : run_tests
-
-# fast build rule for target.
-run_tests/fast:
-	$(MAKE) -f CMakeFiles/run_tests.dir/build.make CMakeFiles/run_tests.dir/build
-.PHONY : run_tests/fast
-
-#=============================================================================
-# Target rules for targets named run_tests_libmavconn
-
-# Build rule for target.
-run_tests_libmavconn: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 run_tests_libmavconn
-.PHONY : run_tests_libmavconn
-
-# fast build rule for target.
-run_tests_libmavconn/fast:
-	$(MAKE) -f CMakeFiles/run_tests_libmavconn.dir/build.make CMakeFiles/run_tests_libmavconn.dir/build
-.PHONY : run_tests_libmavconn/fast
+_run_tests_libmavconn_gtest_mavconn-test/fast:
+	$(MAKE) -f CMakeFiles/_run_tests_libmavconn_gtest_mavconn-test.dir/build.make CMakeFiles/_run_tests_libmavconn_gtest_mavconn-test.dir/build
+.PHONY : _run_tests_libmavconn_gtest_mavconn-test/fast
 
 #=============================================================================
 # Target rules for targets named run_tests_libmavconn_gtest_mavconn-test
@@ -246,43 +194,30 @@ run_tests_libmavconn_gtest_mavconn-test/fast:
 .PHONY : run_tests_libmavconn_gtest_mavconn-test/fast
 
 #=============================================================================
-# Target rules for targets named clean_test_results_libmavconn
+# Target rules for targets named _run_tests_libmavconn_gtest
 
 # Build rule for target.
-clean_test_results_libmavconn: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 clean_test_results_libmavconn
-.PHONY : clean_test_results_libmavconn
+_run_tests_libmavconn_gtest: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _run_tests_libmavconn_gtest
+.PHONY : _run_tests_libmavconn_gtest
 
 # fast build rule for target.
-clean_test_results_libmavconn/fast:
-	$(MAKE) -f CMakeFiles/clean_test_results_libmavconn.dir/build.make CMakeFiles/clean_test_results_libmavconn.dir/build
-.PHONY : clean_test_results_libmavconn/fast
+_run_tests_libmavconn_gtest/fast:
+	$(MAKE) -f CMakeFiles/_run_tests_libmavconn_gtest.dir/build.make CMakeFiles/_run_tests_libmavconn_gtest.dir/build
+.PHONY : _run_tests_libmavconn_gtest/fast
 
 #=============================================================================
-# Target rules for targets named tests
+# Target rules for targets named doxygen
 
 # Build rule for target.
-tests: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 tests
-.PHONY : tests
+doxygen: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 doxygen
+.PHONY : doxygen
 
 # fast build rule for target.
-tests/fast:
-	$(MAKE) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/build
-.PHONY : tests/fast
-
-#=============================================================================
-# Target rules for targets named mavconn
-
-# Build rule for target.
-mavconn: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 mavconn
-.PHONY : mavconn
-
-# fast build rule for target.
-mavconn/fast:
-	$(MAKE) -f CMakeFiles/mavconn.dir/build.make CMakeFiles/mavconn.dir/build
-.PHONY : mavconn/fast
+doxygen/fast:
+	$(MAKE) -f CMakeFiles/doxygen.dir/build.make CMakeFiles/doxygen.dir/build
+.PHONY : doxygen/fast
 
 #=============================================================================
 # Target rules for targets named mavconn-test
@@ -298,30 +233,30 @@ mavconn-test/fast:
 .PHONY : mavconn-test/fast
 
 #=============================================================================
-# Target rules for targets named _catkin_empty_exported_target
+# Target rules for targets named run_tests
 
 # Build rule for target.
-_catkin_empty_exported_target: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 _catkin_empty_exported_target
-.PHONY : _catkin_empty_exported_target
+run_tests: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 run_tests
+.PHONY : run_tests
 
 # fast build rule for target.
-_catkin_empty_exported_target/fast:
-	$(MAKE) -f CMakeFiles/_catkin_empty_exported_target.dir/build.make CMakeFiles/_catkin_empty_exported_target.dir/build
-.PHONY : _catkin_empty_exported_target/fast
+run_tests/fast:
+	$(MAKE) -f CMakeFiles/run_tests.dir/build.make CMakeFiles/run_tests.dir/build
+.PHONY : run_tests/fast
 
 #=============================================================================
-# Target rules for targets named _run_tests_libmavconn
+# Target rules for targets named download_extra_data
 
 # Build rule for target.
-_run_tests_libmavconn: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 _run_tests_libmavconn
-.PHONY : _run_tests_libmavconn
+download_extra_data: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 download_extra_data
+.PHONY : download_extra_data
 
 # fast build rule for target.
-_run_tests_libmavconn/fast:
-	$(MAKE) -f CMakeFiles/_run_tests_libmavconn.dir/build.make CMakeFiles/_run_tests_libmavconn.dir/build
-.PHONY : _run_tests_libmavconn/fast
+download_extra_data/fast:
+	$(MAKE) -f CMakeFiles/download_extra_data.dir/build.make CMakeFiles/download_extra_data.dir/build
+.PHONY : download_extra_data/fast
 
 #=============================================================================
 # Target rules for targets named run_tests_libmavconn_gtest
@@ -337,30 +272,95 @@ run_tests_libmavconn_gtest/fast:
 .PHONY : run_tests_libmavconn_gtest/fast
 
 #=============================================================================
-# Target rules for targets named _run_tests_libmavconn_gtest
+# Target rules for targets named _run_tests_libmavconn
 
 # Build rule for target.
-_run_tests_libmavconn_gtest: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 _run_tests_libmavconn_gtest
-.PHONY : _run_tests_libmavconn_gtest
+_run_tests_libmavconn: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _run_tests_libmavconn
+.PHONY : _run_tests_libmavconn
 
 # fast build rule for target.
-_run_tests_libmavconn_gtest/fast:
-	$(MAKE) -f CMakeFiles/_run_tests_libmavconn_gtest.dir/build.make CMakeFiles/_run_tests_libmavconn_gtest.dir/build
-.PHONY : _run_tests_libmavconn_gtest/fast
+_run_tests_libmavconn/fast:
+	$(MAKE) -f CMakeFiles/_run_tests_libmavconn.dir/build.make CMakeFiles/_run_tests_libmavconn.dir/build
+.PHONY : _run_tests_libmavconn/fast
 
 #=============================================================================
-# Target rules for targets named _run_tests_libmavconn_gtest_mavconn-test
+# Target rules for targets named tests
 
 # Build rule for target.
-_run_tests_libmavconn_gtest_mavconn-test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 _run_tests_libmavconn_gtest_mavconn-test
-.PHONY : _run_tests_libmavconn_gtest_mavconn-test
+tests: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 tests
+.PHONY : tests
 
 # fast build rule for target.
-_run_tests_libmavconn_gtest_mavconn-test/fast:
-	$(MAKE) -f CMakeFiles/_run_tests_libmavconn_gtest_mavconn-test.dir/build.make CMakeFiles/_run_tests_libmavconn_gtest_mavconn-test.dir/build
-.PHONY : _run_tests_libmavconn_gtest_mavconn-test/fast
+tests/fast:
+	$(MAKE) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/build
+.PHONY : tests/fast
+
+#=============================================================================
+# Target rules for targets named _catkin_empty_exported_target
+
+# Build rule for target.
+_catkin_empty_exported_target: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _catkin_empty_exported_target
+.PHONY : _catkin_empty_exported_target
+
+# fast build rule for target.
+_catkin_empty_exported_target/fast:
+	$(MAKE) -f CMakeFiles/_catkin_empty_exported_target.dir/build.make CMakeFiles/_catkin_empty_exported_target.dir/build
+.PHONY : _catkin_empty_exported_target/fast
+
+#=============================================================================
+# Target rules for targets named clean_test_results
+
+# Build rule for target.
+clean_test_results: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 clean_test_results
+.PHONY : clean_test_results
+
+# fast build rule for target.
+clean_test_results/fast:
+	$(MAKE) -f CMakeFiles/clean_test_results.dir/build.make CMakeFiles/clean_test_results.dir/build
+.PHONY : clean_test_results/fast
+
+#=============================================================================
+# Target rules for targets named mavconn
+
+# Build rule for target.
+mavconn: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 mavconn
+.PHONY : mavconn
+
+# fast build rule for target.
+mavconn/fast:
+	$(MAKE) -f CMakeFiles/mavconn.dir/build.make CMakeFiles/mavconn.dir/build
+.PHONY : mavconn/fast
+
+#=============================================================================
+# Target rules for targets named clean_test_results_libmavconn
+
+# Build rule for target.
+clean_test_results_libmavconn: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 clean_test_results_libmavconn
+.PHONY : clean_test_results_libmavconn
+
+# fast build rule for target.
+clean_test_results_libmavconn/fast:
+	$(MAKE) -f CMakeFiles/clean_test_results_libmavconn.dir/build.make CMakeFiles/clean_test_results_libmavconn.dir/build
+.PHONY : clean_test_results_libmavconn/fast
+
+#=============================================================================
+# Target rules for targets named run_tests_libmavconn
+
+# Build rule for target.
+run_tests_libmavconn: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 run_tests_libmavconn
+.PHONY : run_tests_libmavconn
+
+# fast build rule for target.
+run_tests_libmavconn/fast:
+	$(MAKE) -f CMakeFiles/run_tests_libmavconn.dir/build.make CMakeFiles/run_tests_libmavconn.dir/build
+.PHONY : run_tests_libmavconn/fast
 
 #=============================================================================
 # Target rules for targets named gmock_main
@@ -582,28 +582,28 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... install"
-	@echo "... list_install_components"
-	@echo "... rebuild_cache"
-	@echo "... edit_cache"
 	@echo "... install/local"
-	@echo "... doxygen"
-	@echo "... clean_test_results"
-	@echo "... download_extra_data"
-	@echo "... run_tests"
-	@echo "... run_tests_libmavconn"
-	@echo "... run_tests_libmavconn_gtest_mavconn-test"
-	@echo "... clean_test_results_libmavconn"
-	@echo "... tests"
-	@echo "... mavconn"
-	@echo "... mavconn-test"
-	@echo "... _catkin_empty_exported_target"
-	@echo "... _run_tests_libmavconn"
-	@echo "... install/strip"
-	@echo "... run_tests_libmavconn_gtest"
-	@echo "... _run_tests_libmavconn_gtest"
-	@echo "... _run_tests_libmavconn_gtest_mavconn-test"
+	@echo "... install"
+	@echo "... rebuild_cache"
 	@echo "... test"
+	@echo "... _run_tests_libmavconn_gtest_mavconn-test"
+	@echo "... run_tests_libmavconn_gtest_mavconn-test"
+	@echo "... edit_cache"
+	@echo "... _run_tests_libmavconn_gtest"
+	@echo "... doxygen"
+	@echo "... install/strip"
+	@echo "... list_install_components"
+	@echo "... mavconn-test"
+	@echo "... run_tests"
+	@echo "... download_extra_data"
+	@echo "... run_tests_libmavconn_gtest"
+	@echo "... _run_tests_libmavconn"
+	@echo "... tests"
+	@echo "... _catkin_empty_exported_target"
+	@echo "... clean_test_results"
+	@echo "... mavconn"
+	@echo "... clean_test_results_libmavconn"
+	@echo "... run_tests_libmavconn"
 	@echo "... gmock_main"
 	@echo "... gmock"
 	@echo "... gtest_main"

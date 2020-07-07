@@ -1,8 +1,8 @@
 # generated from catkin/cmake/template/pkg.context.pc.in
 CATKIN_PACKAGE_PREFIX = ""
-PROJECT_PKG_CONFIG_INCLUDE_DIRS = "/home/soo/sve_design_project/src/localization/ublox/ublox_serialization/include".split(';') if "/home/soo/sve_design_project/src/localization/ublox/ublox_serialization/include" != "" else []
+PROJECT_PKG_CONFIG_INCLUDE_DIRS = "/home/yuseung/sve_design_project/src/localization/ublox/ublox_serialization/include".split(';') if "/home/yuseung/sve_design_project/src/localization/ublox/ublox_serialization/include" != "" else []
 PROJECT_CATKIN_DEPENDS = "roscpp;roscpp_serialization".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "ublox_serialization"
-PROJECT_SPACE_DIR = "/home/soo/sve_design_project/devel/.private/ublox_serialization"
+PROJECT_SPACE_DIR = "/home/yuseung/sve_design_project/devel/.private/ublox_serialization"
 PROJECT_VERSION = "1.1.2"

@@ -1,24 +1,24 @@
 Determining if the pthread_create exist failed with the following output:
-Change Dir: /home/soo/sve_design_project/build/rosserial_test/CMakeFiles/CMakeTmp
+Change Dir: /home/yuseung/sve_design_project/build/rosserial_test/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_16e30/fast"
-/usr/bin/make -f CMakeFiles/cmTC_16e30.dir/build.make CMakeFiles/cmTC_16e30.dir/build
-make[1]: 디렉터리 '/home/soo/sve_design_project/build/rosserial_test/CMakeFiles/CMakeTmp' 들어감
-Building C object CMakeFiles/cmTC_16e30.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_16e30.dir/CheckSymbolExists.c.o   -c /home/soo/sve_design_project/build/rosserial_test/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_16e30
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_16e30.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_16e30.dir/CheckSymbolExists.c.o  -o cmTC_16e30 
-CMakeFiles/cmTC_16e30.dir/CheckSymbolExists.c.o: In function `main':
+Run Build Command:"/usr/bin/make" "cmTC_14476/fast"
+/usr/bin/make -f CMakeFiles/cmTC_14476.dir/build.make CMakeFiles/cmTC_14476.dir/build
+make[1]: 디렉터리 '/home/yuseung/sve_design_project/build/rosserial_test/CMakeFiles/CMakeTmp' 들어감
+Building C object CMakeFiles/cmTC_14476.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_14476.dir/CheckSymbolExists.c.o   -c /home/yuseung/sve_design_project/build/rosserial_test/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_14476
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_14476.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_14476.dir/CheckSymbolExists.c.o  -o cmTC_14476 
+CMakeFiles/cmTC_14476.dir/CheckSymbolExists.c.o: In function `main':
 CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_16e30.dir/build.make:97: recipe for target 'cmTC_16e30' failed
-make[1]: *** [cmTC_16e30] Error 1
-make[1]: 디렉터리 '/home/soo/sve_design_project/build/rosserial_test/CMakeFiles/CMakeTmp' 나감
-Makefile:126: recipe for target 'cmTC_16e30/fast' failed
-make: *** [cmTC_16e30/fast] Error 2
+CMakeFiles/cmTC_14476.dir/build.make:97: recipe for target 'cmTC_14476' failed
+make[1]: *** [cmTC_14476] Error 1
+make[1]: 디렉터리 '/home/yuseung/sve_design_project/build/rosserial_test/CMakeFiles/CMakeTmp' 나감
+Makefile:126: recipe for target 'cmTC_14476/fast' failed
+make: *** [cmTC_14476/fast] Error 2
 
-File /home/soo/sve_design_project/build/rosserial_test/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/yuseung/sve_design_project/build/rosserial_test/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <pthread.h>
 
@@ -34,22 +34,22 @@ int main(int argc, char** argv)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/soo/sve_design_project/build/rosserial_test/CMakeFiles/CMakeTmp
+Change Dir: /home/yuseung/sve_design_project/build/rosserial_test/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_e5b65/fast"
-/usr/bin/make -f CMakeFiles/cmTC_e5b65.dir/build.make CMakeFiles/cmTC_e5b65.dir/build
-make[1]: 디렉터리 '/home/soo/sve_design_project/build/rosserial_test/CMakeFiles/CMakeTmp' 들어감
-Building C object CMakeFiles/cmTC_e5b65.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_e5b65.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_e5b65
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e5b65.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_e5b65.dir/CheckFunctionExists.c.o  -o cmTC_e5b65 -lpthreads 
+Run Build Command:"/usr/bin/make" "cmTC_1188f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1188f.dir/build.make CMakeFiles/cmTC_1188f.dir/build
+make[1]: 디렉터리 '/home/yuseung/sve_design_project/build/rosserial_test/CMakeFiles/CMakeTmp' 들어감
+Building C object CMakeFiles/cmTC_1188f.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_1188f.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_1188f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1188f.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_1188f.dir/CheckFunctionExists.c.o  -o cmTC_1188f -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_e5b65.dir/build.make:97: recipe for target 'cmTC_e5b65' failed
-make[1]: *** [cmTC_e5b65] Error 1
-make[1]: 디렉터리 '/home/soo/sve_design_project/build/rosserial_test/CMakeFiles/CMakeTmp' 나감
-Makefile:126: recipe for target 'cmTC_e5b65/fast' failed
-make: *** [cmTC_e5b65/fast] Error 2
+CMakeFiles/cmTC_1188f.dir/build.make:97: recipe for target 'cmTC_1188f' failed
+make[1]: *** [cmTC_1188f] Error 1
+make[1]: 디렉터리 '/home/yuseung/sve_design_project/build/rosserial_test/CMakeFiles/CMakeTmp' 나감
+Makefile:126: recipe for target 'cmTC_1188f/fast' failed
+make: *** [cmTC_1188f/fast] Error 2
 
 

@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/soo/sve_design_project/devel/include/mavros_msgs/RCOut.h
+/home/yuseung/sve_design_project/devel/include/mavros_msgs/RCOut.h
 string
 -
 vector
@@ -24,7 +24,7 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/home/soo/sve_design_project/src/control/mavros/mavros_extras/src/servo_state_publisher.cpp
+/home/yuseung/sve_design_project/src/control/mavros/mavros_extras/src/servo_state_publisher.cpp
 ros/ros.h
 -
 ros/console.h

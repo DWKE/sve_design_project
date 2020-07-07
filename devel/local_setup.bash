@@ -1,1 +1,1 @@
-/home/soo/sve_design_project/devel/.private/catkin_tools_prebuild/local_setup.bash
+/home/yuseung/sve_design_project/devel/.private/catkin_tools_prebuild/local_setup.bash

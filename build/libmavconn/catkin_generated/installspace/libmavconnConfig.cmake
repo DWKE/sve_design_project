@@ -67,14 +67,14 @@ set(libmavconn_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(libmavconn_SOURCE_PREFIX /home/soo/sve_design_project/src/control/mavros/libmavconn)
-  set(libmavconn_DEVEL_PREFIX /home/soo/sve_design_project/devel/.private/libmavconn)
+  set(libmavconn_SOURCE_PREFIX /home/yuseung/sve_design_project/src/control/mavros/libmavconn)
+  set(libmavconn_DEVEL_PREFIX /home/yuseung/sve_design_project/devel/.private/libmavconn)
   set(libmavconn_INSTALL_PREFIX "")
   set(libmavconn_PREFIX ${libmavconn_DEVEL_PREFIX})
 else()
   set(libmavconn_SOURCE_PREFIX "")
   set(libmavconn_DEVEL_PREFIX "")
-  set(libmavconn_INSTALL_PREFIX /home/soo/sve_design_project/install)
+  set(libmavconn_INSTALL_PREFIX /home/yuseung/sve_design_project/install)
   set(libmavconn_PREFIX ${libmavconn_INSTALL_PREFIX})
 endif()
 
@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(libmavconn_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "include;/usr/include;/home/soo/sve_design_project/devel/include " STREQUAL " ")
+if(NOT "include;/usr/include;/home/yuseung/sve_design_project/devel/include " STREQUAL " ")
   set(libmavconn_INCLUDE_DIRS "")
-  set(_include_dirs "include;/usr/include;/home/soo/sve_design_project/devel/include")
+  set(_include_dirs "include;/usr/include;/home/yuseung/sve_design_project/devel/include")
   if(NOT "https://github.com/mavlink/mavros/issues " STREQUAL " ")
     set(_report "Check the issue tracker 'https://github.com/mavlink/mavros/issues' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT "http://wiki.ros.org/mavros " STREQUAL " ")
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/soo/sve_design_project/install/lib;/home/soo/sve_design_project/devel/lib;/home/soo/catkin_ws/devel/lib;/home/soo/FlyMeToTheHome/devel/lib;/opt/ros/melodic/lib)
+    foreach(path /home/yuseung/sve_design_project/install/lib;/home/yuseung/sve_design_project/devel/lib;/home/yuseung/rs/devel/lib;/home/yuseung/git/ai-brain/devel/lib;/home/yuseung/carla-ros-bridge/catkin_ws/devel/lib;/opt/ros/melodic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

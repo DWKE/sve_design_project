@@ -6,5 +6,5 @@ CXX_FLAGS = -fPIC
 
 CXX_DEFINES = -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"ublox_msgs\" -Dublox_msgs_EXPORTS
 
-CXX_INCLUDES = -I/home/soo/sve_design_project/devel/.private/ublox_msgs/include -I/home/soo/sve_design_project/src/localization/ublox/ublox_msgs/include -I/home/soo/sve_design_project/src/localization/ublox/ublox_serialization/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp 
+CXX_INCLUDES = -I/home/yuseung/sve_design_project/devel/.private/ublox_msgs/include -I/home/yuseung/sve_design_project/src/localization/ublox/ublox_msgs/include -I/home/yuseung/sve_design_project/src/localization/ublox/ublox_serialization/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp 
 

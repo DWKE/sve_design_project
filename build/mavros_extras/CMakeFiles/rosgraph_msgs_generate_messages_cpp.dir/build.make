@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/soo/sve_design_project/src/control/mavros/mavros_extras
+CMAKE_SOURCE_DIR = /home/yuseung/sve_design_project/src/control/mavros/mavros_extras
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/soo/sve_design_project/build/mavros_extras
+CMAKE_BINARY_DIR = /home/yuseung/sve_design_project/build/mavros_extras
 
 # Utility rule file for rosgraph_msgs_generate_messages_cpp.
 
@@ -67,6 +67,6 @@ CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean:
 .PHONY : CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
 
 CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/depend:
-	cd /home/soo/sve_design_project/build/mavros_extras && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/soo/sve_design_project/src/control/mavros/mavros_extras /home/soo/sve_design_project/src/control/mavros/mavros_extras /home/soo/sve_design_project/build/mavros_extras /home/soo/sve_design_project/build/mavros_extras /home/soo/sve_design_project/build/mavros_extras/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/yuseung/sve_design_project/build/mavros_extras && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yuseung/sve_design_project/src/control/mavros/mavros_extras /home/yuseung/sve_design_project/src/control/mavros/mavros_extras /home/yuseung/sve_design_project/build/mavros_extras /home/yuseung/sve_design_project/build/mavros_extras /home/yuseung/sve_design_project/build/mavros_extras/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/depend
 

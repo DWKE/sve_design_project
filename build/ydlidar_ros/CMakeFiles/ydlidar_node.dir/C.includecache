@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/soo/sve_design_project/src/lidar_detection/ydlidar_ros-master/sdk/include/lock.h
+/home/yuseung/sve_design_project/src/lidar_detection/ydlidar_ros-master/sdk/include/lock.h
 sys/file.h
 -
 sys/socket.h
@@ -46,9 +46,9 @@ math.h
 lockdev.h
 -
 
-/home/soo/sve_design_project/src/lidar_detection/ydlidar_ros-master/sdk/src/lock.c
+/home/yuseung/sve_design_project/src/lidar_detection/ydlidar_ros-master/sdk/src/lock.c
 lock.h
-/home/soo/sve_design_project/src/lidar_detection/ydlidar_ros-master/sdk/src/lock.h
+/home/yuseung/sve_design_project/src/lidar_detection/ydlidar_ros-master/sdk/src/lock.h
 stdio.h
 -
 unistd.h

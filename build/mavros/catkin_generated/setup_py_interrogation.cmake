@@ -1,4 +1,3 @@
-set(mavros_SETUP_PY_SETUP_MODULE "distutils.core")
 set(mavros_SETUP_PY_VERSION "1.1.0")
 set(mavros_SETUP_PY_SCRIPTS "")
 set(mavros_SETUP_PY_PACKAGES "mavros")

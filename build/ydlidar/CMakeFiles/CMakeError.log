@@ -1,24 +1,24 @@
 Determining if the pthread_create exist failed with the following output:
-Change Dir: /home/soo/sve_design_project/build/ydlidar/CMakeFiles/CMakeTmp
+Change Dir: /home/yuseung/sve_design_project/build/ydlidar/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_90b59/fast"
-/usr/bin/make -f CMakeFiles/cmTC_90b59.dir/build.make CMakeFiles/cmTC_90b59.dir/build
-make[1]: 디렉터리 '/home/soo/sve_design_project/build/ydlidar/CMakeFiles/CMakeTmp' 들어감
-Building C object CMakeFiles/cmTC_90b59.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_90b59.dir/CheckSymbolExists.c.o   -c /home/soo/sve_design_project/build/ydlidar/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_90b59
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_90b59.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_90b59.dir/CheckSymbolExists.c.o  -o cmTC_90b59 
-CMakeFiles/cmTC_90b59.dir/CheckSymbolExists.c.o: In function `main':
+Run Build Command:"/usr/bin/make" "cmTC_6b5b5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6b5b5.dir/build.make CMakeFiles/cmTC_6b5b5.dir/build
+make[1]: 디렉터리 '/home/yuseung/sve_design_project/build/ydlidar/CMakeFiles/CMakeTmp' 들어감
+Building C object CMakeFiles/cmTC_6b5b5.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_6b5b5.dir/CheckSymbolExists.c.o   -c /home/yuseung/sve_design_project/build/ydlidar/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_6b5b5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6b5b5.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_6b5b5.dir/CheckSymbolExists.c.o  -o cmTC_6b5b5 
+CMakeFiles/cmTC_6b5b5.dir/CheckSymbolExists.c.o: In function `main':
 CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_90b59.dir/build.make:97: recipe for target 'cmTC_90b59' failed
-make[1]: *** [cmTC_90b59] Error 1
-make[1]: 디렉터리 '/home/soo/sve_design_project/build/ydlidar/CMakeFiles/CMakeTmp' 나감
-Makefile:126: recipe for target 'cmTC_90b59/fast' failed
-make: *** [cmTC_90b59/fast] Error 2
+CMakeFiles/cmTC_6b5b5.dir/build.make:97: recipe for target 'cmTC_6b5b5' failed
+make[1]: *** [cmTC_6b5b5] Error 1
+make[1]: 디렉터리 '/home/yuseung/sve_design_project/build/ydlidar/CMakeFiles/CMakeTmp' 나감
+Makefile:126: recipe for target 'cmTC_6b5b5/fast' failed
+make: *** [cmTC_6b5b5/fast] Error 2
 
-File /home/soo/sve_design_project/build/ydlidar/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/yuseung/sve_design_project/build/ydlidar/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <pthread.h>
 
@@ -34,22 +34,22 @@ int main(int argc, char** argv)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/soo/sve_design_project/build/ydlidar/CMakeFiles/CMakeTmp
+Change Dir: /home/yuseung/sve_design_project/build/ydlidar/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_4a6a0/fast"
-/usr/bin/make -f CMakeFiles/cmTC_4a6a0.dir/build.make CMakeFiles/cmTC_4a6a0.dir/build
-make[1]: 디렉터리 '/home/soo/sve_design_project/build/ydlidar/CMakeFiles/CMakeTmp' 들어감
-Building C object CMakeFiles/cmTC_4a6a0.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_4a6a0.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_4a6a0
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4a6a0.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_4a6a0.dir/CheckFunctionExists.c.o  -o cmTC_4a6a0 -lpthreads 
+Run Build Command:"/usr/bin/make" "cmTC_4d98a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4d98a.dir/build.make CMakeFiles/cmTC_4d98a.dir/build
+make[1]: 디렉터리 '/home/yuseung/sve_design_project/build/ydlidar/CMakeFiles/CMakeTmp' 들어감
+Building C object CMakeFiles/cmTC_4d98a.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_4d98a.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_4d98a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4d98a.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_4d98a.dir/CheckFunctionExists.c.o  -o cmTC_4d98a -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_4a6a0.dir/build.make:97: recipe for target 'cmTC_4a6a0' failed
-make[1]: *** [cmTC_4a6a0] Error 1
-make[1]: 디렉터리 '/home/soo/sve_design_project/build/ydlidar/CMakeFiles/CMakeTmp' 나감
-Makefile:126: recipe for target 'cmTC_4a6a0/fast' failed
-make: *** [cmTC_4a6a0/fast] Error 2
+CMakeFiles/cmTC_4d98a.dir/build.make:97: recipe for target 'cmTC_4d98a' failed
+make[1]: *** [cmTC_4d98a] Error 1
+make[1]: 디렉터리 '/home/yuseung/sve_design_project/build/ydlidar/CMakeFiles/CMakeTmp' 나감
+Makefile:126: recipe for target 'cmTC_4d98a/fast' failed
+make: *** [cmTC_4d98a/fast] Error 2
 
 

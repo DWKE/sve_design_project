@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/soo/sve_design_project/devel/.private/kusv_msgs/include/kusv_msgs/OptimalBehavior.h
+/home/yuseung/sve_design_project/devel/.private/kusv_msgs/include/kusv_msgs/OptimalBehavior.h
 string
 -
 vector
@@ -24,7 +24,7 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/home/soo/sve_design_project/devel/.private/kusv_msgs/include/kusv_msgs/PlanningControl.h
+/home/yuseung/sve_design_project/devel/.private/kusv_msgs/include/kusv_msgs/PlanningControl.h
 string
 -
 vector
@@ -42,7 +42,7 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/home/soo/sve_design_project/devel/.private/kusv_msgs/include/kusv_msgs/PolyfitLaneData.h
+/home/yuseung/sve_design_project/devel/.private/kusv_msgs/include/kusv_msgs/PolyfitLaneData.h
 string
 -
 vector
@@ -58,7 +58,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/soo/sve_design_project/src/planning/trajectory_planning/include/trajectory_planning.hpp
+/home/yuseung/sve_design_project/src/planning/trajectory_planning/include/trajectory_planning.hpp
 mutex
 -
 vector
@@ -78,15 +78,15 @@ tf/transform_datatypes.h
 tf/transform_listener.h
 -
 kusv_msgs/OptimalBehavior.h
-/home/soo/sve_design_project/src/planning/trajectory_planning/include/kusv_msgs/OptimalBehavior.h
+/home/yuseung/sve_design_project/src/planning/trajectory_planning/include/kusv_msgs/OptimalBehavior.h
 kusv_msgs/PolyfitLaneData.h
-/home/soo/sve_design_project/src/planning/trajectory_planning/include/kusv_msgs/PolyfitLaneData.h
+/home/yuseung/sve_design_project/src/planning/trajectory_planning/include/kusv_msgs/PolyfitLaneData.h
 kusv_msgs/PlanningControl.h
-/home/soo/sve_design_project/src/planning/trajectory_planning/include/kusv_msgs/PlanningControl.h
+/home/yuseung/sve_design_project/src/planning/trajectory_planning/include/kusv_msgs/PlanningControl.h
 
-/home/soo/sve_design_project/src/planning/trajectory_planning/src/trajectory_planning.cpp
+/home/yuseung/sve_design_project/src/planning/trajectory_planning/src/trajectory_planning.cpp
 trajectory_planning.hpp
-/home/soo/sve_design_project/src/planning/trajectory_planning/src/trajectory_planning.hpp
+/home/yuseung/sve_design_project/src/planning/trajectory_planning/src/trajectory_planning.hpp
 
 /opt/ros/melodic/include/geometry_msgs/Point.h
 string

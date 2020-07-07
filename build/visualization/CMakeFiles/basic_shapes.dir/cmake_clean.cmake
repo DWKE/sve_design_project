@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/basic_shapes.dir/src/basic_shapes.cpp.o"
-  "/home/soo/sve_design_project/devel/.private/visualization/lib/visualization/basic_shapes.pdb"
-  "/home/soo/sve_design_project/devel/.private/visualization/lib/visualization/basic_shapes"
+  "/home/yuseung/sve_design_project/devel/.private/visualization/lib/visualization/basic_shapes.pdb"
+  "/home/yuseung/sve_design_project/devel/.private/visualization/lib/visualization/basic_shapes"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/soo/sve_design_project/src/planning/trajectory_planning
+CMAKE_SOURCE_DIR = /home/yuseung/sve_design_project/src/planning/trajectory_planning
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/soo/sve_design_project/build/trajectory_planning
+CMAKE_BINARY_DIR = /home/yuseung/sve_design_project/build/trajectory_planning
 
 # Utility rule file for kusv_msgs_generate_messages_py.
 
@@ -67,6 +67,6 @@ CMakeFiles/kusv_msgs_generate_messages_py.dir/clean:
 .PHONY : CMakeFiles/kusv_msgs_generate_messages_py.dir/clean
 
 CMakeFiles/kusv_msgs_generate_messages_py.dir/depend:
-	cd /home/soo/sve_design_project/build/trajectory_planning && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/soo/sve_design_project/src/planning/trajectory_planning /home/soo/sve_design_project/src/planning/trajectory_planning /home/soo/sve_design_project/build/trajectory_planning /home/soo/sve_design_project/build/trajectory_planning /home/soo/sve_design_project/build/trajectory_planning/CMakeFiles/kusv_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/yuseung/sve_design_project/build/trajectory_planning && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yuseung/sve_design_project/src/planning/trajectory_planning /home/yuseung/sve_design_project/src/planning/trajectory_planning /home/yuseung/sve_design_project/build/trajectory_planning /home/yuseung/sve_design_project/build/trajectory_planning /home/yuseung/sve_design_project/build/trajectory_planning/CMakeFiles/kusv_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/kusv_msgs_generate_messages_py.dir/depend
 

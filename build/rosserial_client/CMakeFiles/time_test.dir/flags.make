@@ -6,5 +6,5 @@ CXX_FLAGS =
 
 CXX_DEFINES = -DROS_BUILD_SHARED_LIBS=1
 
-CXX_INCLUDES = -I/home/soo/sve_design_project/src/control/rosserial-noetic-devel/rosserial_client/src/ros_lib -I/home/soo/sve_design_project/devel/.private/rosserial_msgs/include -I/opt/ros/melodic/include -I/usr/src/googletest/googletest/include 
+CXX_INCLUDES = -I/home/yuseung/sve_design_project/src/control/rosserial-noetic-devel/rosserial_client/src/ros_lib -I/home/yuseung/sve_design_project/devel/.private/rosserial_msgs/include -I/opt/ros/melodic/include -I/usr/src/googletest/googletest/include 
 

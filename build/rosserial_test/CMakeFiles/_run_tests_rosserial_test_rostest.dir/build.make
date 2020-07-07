@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/soo/sve_design_project/src/control/rosserial-noetic-devel/rosserial_test
+CMAKE_SOURCE_DIR = /home/yuseung/sve_design_project/src/control/rosserial-noetic-devel/rosserial_test
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/soo/sve_design_project/build/rosserial_test
+CMAKE_BINARY_DIR = /home/yuseung/sve_design_project/build/rosserial_test
 
 # Utility rule file for _run_tests_rosserial_test_rostest.
 
@@ -67,6 +67,6 @@ CMakeFiles/_run_tests_rosserial_test_rostest.dir/clean:
 .PHONY : CMakeFiles/_run_tests_rosserial_test_rostest.dir/clean
 
 CMakeFiles/_run_tests_rosserial_test_rostest.dir/depend:
-	cd /home/soo/sve_design_project/build/rosserial_test && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/soo/sve_design_project/src/control/rosserial-noetic-devel/rosserial_test /home/soo/sve_design_project/src/control/rosserial-noetic-devel/rosserial_test /home/soo/sve_design_project/build/rosserial_test /home/soo/sve_design_project/build/rosserial_test /home/soo/sve_design_project/build/rosserial_test/CMakeFiles/_run_tests_rosserial_test_rostest.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/yuseung/sve_design_project/build/rosserial_test && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yuseung/sve_design_project/src/control/rosserial-noetic-devel/rosserial_test /home/yuseung/sve_design_project/src/control/rosserial-noetic-devel/rosserial_test /home/yuseung/sve_design_project/build/rosserial_test /home/yuseung/sve_design_project/build/rosserial_test /home/yuseung/sve_design_project/build/rosserial_test/CMakeFiles/_run_tests_rosserial_test_rostest.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/_run_tests_rosserial_test_rostest.dir/depend
 

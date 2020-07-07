@@ -7,9 +7,7 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/soo/sve_design_project/devel/.private/rosserial_server:$CMAKE_PREFIX_PATH"
-export LD_LIBRARY_PATH="/home/soo/sve_design_project/devel/.private/rosserial_server/lib:$LD_LIBRARY_PATH"
-export PKG_CONFIG_PATH="/home/soo/sve_design_project/devel/.private/rosserial_server/lib/pkgconfig:$PKG_CONFIG_PATH"
-export PWD="/home/soo/sve_design_project/build/rosserial_server"
-export ROSLISP_PACKAGE_DIRECTORIES="/home/soo/sve_design_project/devel/.private/rosserial_server/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/soo/sve_design_project/src/control/rosserial-noetic-devel/rosserial_server:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/home/yuseung/sve_design_project/devel/.private/rosserial_server:$CMAKE_PREFIX_PATH"
+export PWD="/home/yuseung/sve_design_project/build/rosserial_server"
+export ROSLISP_PACKAGE_DIRECTORIES="/home/yuseung/sve_design_project/devel/.private/rosserial_server/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
+export ROS_PACKAGE_PATH="/home/yuseung/sve_design_project/src/control/rosserial-noetic-devel/rosserial_server:$ROS_PACKAGE_PATH"

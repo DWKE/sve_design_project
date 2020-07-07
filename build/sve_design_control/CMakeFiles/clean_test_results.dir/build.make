@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/soo/sve_design_project/src/control/sve_design_control
+CMAKE_SOURCE_DIR = /home/yuseung/sve_design_project/src/control/sve_design_control
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/soo/sve_design_project/build/sve_design_control
+CMAKE_BINARY_DIR = /home/yuseung/sve_design_project/build/sve_design_control
 
 # Utility rule file for clean_test_results.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/soo/sve_design_project/build/sve_design_control
 include CMakeFiles/clean_test_results.dir/progress.make
 
 CMakeFiles/clean_test_results:
-	/usr/bin/python2 /opt/ros/melodic/share/catkin/cmake/test/remove_test_results.py /home/soo/sve_design_project/build/sve_design_control/test_results
+	/usr/bin/python2 /opt/ros/melodic/share/catkin/cmake/test/remove_test_results.py /home/yuseung/sve_design_project/build/sve_design_control/test_results
 
 clean_test_results: CMakeFiles/clean_test_results
 clean_test_results: CMakeFiles/clean_test_results.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/clean_test_results.dir/clean:
 .PHONY : CMakeFiles/clean_test_results.dir/clean
 
 CMakeFiles/clean_test_results.dir/depend:
-	cd /home/soo/sve_design_project/build/sve_design_control && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/soo/sve_design_project/src/control/sve_design_control /home/soo/sve_design_project/src/control/sve_design_control /home/soo/sve_design_project/build/sve_design_control /home/soo/sve_design_project/build/sve_design_control /home/soo/sve_design_project/build/sve_design_control/CMakeFiles/clean_test_results.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/yuseung/sve_design_project/build/sve_design_control && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yuseung/sve_design_project/src/control/sve_design_control /home/yuseung/sve_design_project/src/control/sve_design_control /home/yuseung/sve_design_project/build/sve_design_control /home/yuseung/sve_design_project/build/sve_design_control /home/yuseung/sve_design_project/build/sve_design_control/CMakeFiles/clean_test_results.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/clean_test_results.dir/depend
 

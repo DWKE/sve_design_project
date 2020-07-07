@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/soo/sve_design_project/src/control/mavros/mavros
+CMAKE_SOURCE_DIR = /home/yuseung/sve_design_project/src/control/mavros/mavros
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/soo/sve_design_project/build/mavros
+CMAKE_BINARY_DIR = /home/yuseung/sve_design_project/build/mavros
 
 # Utility rule file for clean_test_results_mavros.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/soo/sve_design_project/build/mavros
 include CMakeFiles/clean_test_results_mavros.dir/progress.make
 
 CMakeFiles/clean_test_results_mavros:
-	/usr/bin/python2 /opt/ros/melodic/share/catkin/cmake/test/remove_test_results.py /home/soo/sve_design_project/build/mavros/test_results/mavros
+	/usr/bin/python2 /opt/ros/melodic/share/catkin/cmake/test/remove_test_results.py /home/yuseung/sve_design_project/build/mavros/test_results/mavros
 
 clean_test_results_mavros: CMakeFiles/clean_test_results_mavros
 clean_test_results_mavros: CMakeFiles/clean_test_results_mavros.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/clean_test_results_mavros.dir/clean:
 .PHONY : CMakeFiles/clean_test_results_mavros.dir/clean
 
 CMakeFiles/clean_test_results_mavros.dir/depend:
-	cd /home/soo/sve_design_project/build/mavros && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/soo/sve_design_project/src/control/mavros/mavros /home/soo/sve_design_project/src/control/mavros/mavros /home/soo/sve_design_project/build/mavros /home/soo/sve_design_project/build/mavros /home/soo/sve_design_project/build/mavros/CMakeFiles/clean_test_results_mavros.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/yuseung/sve_design_project/build/mavros && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yuseung/sve_design_project/src/control/mavros/mavros /home/yuseung/sve_design_project/src/control/mavros/mavros /home/yuseung/sve_design_project/build/mavros /home/yuseung/sve_design_project/build/mavros /home/yuseung/sve_design_project/build/mavros/CMakeFiles/clean_test_results_mavros.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/clean_test_results_mavros.dir/depend
 

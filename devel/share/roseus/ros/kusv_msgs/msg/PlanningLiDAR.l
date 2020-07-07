@@ -1,1 +1,1 @@
-/home/soo/sve_design_project/devel/.private/kusv_msgs/share/roseus/ros/kusv_msgs/msg/PlanningLiDAR.l
+/home/yuseung/sve_design_project/devel/.private/kusv_msgs/share/roseus/ros/kusv_msgs/msg/PlanningLiDAR.l

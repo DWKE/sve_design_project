@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/soo/sve_design_project/src/lidar_detection/ydlidar_ros-master
+CMAKE_SOURCE_DIR = /home/yuseung/sve_design_project/src/lidar_detection/ydlidar_ros-master
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/soo/sve_design_project/build/ydlidar_ros
+CMAKE_BINARY_DIR = /home/yuseung/sve_design_project/build/ydlidar_ros
 
 # Include any dependencies generated for this target.
 include CMakeFiles/ydlidar_client.dir/depend.make
@@ -58,17 +58,17 @@ include CMakeFiles/ydlidar_client.dir/progress.make
 include CMakeFiles/ydlidar_client.dir/flags.make
 
 CMakeFiles/ydlidar_client.dir/src/ydlidar_client.cpp.o: CMakeFiles/ydlidar_client.dir/flags.make
-CMakeFiles/ydlidar_client.dir/src/ydlidar_client.cpp.o: /home/soo/sve_design_project/src/lidar_detection/ydlidar_ros-master/src/ydlidar_client.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/soo/sve_design_project/build/ydlidar_ros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ydlidar_client.dir/src/ydlidar_client.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ydlidar_client.dir/src/ydlidar_client.cpp.o -c /home/soo/sve_design_project/src/lidar_detection/ydlidar_ros-master/src/ydlidar_client.cpp
+CMakeFiles/ydlidar_client.dir/src/ydlidar_client.cpp.o: /home/yuseung/sve_design_project/src/lidar_detection/ydlidar_ros-master/src/ydlidar_client.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yuseung/sve_design_project/build/ydlidar_ros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ydlidar_client.dir/src/ydlidar_client.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ydlidar_client.dir/src/ydlidar_client.cpp.o -c /home/yuseung/sve_design_project/src/lidar_detection/ydlidar_ros-master/src/ydlidar_client.cpp
 
 CMakeFiles/ydlidar_client.dir/src/ydlidar_client.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ydlidar_client.dir/src/ydlidar_client.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/soo/sve_design_project/src/lidar_detection/ydlidar_ros-master/src/ydlidar_client.cpp > CMakeFiles/ydlidar_client.dir/src/ydlidar_client.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yuseung/sve_design_project/src/lidar_detection/ydlidar_ros-master/src/ydlidar_client.cpp > CMakeFiles/ydlidar_client.dir/src/ydlidar_client.cpp.i
 
 CMakeFiles/ydlidar_client.dir/src/ydlidar_client.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ydlidar_client.dir/src/ydlidar_client.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/soo/sve_design_project/src/lidar_detection/ydlidar_ros-master/src/ydlidar_client.cpp -o CMakeFiles/ydlidar_client.dir/src/ydlidar_client.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yuseung/sve_design_project/src/lidar_detection/ydlidar_ros-master/src/ydlidar_client.cpp -o CMakeFiles/ydlidar_client.dir/src/ydlidar_client.cpp.s
 
 CMakeFiles/ydlidar_client.dir/src/ydlidar_client.cpp.o.requires:
 
@@ -88,32 +88,32 @@ ydlidar_client_OBJECTS = \
 # External object files for target ydlidar_client
 ydlidar_client_EXTERNAL_OBJECTS =
 
-/home/soo/sve_design_project/devel/.private/ydlidar_ros/lib/ydlidar_ros/ydlidar_client: CMakeFiles/ydlidar_client.dir/src/ydlidar_client.cpp.o
-/home/soo/sve_design_project/devel/.private/ydlidar_ros/lib/ydlidar_ros/ydlidar_client: CMakeFiles/ydlidar_client.dir/build.make
-/home/soo/sve_design_project/devel/.private/ydlidar_ros/lib/ydlidar_ros/ydlidar_client: /opt/ros/melodic/lib/libroscpp.so
-/home/soo/sve_design_project/devel/.private/ydlidar_ros/lib/ydlidar_ros/ydlidar_client: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/soo/sve_design_project/devel/.private/ydlidar_ros/lib/ydlidar_ros/ydlidar_client: /opt/ros/melodic/lib/librosconsole.so
-/home/soo/sve_design_project/devel/.private/ydlidar_ros/lib/ydlidar_ros/ydlidar_client: /opt/ros/melodic/lib/librosconsole_log4cxx.so
-/home/soo/sve_design_project/devel/.private/ydlidar_ros/lib/ydlidar_ros/ydlidar_client: /opt/ros/melodic/lib/librosconsole_backend_interface.so
-/home/soo/sve_design_project/devel/.private/ydlidar_ros/lib/ydlidar_ros/ydlidar_client: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/soo/sve_design_project/devel/.private/ydlidar_ros/lib/ydlidar_ros/ydlidar_client: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/soo/sve_design_project/devel/.private/ydlidar_ros/lib/ydlidar_ros/ydlidar_client: /opt/ros/melodic/lib/libxmlrpcpp.so
-/home/soo/sve_design_project/devel/.private/ydlidar_ros/lib/ydlidar_ros/ydlidar_client: /opt/ros/melodic/lib/libroscpp_serialization.so
-/home/soo/sve_design_project/devel/.private/ydlidar_ros/lib/ydlidar_ros/ydlidar_client: /opt/ros/melodic/lib/librostime.so
-/home/soo/sve_design_project/devel/.private/ydlidar_ros/lib/ydlidar_ros/ydlidar_client: /opt/ros/melodic/lib/libcpp_common.so
-/home/soo/sve_design_project/devel/.private/ydlidar_ros/lib/ydlidar_ros/ydlidar_client: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/soo/sve_design_project/devel/.private/ydlidar_ros/lib/ydlidar_ros/ydlidar_client: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/soo/sve_design_project/devel/.private/ydlidar_ros/lib/ydlidar_ros/ydlidar_client: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/soo/sve_design_project/devel/.private/ydlidar_ros/lib/ydlidar_ros/ydlidar_client: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/soo/sve_design_project/devel/.private/ydlidar_ros/lib/ydlidar_ros/ydlidar_client: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/soo/sve_design_project/devel/.private/ydlidar_ros/lib/ydlidar_ros/ydlidar_client: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/soo/sve_design_project/devel/.private/ydlidar_ros/lib/ydlidar_ros/ydlidar_client: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-/home/soo/sve_design_project/devel/.private/ydlidar_ros/lib/ydlidar_ros/ydlidar_client: CMakeFiles/ydlidar_client.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/soo/sve_design_project/build/ydlidar_ros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/soo/sve_design_project/devel/.private/ydlidar_ros/lib/ydlidar_ros/ydlidar_client"
+/home/yuseung/sve_design_project/devel/.private/ydlidar_ros/lib/ydlidar_ros/ydlidar_client: CMakeFiles/ydlidar_client.dir/src/ydlidar_client.cpp.o
+/home/yuseung/sve_design_project/devel/.private/ydlidar_ros/lib/ydlidar_ros/ydlidar_client: CMakeFiles/ydlidar_client.dir/build.make
+/home/yuseung/sve_design_project/devel/.private/ydlidar_ros/lib/ydlidar_ros/ydlidar_client: /opt/ros/melodic/lib/libroscpp.so
+/home/yuseung/sve_design_project/devel/.private/ydlidar_ros/lib/ydlidar_ros/ydlidar_client: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/yuseung/sve_design_project/devel/.private/ydlidar_ros/lib/ydlidar_ros/ydlidar_client: /opt/ros/melodic/lib/librosconsole.so
+/home/yuseung/sve_design_project/devel/.private/ydlidar_ros/lib/ydlidar_ros/ydlidar_client: /opt/ros/melodic/lib/librosconsole_log4cxx.so
+/home/yuseung/sve_design_project/devel/.private/ydlidar_ros/lib/ydlidar_ros/ydlidar_client: /opt/ros/melodic/lib/librosconsole_backend_interface.so
+/home/yuseung/sve_design_project/devel/.private/ydlidar_ros/lib/ydlidar_ros/ydlidar_client: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/yuseung/sve_design_project/devel/.private/ydlidar_ros/lib/ydlidar_ros/ydlidar_client: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/yuseung/sve_design_project/devel/.private/ydlidar_ros/lib/ydlidar_ros/ydlidar_client: /opt/ros/melodic/lib/libxmlrpcpp.so
+/home/yuseung/sve_design_project/devel/.private/ydlidar_ros/lib/ydlidar_ros/ydlidar_client: /opt/ros/melodic/lib/libroscpp_serialization.so
+/home/yuseung/sve_design_project/devel/.private/ydlidar_ros/lib/ydlidar_ros/ydlidar_client: /opt/ros/melodic/lib/librostime.so
+/home/yuseung/sve_design_project/devel/.private/ydlidar_ros/lib/ydlidar_ros/ydlidar_client: /opt/ros/melodic/lib/libcpp_common.so
+/home/yuseung/sve_design_project/devel/.private/ydlidar_ros/lib/ydlidar_ros/ydlidar_client: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/yuseung/sve_design_project/devel/.private/ydlidar_ros/lib/ydlidar_ros/ydlidar_client: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/yuseung/sve_design_project/devel/.private/ydlidar_ros/lib/ydlidar_ros/ydlidar_client: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/yuseung/sve_design_project/devel/.private/ydlidar_ros/lib/ydlidar_ros/ydlidar_client: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/yuseung/sve_design_project/devel/.private/ydlidar_ros/lib/ydlidar_ros/ydlidar_client: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/yuseung/sve_design_project/devel/.private/ydlidar_ros/lib/ydlidar_ros/ydlidar_client: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/yuseung/sve_design_project/devel/.private/ydlidar_ros/lib/ydlidar_ros/ydlidar_client: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+/home/yuseung/sve_design_project/devel/.private/ydlidar_ros/lib/ydlidar_ros/ydlidar_client: CMakeFiles/ydlidar_client.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/yuseung/sve_design_project/build/ydlidar_ros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/yuseung/sve_design_project/devel/.private/ydlidar_ros/lib/ydlidar_ros/ydlidar_client"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ydlidar_client.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/ydlidar_client.dir/build: /home/soo/sve_design_project/devel/.private/ydlidar_ros/lib/ydlidar_ros/ydlidar_client
+CMakeFiles/ydlidar_client.dir/build: /home/yuseung/sve_design_project/devel/.private/ydlidar_ros/lib/ydlidar_ros/ydlidar_client
 
 .PHONY : CMakeFiles/ydlidar_client.dir/build
 
@@ -126,6 +126,6 @@ CMakeFiles/ydlidar_client.dir/clean:
 .PHONY : CMakeFiles/ydlidar_client.dir/clean
 
 CMakeFiles/ydlidar_client.dir/depend:
-	cd /home/soo/sve_design_project/build/ydlidar_ros && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/soo/sve_design_project/src/lidar_detection/ydlidar_ros-master /home/soo/sve_design_project/src/lidar_detection/ydlidar_ros-master /home/soo/sve_design_project/build/ydlidar_ros /home/soo/sve_design_project/build/ydlidar_ros /home/soo/sve_design_project/build/ydlidar_ros/CMakeFiles/ydlidar_client.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/yuseung/sve_design_project/build/ydlidar_ros && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yuseung/sve_design_project/src/lidar_detection/ydlidar_ros-master /home/yuseung/sve_design_project/src/lidar_detection/ydlidar_ros-master /home/yuseung/sve_design_project/build/ydlidar_ros /home/yuseung/sve_design_project/build/ydlidar_ros /home/yuseung/sve_design_project/build/ydlidar_ros/CMakeFiles/ydlidar_client.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ydlidar_client.dir/depend
 

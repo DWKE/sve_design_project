@@ -1,4 +1,4 @@
-prefix=/home/soo/sve_design_project/install
+prefix=/home/yuseung/sve_design_project/install
 
 Name: mavros_extras
 Description: Description of mavros_extras

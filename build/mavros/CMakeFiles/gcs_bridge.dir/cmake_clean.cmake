@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/gcs_bridge.dir/src/gcs_bridge.cpp.o"
-  "/home/soo/sve_design_project/devel/.private/mavros/lib/mavros/gcs_bridge.pdb"
-  "/home/soo/sve_design_project/devel/.private/mavros/lib/mavros/gcs_bridge"
+  "/home/yuseung/sve_design_project/devel/.private/mavros/lib/mavros/gcs_bridge.pdb"
+  "/home/yuseung/sve_design_project/devel/.private/mavros/lib/mavros/gcs_bridge"
 )
 
 # Per-language clean rules from dependency scanning.

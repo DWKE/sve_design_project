@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/soo/sve_design_project/src/control/mavros/test_mavros
+CMAKE_SOURCE_DIR = /home/yuseung/sve_design_project/src/control/mavros/test_mavros
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/soo/sve_design_project/build/test_mavros
+CMAKE_BINARY_DIR = /home/yuseung/sve_design_project/build/test_mavros
 
 # Utility rule file for trajectory_msgs_generate_messages_lisp.
 
@@ -67,6 +67,6 @@ CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/clean:
 .PHONY : CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/clean
 
 CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/depend:
-	cd /home/soo/sve_design_project/build/test_mavros && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/soo/sve_design_project/src/control/mavros/test_mavros /home/soo/sve_design_project/src/control/mavros/test_mavros /home/soo/sve_design_project/build/test_mavros /home/soo/sve_design_project/build/test_mavros /home/soo/sve_design_project/build/test_mavros/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/yuseung/sve_design_project/build/test_mavros && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yuseung/sve_design_project/src/control/mavros/test_mavros /home/yuseung/sve_design_project/src/control/mavros/test_mavros /home/yuseung/sve_design_project/build/test_mavros /home/yuseung/sve_design_project/build/test_mavros /home/yuseung/sve_design_project/build/test_mavros/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/depend
 

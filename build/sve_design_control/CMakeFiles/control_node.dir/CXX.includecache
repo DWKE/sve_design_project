@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/soo/sve_design_project/devel/.private/kusv_msgs/include/kusv_msgs/PlanningControl.h
+/home/yuseung/sve_design_project/devel/.private/kusv_msgs/include/kusv_msgs/PlanningControl.h
 string
 -
 vector
@@ -24,7 +24,7 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/home/soo/sve_design_project/devel/.private/sve_design_control/include/sve_design_control/driving_control_msg.h
+/home/yuseung/sve_design_project/devel/.private/sve_design_control/include/sve_design_control/driving_control_msg.h
 string
 -
 vector
@@ -40,7 +40,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/soo/sve_design_project/src/control/sve_design_control/src/control_node.cpp
+/home/yuseung/sve_design_project/src/control/sve_design_control/src/control_node.cpp
 ros/ros.h
 -
 std_msgs/Bool.h

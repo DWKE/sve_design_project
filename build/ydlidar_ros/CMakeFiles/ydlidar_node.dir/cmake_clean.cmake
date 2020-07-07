@@ -7,8 +7,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/ydlidar_node.dir/sdk/src/serial.cpp.o"
   "CMakeFiles/ydlidar_node.dir/sdk/src/ydlidar_driver.cpp.o"
   "CMakeFiles/ydlidar_node.dir/sdk/src/lock.c.o"
-  "/home/soo/sve_design_project/devel/.private/ydlidar_ros/lib/ydlidar_ros/ydlidar_node.pdb"
-  "/home/soo/sve_design_project/devel/.private/ydlidar_ros/lib/ydlidar_ros/ydlidar_node"
+  "/home/yuseung/sve_design_project/devel/.private/ydlidar_ros/lib/ydlidar_ros/ydlidar_node.pdb"
+  "/home/yuseung/sve_design_project/devel/.private/ydlidar_ros/lib/ydlidar_ros/ydlidar_node"
 )
 
 # Per-language clean rules from dependency scanning.
