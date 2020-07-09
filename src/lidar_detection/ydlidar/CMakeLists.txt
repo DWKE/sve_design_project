@@ -8,7 +8,7 @@ add_compile_options (-std=c++11)
 ## Find catkin macros and libraries
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
 ## is used, also find other catkin packages
-#find_package(kusv_msgs REQUIRED)
+find_package(kusv_msgs REQUIRED)
 find_package(catkin REQUIRED COMPONENTS
 	geometry_msgs
 	pcl_conversions
@@ -16,7 +16,8 @@ find_package(catkin REQUIRED COMPONENTS
 	roscpp
 	sensor_msgs
 	cv_bridge
-        laser_geometry
+	laser_geometry
+	kusv_msgs
 	)
 
 find_package(OpenCV REQUIRED)
@@ -113,12 +114,12 @@ find_package(OpenCV REQUIRED)
 catkin_package(
 	CATKIN_DEPENDS 
 	roscpp 
-	#kusv_msgs
+	kusv_msgs
 	geometry_msgs 
 	pcl_conversions 
 	pcl_ros 
 	sensor_msgs 
-        cv_bridge
+    cv_bridge
 	)
 
 ###########

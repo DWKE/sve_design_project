@@ -35,14 +35,18 @@ public:
     }
 
     void modeConvert(){
-        //if(mark_size>threshold) count++;
-
-        if(count==5) {
-            _mode=true; //mode=Flight
-            std::cout<<"Flight Start!"<<std::endl;
+        if(boxSize>100000 && _mode == false) {
+            count++;
+            if(count==50) {
+                _mode=true; //mode=Flight
+                std::cout<<"Flight Start!"<<std::endl;
+                count = 0;
+            }
         }
-        else std::cout<<"Box Size : "<<boxSize<<std::endl;
-
+        else {
+            count = 0;
+            //std::cout<<"Box Size : "<<boxSize<<std::endl;
+        }
         mode.data = _mode;
         vehicle_mode.publish(mode);
     }
