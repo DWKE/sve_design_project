@@ -296,4 +296,3 @@ void ydlidar::publish ()
         pub_colShape.publish(m_collisionShapes);
         // pub_collisionChecker.publish(isObstacle);
 }
-

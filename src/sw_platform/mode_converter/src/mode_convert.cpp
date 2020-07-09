@@ -20,7 +20,7 @@ public:
     bool _mode;
 
     ModeConverter(){
-        vision_mark= nh.subscribe<kusv_msgs::VisionMark>("mode/vision_mark",10,&ModeConverter::signCb, this);
+        vision_mark= nh.subscribe<kusv_msgs::VisionMark>("/darknet_ros/mode/vision_mark",10,&ModeConverter::signCb, this);
         vehicle_mode = nh.advertise<std_msgs::Bool>("mode/vehicle_mode", 1); //Driving, Flight
 
         count =0;

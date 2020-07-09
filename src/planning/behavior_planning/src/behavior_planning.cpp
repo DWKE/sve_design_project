@@ -18,7 +18,7 @@ public:
   BehaviorPlanning() {
     m_rosSubObstacle = m_rosNodeHandler.subscribe("/lidar/obstacle", 1000, &BehaviorPlanning::obstacleCallback, this);
     // m_rosSubPose = m_rosNodeHandler.subscribe("/localization/pose", 1000, &BehaviorPlanning::poseCallback, this);
-    m_rosSubVision = m_rosNodeHandler.subscribe("/vision/sign", 1000, &BehaviorPlanning::signCallback, this);
+    m_rosSubVision = m_rosNodeHandler.subscribe("/mode/vehicle_mode", 1000, &BehaviorPlanning::signCallback, this);
 
     m_rosPubOptimalState = m_rosNodeHandler.advertise<kusv_msgs::OptimalBehavior>("opt_behavior", 1000);
   }
@@ -33,8 +33,6 @@ protected:
   Subscriber m_rosSubVision;
 
   Publisher m_rosPubOptimalState;
-
-  TransformListener tf_listener_;
 
   StateMachineStates state_;
 
@@ -54,8 +52,8 @@ public:
   //   m_pose = *msg;
   // }
 
-  void signCallback(const kusv_msgs::PlanningVision::ConstPtr &msg) {
-    m_sign = *msg;
+  void signCallback(const std_msgs::Bool::ConstPtr &msg) {
+    m_sign.isStop = msg->data;
   }
 
   void behavior_plan() {
@@ -87,7 +85,7 @@ int main(int argc, char **argv) {
 
   BehaviorPlanning behavior_planning;
 
-  ros::Rate loop_rate(100);
+  ros::Rate loop_rate(10);
 
   while (ros::ok()) {
     behavior_planning.behavior_plan();
