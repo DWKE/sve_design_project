@@ -1,8 +1,8 @@
-[  0%] Built target _sve_design_control_generate_messages_check_deps_driving_control_msg
 [  0%] Built target std_msgs_generate_messages_lisp
 [  0%] Built target std_msgs_generate_messages_eus
-[  0%] Built target roscpp_generate_messages_lisp
+[  0%] Built target _sve_design_control_generate_messages_check_deps_driving_control_msg
 [  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target roscpp_generate_messages_lisp
 [  0%] Built target std_msgs_generate_messages_py
 [  0%] Built target rosgraph_msgs_generate_messages_py
 [  0%] Built target roscpp_generate_messages_nodejs
@@ -28,16 +28,14 @@
 [ 15%] Built target sensor_msgs_generate_messages_cpp
 [ 15%] Built target std_msgs_generate_messages_cpp
 [ 15%] Built target sensor_msgs_generate_messages_eus
-[ 30%] Built target sve_design_control_generate_messages_eus
-[ 30%] Built target sensor_msgs_generate_messages_py
-[ 30%] Built target roscpp_generate_messages_cpp
-[ 30%] Built target sensor_msgs_generate_messages_lisp
-[ 38%] Built target sve_design_control_generate_messages_lisp
-[ 46%] Built target sve_design_control_generate_messages_nodejs
-[ 53%] Built target sve_design_control_generate_messages_cpp
-[ 61%] [32mBuilding CXX object CMakeFiles/local_waypoint_follower.dir/src/local_waypoint_follower.cpp.o[0m
-[ 76%] Built target keyboard_interface
-[ 76%] Built target sve_design_control_generate_messages
-[ 92%] Built target control_node
-[100%] [32m[1mLinking CXX executable /home/yuseung/sve_design_project/devel/.private/sve_design_control/lib/sve_design_control/local_waypoint_follower[0m
-[100%] Built target local_waypoint_follower
+[ 23%] Built target sve_design_control_generate_messages_cpp
+[ 38%] Built target sve_design_control_generate_messages_eus
+[ 38%] Built target sensor_msgs_generate_messages_py
+[ 38%] Built target roscpp_generate_messages_cpp
+[ 38%] Built target sensor_msgs_generate_messages_lisp
+[ 46%] Built target sve_design_control_generate_messages_lisp
+[ 53%] Built target sve_design_control_generate_messages_nodejs
+[ 69%] Built target keyboard_interface
+[ 84%] Built target local_waypoint_follower
+[ 84%] Built target sve_design_control_generate_messages
+[100%] Built target control_node

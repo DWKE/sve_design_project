@@ -81,6 +81,7 @@ CMakeFiles/behavior_planning.dir/src/behavior_planning.cpp.o
  /opt/ros/melodic/include/rosconsole/macros_generated.h
  /opt/ros/melodic/include/sensor_msgs/ChannelFloat32.h
  /opt/ros/melodic/include/sensor_msgs/PointCloud.h
+ /opt/ros/melodic/include/std_msgs/Bool.h
  /opt/ros/melodic/include/std_msgs/Empty.h
  /opt/ros/melodic/include/std_msgs/Header.h
  /opt/ros/melodic/include/tf/FrameGraph.h

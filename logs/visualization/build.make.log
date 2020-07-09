@@ -1,17 +1,17 @@
 [  0%] Built target visualization_msgs_generate_messages_lisp
 [  0%] Built target geometry_msgs_generate_messages_py
 [  0%] Built target geometry_msgs_generate_messages_cpp
-[  0%] Built target visualization_msgs_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_nodejs
 [  0%] Built target roscpp_generate_messages_py
 [  0%] Built target rosgraph_msgs_generate_messages_eus
-[  0%] Built target geometry_msgs_generate_messages_nodejs
 [  0%] Built target visualization_msgs_generate_messages_py
+[  0%] Built target visualization_msgs_generate_messages_nodejs
 [  0%] Built target std_msgs_generate_messages_nodejs
 [  0%] Built target geometry_msgs_generate_messages_eus
 [  0%] Built target roscpp_generate_messages_cpp
 [  0%] Built target rosgraph_msgs_generate_messages_cpp
-[  0%] Built target geometry_msgs_generate_messages_lisp
 [  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_lisp
 [  0%] Built target std_msgs_generate_messages_lisp
 [  0%] Built target visualization_msgs_generate_messages_eus
 [  0%] Built target rosgraph_msgs_generate_messages_nodejs
@@ -23,5 +23,5 @@
 [  0%] Built target roscpp_generate_messages_lisp
 [  0%] Built target std_msgs_generate_messages_eus
 [  0%] Built target roscpp_generate_messages_eus
-[ 50%] Built target points_and_lines
-[100%] Built target basic_shapes
+[ 50%] Built target basic_shapes
+[100%] Built target points_and_lines

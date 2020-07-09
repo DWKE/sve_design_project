@@ -103,6 +103,8 @@ kusv_msgs/PlanningLocalization.h
 /home/yuseung/sve_design_project/src/planning/behavior_planning/include/kusv_msgs/PlanningLocalization.h
 kusv_msgs/PlanningVision.h
 /home/yuseung/sve_design_project/src/planning/behavior_planning/include/kusv_msgs/PlanningVision.h
+std_msgs/Bool.h
+-
 
 /home/yuseung/sve_design_project/src/planning/behavior_planning/src/behavior_planning.cpp
 behavior_planning.hpp
@@ -1064,6 +1066,22 @@ std_msgs/Header.h
 geometry_msgs/Point32.h
 -
 sensor_msgs/ChannelFloat32.h
+-
+
+/opt/ros/melodic/include/std_msgs/Bool.h
+string
+-
+vector
+-
+map
+-
+ros/types.h
+-
+ros/serialization.h
+-
+ros/builtin_message_traits.h
+-
+ros/message_operations.h
 -
 
 /opt/ros/melodic/include/std_msgs/Empty.h

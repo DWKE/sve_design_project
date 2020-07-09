@@ -27,15 +27,13 @@ public:
   ~TrajectoryPlanning() {}
 
 
-protected:
+private:
   NodeHandle m_rosNodeHandler;
 
   Subscriber m_rosSubPose;
   Subscriber m_rosSubObstacle;
 
   Publisher m_rosPubControlCmd;
-
-  TransformListener tf_listener_;
 
   kusv_msgs::OptimalBehavior m_opt_behavior;
   kusv_msgs::PolyfitLaneData m_wp_lane;
@@ -92,7 +90,7 @@ int main(int argc, char **argv) {
 
   TrajectoryPlanning trajectory_planning;
 
-  ros::Rate loop_rate(100);
+  ros::Rate loop_rate(10);
 
   while (ros::ok()) {
     trajectory_planning.trajectory_plan();
