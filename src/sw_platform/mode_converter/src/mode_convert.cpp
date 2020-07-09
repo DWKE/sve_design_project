@@ -35,7 +35,7 @@ public:
     }
 
     void modeConvert(){
-        if(boxSize>100000 && _mode == false) {
+        if(boxSize>2500 && _mode == false) {
             count++;
             if(count==50) {
                 _mode=true; //mode=Flight
