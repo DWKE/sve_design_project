@@ -1,1 +1,0 @@
-/home/yuseung/sve_design_project/devel/.private/sve_design_control/include/sve_design_control/driving_control_msg.h

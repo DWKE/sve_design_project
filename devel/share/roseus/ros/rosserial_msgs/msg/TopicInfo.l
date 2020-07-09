@@ -1,1 +1,0 @@
-/home/yuseung/sve_design_project/devel/.private/rosserial_msgs/share/roseus/ros/rosserial_msgs/msg/TopicInfo.l

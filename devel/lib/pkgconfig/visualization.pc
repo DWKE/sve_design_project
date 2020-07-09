@@ -1,1 +1,0 @@
-/home/yuseung/sve_design_project/devel/.private/visualization/lib/pkgconfig/visualization.pc
