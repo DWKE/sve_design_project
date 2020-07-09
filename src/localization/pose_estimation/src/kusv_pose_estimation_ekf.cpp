@@ -88,7 +88,7 @@ void TaskNode::Subscribe(){
     // Set subscriber
     m_sub_motion = nh.subscribe(p_strInputMotion, 10, &TaskNode::callback_motion, this);
     m_sub_gnss = nh.subscribe(p_strInputGnss, 10, &TaskNode::callback_gnss, this); //>>>
-    m_sub_lidar_odom = nh.subscribe("/lidar_odom",10, &TaskNode::callback_lidar_odom, this);
+    // m_sub_lidar_odom = nh.subscribe("/lidar_odom",10, &TaskNode::callback_lidar_odom, this);
 
 }
 
@@ -471,66 +471,66 @@ void TaskNode::callback_gnss(const ublox_msgs::NavPVT::ConstPtr& msg){
 
 }
 
-void TaskNode::callback_lidar_odom(const geometry_msgs::PoseStamped::ConstPtr& msg){
+// void TaskNode::callback_lidar_odom(const geometry_msgs::PoseStamped::ConstPtr& msg){
 
-    if(lidar_odom_start == 1)
-    {
+//     if(lidar_odom_start == 1)
+//     {
 
-        ros::Time repr_time = msg->header.stamp;
-        ros::Time pres_time = ros::Time::now();
+//         ros::Time repr_time = msg->header.stamp;
+//         ros::Time pres_time = ros::Time::now();
 
-        double diffTime = (pres_time-repr_time).toSec(); //>>>
+//         double diffTime = (pres_time-repr_time).toSec(); //>>>
 
-        ROS_INFO("Callback_Lidar_Odom : %f",diffTime);
-        double dDiffTime_sec = diffTime;
-        double dLon_m = iMotion.speed_x * dDiffTime_sec;
-        double dDiffHdg_deg = iMotion.yaw_rate * dDiffTime_sec;
-        double dDiffHdg_rad = dDiffHdg_deg * M_PI/180;
+//         ROS_INFO("Callback_Lidar_Odom : %f",diffTime);
+//         double dDiffTime_sec = diffTime;
+//         double dLon_m = iMotion.speed_x * dDiffTime_sec;
+//         double dDiffHdg_deg = iMotion.yaw_rate * dDiffTime_sec;
+//         double dDiffHdg_rad = dDiffHdg_deg * M_PI/180;
 
-        tf::Quaternion q_(0, 0, msg->pose.orientation.z, msg->pose.orientation.w); //Be Careful when calculating yaw
-        tf::Matrix3x3 m(q_);
-        double roll, pitch, yaw;
-        m.getRPY(roll, pitch, yaw);
+//         tf::Quaternion q_(0, 0, msg->pose.orientation.z, msg->pose.orientation.w); //Be Careful when calculating yaw
+//         tf::Matrix3x3 m(q_);
+//         double roll, pitch, yaw;
+//         m.getRPY(roll, pitch, yaw);
 
-        double dNextEast_m = dLon_m * cos( yaw + dDiffHdg_rad / 2 ) + msg->pose.position.x;
-        double dNextNorth_m = dLon_m * sin( yaw + dDiffHdg_rad / 2 ) + msg->pose.position.y;
-        double dNextHdg_deg = ( yaw + dDiffHdg_rad / 2 - M_PI / 2 ) * 180/M_PI;
+//         double dNextEast_m = dLon_m * cos( yaw + dDiffHdg_rad / 2 ) + msg->pose.position.x;
+//         double dNextNorth_m = dLon_m * sin( yaw + dDiffHdg_rad / 2 ) + msg->pose.position.y;
+//         double dNextHdg_deg = ( yaw + dDiffHdg_rad / 2 - M_PI / 2 ) * 180/M_PI;
 
-        GeoPoint2D	geoCurr = { 35.8349389, 128.6811557 }; //For Daegu
-        //GeoPoint2D	geoCurr = { 37.540032, 127.0709544 }; //For Konkuk
-        Point2D	enuNext = { dNextEast_m, dNextNorth_m };
-        GeoPoint2D	geoNext = { 0.,0. };
-        cartesianToWgs84(&geoCurr, &enuNext, &geoNext);
-        double gnss_timestamp = (double)pres_time.sec * 1e6 + (double)pres_time.nsec / 1e3;
+//         GeoPoint2D	geoCurr = { 35.8349389, 128.6811557 }; //For Daegu
+//         //GeoPoint2D	geoCurr = { 37.540032, 127.0709544 }; //For Konkuk
+//         Point2D	enuNext = { dNextEast_m, dNextNorth_m };
+//         GeoPoint2D	geoNext = { 0.,0. };
+//         cartesianToWgs84(&geoCurr, &enuNext, &geoNext);
+//         double gnss_timestamp = (double)pres_time.sec * 1e6 + (double)pres_time.nsec / 1e3;
 
-        iGnss.timestamp = (uint32_t)gnss_timestamp;
-        iGnss.latitude = (float64_t)geoNext.latitude;
-        iGnss.longitude = (float64_t)geoNext.longitude;
-        iGnss.heading = (float32_t)dNextHdg_deg;
-        iGnss.latitude_sigma = 0.0001;
-        iGnss.longitude_sigma = 0.0001;
-        iGnss.heading_sigma = 0.0001;
-        iGnss.quality = (KUSV_GNSS_QUALITY)4;
+//         iGnss.timestamp = (uint32_t)gnss_timestamp;
+//         iGnss.latitude = (float64_t)geoNext.latitude;
+//         iGnss.longitude = (float64_t)geoNext.longitude;
+//         iGnss.heading = (float32_t)dNextHdg_deg;
+//         iGnss.latitude_sigma = 0.0001;
+//         iGnss.longitude_sigma = 0.0001;
+//         iGnss.heading_sigma = 0.0001;
+//         iGnss.quality = (KUSV_GNSS_QUALITY)4;
 
-        ROS_INFO("Update Lidar Odom");
-        ROS_INFO("Lidar : %f %f LidarHeading : %f Diff_Time : %f",
-                 iGnss.latitude,
-                 iGnss.longitude,
-                 iGnss.heading,
-                 diffTime);
+//         ROS_INFO("Update Lidar Odom");
+//         ROS_INFO("Lidar : %f %f LidarHeading : %f Diff_Time : %f",
+//                  iGnss.latitude,
+//                  iGnss.longitude,
+//                  iGnss.heading,
+//                  diffTime);
 
-        // Update measurements
-        if (m_pPoseEstimationEKF->SetMeasGNSS((int64_t)gnss_timestamp, iGnss) == false){
-            ROS_INFO("Fail to Lidar Odom update!");
-        }
+//         // Update measurements
+//         if (m_pPoseEstimationEKF->SetMeasGNSS((int64_t)gnss_timestamp, iGnss) == false){
+//             ROS_INFO("Fail to Lidar Odom update!");
+//         }
 
-    }else{
+//     }else{
 
-        lidar_odom_start = 0;
+//         lidar_odom_start = 0;
 
-    }
+//     }
 
-}
+// }
 
 
 void TaskNode::MessageDisplay(){       

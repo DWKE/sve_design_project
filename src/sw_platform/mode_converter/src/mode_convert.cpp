@@ -20,7 +20,7 @@ public:
     bool _mode;
 
     ModeConverter(){
-        vision_mark= nh.subscribe<kusv_msgs::VisionMark>("mode/vision_mark",10,&ModeConverter::signCb, this);
+        vision_mark= nh.subscribe<kusv_msgs::VisionMark>("/darknet_ros/mode/vision_mark",10,&ModeConverter::signCb, this);
         vehicle_mode = nh.advertise<std_msgs::Bool>("mode/vehicle_mode", 1); //Driving, Flight
 
         count =0;
@@ -35,14 +35,18 @@ public:
     }
 
     void modeConvert(){
-        //if(mark_size>threshold) count++;
-
-        if(count==5) {
-            _mode=true; //mode=Flight
-            std::cout<<"Flight Start!"<<std::endl;
+        if(boxSize>2500 && _mode == false) {
+            count++;
+            if(count==50) {
+                _mode=true; //mode=Flight
+                std::cout<<"Flight Start!"<<std::endl;
+                count = 0;
+            }
         }
-        else std::cout<<"Box Size : "<<boxSize<<std::endl;
-
+        else {
+            count = 0;
+            //std::cout<<"Box Size : "<<boxSize<<std::endl;
+        }
         mode.data = _mode;
         vehicle_mode.publish(mode);
     }

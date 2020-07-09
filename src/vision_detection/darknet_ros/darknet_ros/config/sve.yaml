@@ -1,0 +1,11 @@
+yolo_model:
+
+  config_file:
+    name: sve.cfg
+  weight_file:
+    name: sve_final.backup
+  threshold:
+    value: 0.7
+  detection_classes:
+    names:
+      - SVE

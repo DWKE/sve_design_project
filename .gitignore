@@ -84,3 +84,6 @@ ENV/
 
 *.tar.gz
 *.zip
+
+*.backup
+*.weights

@@ -30,6 +30,7 @@ typedef struct{
 #include "kusv_msgs/PlanningLiDAR.h"
 #include "kusv_msgs/PlanningLocalization.h"
 #include "kusv_msgs/PlanningVision.h"
+#include <std_msgs/Bool.h>
 
 // Namespace
 using namespace ros; 

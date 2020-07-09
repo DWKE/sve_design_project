@@ -91,7 +91,7 @@ private:
 	ros::Publisher m_pub_estimated_heading_can;
 	
 
-	EstimatedLatitudeMsg m_estimated_latitude_can; // È®ÀÎ ÈÄ Á¦°Å
+	EstimatedLatitudeMsg m_estimated_latitude_can; // È®ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 	EstimatedLongitudeMsg m_estimated_longitude_can; //
 	EstimatedHeadingMsg m_estimated_heading_can; // 
 
@@ -120,7 +120,7 @@ private:
                 void callback_motion(const kusv_msgs::DR_data::ConstPtr& msg);
         //void callback_motion(const aggm::kusv_CanInfo::ConstPtr& msg);
         void callback_gnss(const ublox_msgs::NavPVT::ConstPtr& msg);
-        void callback_lidar_odom(const geometry_msgs::PoseStamped::ConstPtr& msg);
+        //void callback_lidar_odom(const geometry_msgs::PoseStamped::ConstPtr& msg);
 
 	// callback
 private:

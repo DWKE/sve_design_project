@@ -31,7 +31,7 @@
 #include "laser_geometry/laser_geometry.h"
 #include <pcl/filters/voxel_grid.h>
 #include <pcl/filters/radius_outlier_removal.h>
-
+#include "kusv_msgs/PlanningLiDAR.h"
 #include "cluster.hpp"
 
 typedef struct _rgb RGB;
@@ -71,6 +71,8 @@ class ydlidar
     visualization_msgs::Marker m_Origin;
     visualization_msgs::MarkerArray m_arrShapes;
     visualization_msgs::MarkerArray m_collisionShapes;
+
+    kusv_msgs::PlanningLiDAR obstacle;
 
 
     std_msgs::Header m_velodyne_header;

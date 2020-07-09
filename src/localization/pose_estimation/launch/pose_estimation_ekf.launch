@@ -6,7 +6,7 @@
     <!--<param name="use_sim_time" value="true" />-->
 
     <!-- ### Pose estimation ################################################## -->
-    <arg name="p_strInputMotion" default="/localization/ros_can/DR_data"/>
+    <arg name="p_strInputMotion" default="/localization/DR_data"/>
     <arg name="p_strInputGnss" default="/localization/ublox_gps/navpvt"/>
     <arg name="p_strOutputGnss" default="/localization/ekf"/>
     <arg name="p_bIsDebugPoseEstimation" default="true"/>
