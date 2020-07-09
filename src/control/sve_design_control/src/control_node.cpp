@@ -19,8 +19,7 @@
 kusv_msgs::PlanningControl planning_to_control_msg;
 std_msgs::Bool mode;
 geometry_msgs::PoseStamped localization_to_control_msg;
-
-
+sve_design_control::driving_control_msg pc_to_mbed_msg;
 
 void planning_cb(const kusv_msgs::PlanningControl::ConstPtr& msg);
 void sw_platform_cb(const std_msgs::Bool::ConstPtr& msg);
@@ -50,8 +49,10 @@ int main(int argc, char **argv){
             */
         }
         
-        if(mode.data == FLIGHT){
+        else if(mode.data == FLIGHT){
             // printf("flight\n");
+
+            
         }
 
         ros::spinOnce();

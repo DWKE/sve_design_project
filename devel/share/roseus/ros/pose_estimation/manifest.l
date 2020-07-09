@@ -1,1 +1,0 @@
-/home/soo/sve_design_project/devel/.private/pose_estimation/share/roseus/ros/pose_estimation/manifest.l

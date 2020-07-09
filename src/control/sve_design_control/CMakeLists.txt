@@ -45,3 +45,7 @@ target_link_libraries(keyboard_interface ${catkin_LIBRARIES})
 add_executable(control_node src/control_node.cpp)
 add_dependencies(control_node ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 target_link_libraries(control_node ${catkin_LIBRARIES})
+
+add_executable(rosserial_test_node src/rosserial_test_node.cpp)
+add_dependencies(rosserial_test_node ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
+target_link_libraries(rosserial_test_node ${catkin_LIBRARIES})
