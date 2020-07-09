@@ -1,0 +1,8 @@
+prefix=/home/yuseung/sve_design_project/install
+
+Name: local_route_from_map
+Description: Description of local_route_from_map
+Version: 0.0.0
+Cflags: -I/usr/include
+Libs: -L${prefix}/lib -llocal_route_from_map /usr/lib/x86_64-linux-gnu/libboost_system.so
+Requires: roscpp std_msgs ublox_msgs ublox_gps

@@ -1,0 +1,8 @@
+prefix=/home/yuseung/sve_design_project/install
+
+Name: visualization
+Description: Description of visualization
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

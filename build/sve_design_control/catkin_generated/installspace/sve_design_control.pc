@@ -1,0 +1,8 @@
+prefix=/home/yuseung/sve_design_project/install
+
+Name: sve_design_control
+Description: Description of sve_design_control
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/yuseung/sve_design_project/devel
+exec_prefix=/home/yuseung/sve_design_project/devel
+includedir=${prefix}/include
+
+Name: mavlink
+Description: MAVLink micro air vehicle marshalling / communication library
+Version: 2020.5.5
+Cflags: -I${includedir}

@@ -1,0 +1,6 @@
+devel_space: /home/yuseung/sve_design_project/devel
+install: false
+install_space: /home/yuseung/sve_design_project/install
+profile: default
+source_space: /home/yuseung/sve_design_project/src
+workspace: /home/yuseung/sve_design_project
